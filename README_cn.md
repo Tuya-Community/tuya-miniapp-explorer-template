@@ -1,6 +1,6 @@
 # 智能小程序示例
 
-[English](https://github.com/Tuya-Community/tuya-miniapp-explorer-template/blob/main/README.md)  |  [中文版](https://github.com/Tuya-Community/tuya-miniapp-explorer-template/blob/main/README_cn.md)
+[English](README.md)  |  [中文版](README_cn.md)
 
 智能小程序示例源码，欢迎使用智能生活 APP 扫码体验。
 

@@ -1,6 +1,6 @@
 # Smart MiniApp Demo
 
-[English](https://github.com/Tuya-Community/tuya-miniapp-explorer-template/blob/main/README.md)  |  [中文版](https://github.com/Tuya-Community/tuya-miniapp-explorer-template/blob/main/README_cn.md)
+[English](README.md)  |  [中文版](README_cn.md)
 
 Smart miniApp demo source code, welcome to use Smart Life APP to scan the code.
 
