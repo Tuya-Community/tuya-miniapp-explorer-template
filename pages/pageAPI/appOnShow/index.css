@@ -1,0 +1,22 @@
+.container {
+  color:white;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: rgb(82, 77, 77);
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+.v-left{
+  background-color: blue;
+  height: 20vh;
+  width: 20vh;
+}
+
+.v-right{
+  background-color: yellowgreen;
+  height: 20vh;
+  width: 20vh;
+}

@@ -1,0 +1,38 @@
+.pickerview-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+wx-picker-view-column {
+  -webkit-flex: 1;
+  flex: 1;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.timeline-wrp {
+  display: flex;
+  background-color: #ffffff;
+  position: relative;
+
+  &::before {
+    content: ':';
+    position: absolute;
+    top: ~'calc(50% - 12px)';
+    left: ~'calc(25% - 11px)';
+    z-index: 4;
+  }
+
+  &::after {
+    content: ':';
+    position: absolute;
+    top: ~'calc(50% - 12px)';
+    right: ~'calc(25% - 11px)';
+    z-index: 4;
+  }
+}

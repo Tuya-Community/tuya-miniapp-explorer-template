@@ -1,0 +1,177 @@
+.panel-page-wrp {}
+
+.top-fan {
+	display: block;
+	width: 70%;
+	margin: 30px auto;
+	animation: spin 1s linear infinite;
+}
+
+.fan-config-area {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.config-item {
+	text-align: center;
+	width: 33%;
+	border-right: 1px solid rgba(0, 0, 0, .1);
+	display: flex;
+	flex-direction: column;
+}
+
+.config-item-title {
+	font-size: 12px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+
+.config-left-title {
+	display: flex;
+	align-items: center;
+}
+
+.config-list-area {
+	background-color: #ffffff;
+	border-radius: 16px;
+	margin: 8px;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 80px;
+}
+
+.config-list-icon-wrp {
+	width: 50px;
+	height: 50px;
+	background: rgba(75, 177, 152, .2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.config-list-icon-wrp-active {
+	background: rgba(75, 177, 152, 1);
+}
+
+.config-rock-top-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.config-list-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.config-right-area {
+	display: flex;
+	align-items: center;
+}
+
+.config-right-icon {
+	margin-left: 25px;
+	width: 25px;
+}
+
+.switch-btn {
+	width: 33%;
+	text-align: center;
+}
+
+.rock-btn-wrp {
+	width: 33%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rock-btn {
+	width: 90%;
+	display: inline-block;
+	height: 40px;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 40px;
+	background-color: rgba(75, 177, 152, .2);
+	color: rgb(75, 177, 152)
+}
+
+.rock-btn-active {
+	background-color: rgba(75, 177, 152, 1);
+	color: #ffffff
+}
+
+.container-view-wrp {
+	padding: 15px 15px 50px;
+}
+
+.container-view-title {
+	text-align: center;
+}
+
+.container-view-num {
+	font-size: 50px;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.slider-wrp {
+	display: flex;
+	align-items: center;
+	margin: 0 20px;
+	font-size: 30px;
+	color: #333333;
+}
+
+.container-slider {
+	margin: 0 20px;
+	flex: 1;
+}
+
+.container-btn-wrp {
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+	justify-content: space-around;
+}
+
+.btn-right {
+	width: 50%;
+	margin-right: 10px;
+}
+
+.btn-left {
+	background-color: #efefef;
+	width: 50%;
+	margin-left: 10px;
+}
+
+.border0 {
+	border: 0
+}
+
+.w100 {
+	width: 100%;
+}
+
+.pb20 {
+	padding-bottom: 20px;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

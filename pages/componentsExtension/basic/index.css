@@ -1,0 +1,10 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+  position: absolute;
+}
+
+.content {
+  margin-top: 300px;
+}

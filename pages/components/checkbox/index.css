@@ -1,0 +1,33 @@
+.radio-group {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  display: block;
+  background: var(--main-card-bg-color);
+}
+
+.radio {
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  padding: 13px 0;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.text {
+  margin-left: 10px;
+  color: var(--main-text-color);
+}
+
+.check-wrp {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.check-text {
+  margin-left: 10px;
+}
+
+.text-left {
+  margin-right: 20px;
+}

@@ -1,0 +1,74 @@
+{
+  "en": {
+    "op": "",
+    "TUYA_MINI_PLATFORM_SITE": "Settings",
+    "qw": "",
+    "test10": "asdfasdfasdf asdfa sdfdsfsd",
+    "TUYA_MINI_PLATFORM_FEEDBACK": "Help and Feedback",
+    "fdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfsdf": "",
+    "TUYA_MINI_PLATFORM_RELOAD": "Reload",
+    "title": "test",
+    "pofeng_test2": "dsfs",
+    "miniAppName": "",
+    "test3": "",
+    "TUYA_MINI_PLATFORM_SITE_DESCRIPTION": "Mini Program didn't use any of your information.",
+    "test6": "",
+    "test7": "",
+    "pofeng_test": "",
+    "titled": "fff",
+    "TUYA_MINI_PLATFORM_CANCEL": "Cancel",
+    "Aaaa": "Aaaaaaaaaa"
+  },
+  "zh": {
+    "op": "欧赔",
+    "TUYA_MINI_PLATFORM_SITE": "设置",
+    "test10": "爱神的箭阿萨德sdfff",
+    "TUYA_MINI_PLATFORM_FEEDBACK": "帮助反馈",
+    "TUYA_MINI_PLATFORM_RELOAD": "重新载入",
+    "title": "我就是个测试哦TTTT",
+    "pofeng_test2": "破风测试222222",
+    "miniAppName": "你哈哈哈",
+    "TUYA_MINI_PLATFORM_SITE_DESCRIPTION": "小程序未使用你的任何信息",
+    "pofeng_test": "破风测试",
+    "TUYA_MINI_PLATFORM_NAME": "涂鸦小程序官方Demo",
+    "titled": "aaasaaaaaaaaaavv",
+    "TUYA_MINI_PLATFORM_CANCEL": "取消",
+    "Aaaa": "Aaaaaaaaa"
+  },
+  "zh_tw": {
+    "test10": "从小就阿斯顿发送到fdsfds",
+    "titled": "ddeq",
+    "pofeng_test2": "dsfds",
+    "Aaaa": "Aaaaaaa"
+  },
+  "zh_Hant_HK": {
+    "pofeng_test2": "fdsfsd"
+  },
+  "tr": {
+    "pofeng_test2": "dsfs",
+    "Aaaa": "dsdfs"
+  },
+  "de": {
+    "test6": "asdfa asdf asd",
+    "titled": "ggg"
+  },
+  "he": {
+    "pofeng_test": "希伯来"
+  },
+  "hu": {
+    "pofeng_test": "dfsdfds"
+  },
+  "hy": {
+    "titled": "给对方更多"
+  },
+  "ar": {
+    "Aaaa": "test"
+  },
+  "fr": {
+    "TUYA_MINI_PLATFORM_SITE": "Réglages",
+    "TUYA_MINI_PLATFORM_SITE_DESCRIPTION": "Mini Program n'a utilisé aucune de vos informations.",
+    "TUYA_MINI_PLATFORM_FEEDBACK": "Aider",
+    "TUYA_MINI_PLATFORM_RELOAD": "Recharger",
+    "TUYA_MINI_PLATFORM_CANCEL": "Annuler"
+  }
+}

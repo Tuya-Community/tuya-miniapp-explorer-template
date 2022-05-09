@@ -1,0 +1,16 @@
+.navigator-hover {
+  color: blue;
+}
+.other-navigator-hover {
+  color: red;
+}
+
+.link {
+  display: block;
+  padding: 10px;
+}
+
+.navigator-btn {
+  margin-bottom: 20px;
+  display: block;
+}

@@ -1,0 +1,80 @@
+.radio-group {
+  display: block;
+}
+
+.radio {
+  display: block;
+  align-items: center;
+  padding: 13px 20px;
+  background: var(--main-bg-color);
+  margin-top: 1px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+/** 以下是对应的通用demo样式*/
+
+.page {
+  min-height: 100%;
+  background-color: var(--main-bg-color);
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  max-width: 600px;
+}
+
+image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.link {
+  display: inline;
+  color: #576b95;
+}
+
+.fadeIn {
+  -webkit-animation: a 0.3s forwards;
+  animation: a 0.3s forwards;
+}
+
+.fadeOut {
+  -webkit-animation: b 0.3s forwards;
+  animation: b 0.3s forwards;
+}
+
+.tyui-msg__extra-area {
+  position: static;
+}
+
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page__ft {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-bottom: calc(10px + constant(safe-area-inset-bottom));
+  padding-bottom: calc(10px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.page__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tyui-cell_example:before {
+  left: 52px;
+}
+
+.check-wrp {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}

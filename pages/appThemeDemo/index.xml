@@ -1,0 +1,25 @@
+<ScrollView class="container">
+  <view class="box" style="fontSize: var(--tyui-{{fontSize}});color:var(--tyui-{{fontColor}});backgroundColor:var(--tyui-{{bgColor}});borderRadius:var(--tyui-{{borderRadius}})">
+    <view>字体颜色——{{fontColor}}</view>
+    <view>字体大小——{{fontSize}}</view>
+    <view>背景颜色——{{bgColor}}</view>
+    <view>圆角--{{borderRadius}}</view>
+    <view>当前背景色是 : {{currentTheme}}</view>
+  </view>
+
+  <view class="operator-box">
+    字体颜色：<input class="page-input" bindinput="changeFontColor" placeholder="输入字体颜色单位"/>
+  </view>
+   <view class="operator-box">
+    字体大小：<input class="page-input" bindinput="changeFontSize" placeholder="输入字体大小单位"/>
+  </view>
+   <view class="operator-box">
+    背景颜色：<input class="page-input" bindinput="changeBgColor" placeholder="输入背景颜色单位"/>
+  </view>
+  <view class="operator-box">
+    圆角大小：<input class="page-input" bindinput="changeBorderRadius" placeholder="输入圆角大小单位"/>
+  </view>
+  <view style="fontSize:{{fontSize}};color:{{fontColor}};margin:12px;" >
+    Tips: 主题通过css变量全局注入，不管再CSS还是setData，都需要使用var(--tyui-XXX)，在json中使用 --tyui-XXX。
+  </view>
+</ScrollView>

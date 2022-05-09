@@ -1,0 +1,6 @@
+<view class="px-20">
+  <view class="subtitle">
+      这里是第二个页面state,number 数据能和页面一共享数据
+    </view>
+    <text class="number">number：{{number}}</text>
+</view>

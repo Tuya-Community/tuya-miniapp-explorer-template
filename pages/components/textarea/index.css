@@ -1,0 +1,28 @@
+.textarea-box {
+  width: 100%;
+  padding: 12px 0;
+  color: var(--main-textarea-color);
+}
+
+.page-section {
+  width: 100%;
+  margin-top: 30px;
+}
+/* 
+.page-section-title {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 5px;
+} */
+
+.textarea-wrp {
+  padding: 0 12px;
+  background-color: var(--main-card-bg-color);
+  margin: 10px 20px;
+}
+
+.placeholder {
+  color: red;
+  font-size: 20px;
+  background: goldenrod;
+}

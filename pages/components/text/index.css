@@ -1,0 +1,44 @@
+.text-page {
+  height: 100vh;
+}
+
+.component-title {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  padding: 30px 25px 40px;
+}
+
+.title-text {
+  display: inline-block;
+  padding: 0 20px 10px 20px;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+.btn {
+  display: block;
+  margin: 20px 0;
+}
+
+.text-box {
+  margin-bottom: 35px;
+  padding: 20px 0;
+  display: flex;
+  min-height: 150px;
+  background-color: var(--main-bg-color);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: var(--main-text-color);
+  line-height: 2em;
+}
+
+.page-section {
+  margin: 0 40px;
+}
+
+.separtor {
+  display: block;
+  line-height: 60rpx;
+}

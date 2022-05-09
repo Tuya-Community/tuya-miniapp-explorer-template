@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "indexList",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpindexList": "@tuya-miniapp/miniapp-components-plus/indexList/index"
+  }
+}

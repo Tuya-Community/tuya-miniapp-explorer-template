@@ -1,0 +1,15 @@
+<view class="pd-20">
+  <view class="title mb-20">
+    路由从页面一跳转到页面二，
+    <view>
+      1. url上携带参数，页面二可以从onLoad生命周期的option 参数上获取
+    </view>
+    <view>
+      2.页面一在路由success回调中向页面二传递信息
+    </view>
+    <view>
+      3.页面二在onLoad中 向页面一传递信息
+    </view>
+  </view>
+  <button bindtap="click" type="primary">跳转page2</button>
+</view>

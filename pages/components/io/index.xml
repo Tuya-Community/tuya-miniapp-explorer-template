@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section message">
+      <text ty:if="{{appear}}">
+        小球出现1 {{appear}}
+      </text>
+      <text ty:else>
+        小球消失1 {{appear}}
+      </text>
+    </view>
+    <view class="page-section">
+      <scroll-view class="scroll-view" scroll-y="{{true}}">
+        <view class="scroll-area" style="{{appear ? 'background: #ccc' : ''}}">
+          <text class="notice">向下滚动让小球出现</text>
+          <view class="filling"></view>
+          <view class="ball"></view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

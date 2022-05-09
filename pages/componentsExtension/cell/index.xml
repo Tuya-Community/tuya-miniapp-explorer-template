@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">Cell</view>
+    <view class="page__desc">列表</view>
+  </view>
+  <view class="page__bd">
+    <mpcells ext-class="my-cells" title="带说明的列表项">
+      <mpcell value="标题文字" footer="说明文字"></mpcell>
+      <mpcell>
+        <view>标题文字（使用slot）</view>
+        <view slot="footer">说明文字</view>
+      </mpcell>
+      <!-- <mp-slideview buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+                <mpcell value="左滑可以删除" footer="说明文字"></mpcell>
+            </mp-slideview> -->
+    </mpcells>
+    <checkbox-group bindchange="test">
+      <mpcells title="带图标、说明的列表项" footer="底部说明文字">
+        <mpcell link="{{true}}" value="标题文字" footer="说明文字">
+          <checkbox slot="icon" value="checkboxvalue"></checkbox>
+          <!-- <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image> -->
+        </mpcell>
+        <mpcell value="标题文字" footer="说明文字">
+          <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </mpcell>
+      </mpcells>
+    </checkbox-group>
+    <mpcells title="带跳转的列表项">
+      <mpcell link="{{true}}" hover="{{true}}" value="有hover效果" footer="说明文字">
+        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mpcell>
+      <mpcell link="{{true}}" url="pages/componentsExtension/actionSheetEx/index" value="带跳转URL" footer="说明文字">
+        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mpcell>
+    </mpcells>
+  </view>
+</view>

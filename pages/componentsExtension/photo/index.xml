@@ -1,0 +1,7 @@
+<sjs module="anim" src="./anim.sjs"></sjs>
+
+<view class="root">
+	<gesture bindmultipointStart="{{anim.multitouchstart}}" bindpinch="{{anim.pinch}}" bindpressMove="{{anim.pressmove}}" bindtwoFingerPressMove="{{anim.pressmove2}}" bindtouchStart="{{anim.touchstart}}" bindtouchEnd="{{anim.touchend}}">
+		<image src="/assets/images/avatar.jpg" class="avatar" id="avatar"></image>
+	</gesture>
+</view>

@@ -1,0 +1,34 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">storage</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">key</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请输入key" name="key" value="{{key}}" bind:input="keyChange"></input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">value</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请输入value" name="data" value="{{data}}" bind:input="dataChange"></input>
+          </view>
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" bind:tap="setStorage">存储数据</button>
+        <button bind:tap="getStorage">读取数据</button>
+        <button bind:tap="clearStorage">清理数据</button>
+      </view>
+    </view>
+  </view>
+</view>

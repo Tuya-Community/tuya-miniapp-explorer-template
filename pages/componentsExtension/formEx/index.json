@@ -1,0 +1,16 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "form",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpformpage": "@tuya-miniapp/miniapp-components-plus/formpage/index",
+    "mptoptips": "@tuya-miniapp/miniapp-components-plus/toptips/index",
+    "mpcells": "@tuya-miniapp/miniapp-components-plus/cells/index",
+    "mpcell": "@tuya-miniapp/miniapp-components-plus/cell/index",
+    "mpcheckbox": "@tuya-miniapp/miniapp-components-plus/checkboxEx/index",
+    "mpcheckboxgroup": "@tuya-miniapp/miniapp-components-plus/checkboxGroupEx/index",
+    "mpform": "@tuya-miniapp/miniapp-components-plus/formEx/index"
+  }
+}

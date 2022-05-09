@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "Tab2",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "myCustomComponent": "components/customComponent/index.json"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "actionSheet",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpactionSheet": "@tuya-miniapp/miniapp-components-plus/actionSheet/index"
+  }
+}

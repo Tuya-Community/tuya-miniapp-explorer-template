@@ -1,0 +1,3 @@
+<view ty:for="{{arr}}">
+{{item.a}}
+</view>

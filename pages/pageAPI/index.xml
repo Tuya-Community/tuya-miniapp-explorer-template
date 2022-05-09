@@ -1,0 +1,65 @@
+<block ty:if="{{isSetTabBarPage}}">
+  <view class="container">
+    <view class="page-head">
+    </view>
+
+    <view class="page-body">
+      <view class="btn-area">
+        <button bindtap="setTabBarBadge">
+          {{ !hasSetTabBarBadge ? '设置tab徽标' : '移除tab徽标' }}
+        </button>
+        <button bindtap="showTabBarRedDot">
+          {{ !hasShownTabBarRedDot ? '显示红点' : '移除红点'}}
+        </button>
+        <button bindtap="customStyle">
+          {{ !hasCustomedStyle ? '自定义Tab样式' : '移除自定义样式'}}
+        </button>
+        <button bindtap="customItem">
+          {{ !hasCustomedItem ? '自定义Tab信息' : '移除自定义信息' }}
+        </button>
+        <button bindtap="hideTabBar">
+          {{ !hasHiddenTabBar ? '隐藏TabBar' : '显示TabBar' }}
+        </button>
+      </view>
+    </view>
+
+    <view class="btn-area">
+      <button type="primary" bindtap="navigateBack">返回上一级</button>
+    </view>
+  </view>
+</block>
+
+<view class="index" ty:else>
+  <view class="index-hd">
+    <image class="index-logo" src="/assets/images/api/resources/kind/logo.png"></image>
+    <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见 <navigator url="pages/doc-web-view/doc-web-view"
+        class="tyui-agree__link">小程序开发文档</navigator>
+    </view>
+  </view>
+  <view class="index-bd">
+    <view class="kind-list">
+      <block ty:for="{{list}}" ty:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view data-id="{{item.id}}" class="kind-list-item-hd" bindtap="kindToggle">
+            <view class="kind-list-text">{{item.name}}</view>
+            <image class="kind-list-img" src="/assets/images/api/resources/kind/{{item.id}}.png"></image>
+          </view>
+          <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+            <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+              <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="*item">
+                <navigator url="pages/pageAPI/{{page.url}}" class="navigator" ty:if="{{page.url !== '@set-tab-bar'}}">
+                  <view class="navigator-text">{{page.zh}}</view>
+                  <view class="navigator-arrow"></view>
+                </navigator>
+                <view ty:else class="navigator" bindtap="enterSetTabBarPage">
+                  <view class="navigator-text">{{page.zh}}</view>
+                  <view class="navigator-arrow"></view>
+                </view>
+              </block>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

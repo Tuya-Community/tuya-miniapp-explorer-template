@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "vtabs",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpvtabs": "@tuya-miniapp/miniapp-components-plus/vtabs/index",
+    "mpvtabscontent": "@tuya-miniapp/miniapp-components-plus/vtabsContent/index"
+  }
+}

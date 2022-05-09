@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "checkbox",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpcheckboxgroup": "@tuya-miniapp/miniapp-components-plus/checkboxGroupEx/index",
+    "mpcheckbox": "@tuya-miniapp/miniapp-components-plus/checkboxEx/index",
+    "mpcells": "@tuya-miniapp/miniapp-components-plus/cells/index"
+  }
+}

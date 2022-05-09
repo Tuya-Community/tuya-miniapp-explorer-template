@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">navigationBarLoading</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="primary" bindtap="showNavigationBarLoading">显示加载动画</button>
+      <button bindtap="hideNavigationBarLoading">隐藏加载动画</button>
+      <button bindtap="setNavigationBarTitle">动态设置当前页面的标题</button>
+      <button bindtap="setNavigationBarColor">设置页面导航条颜色</button>
+    </view>
+  </view>
+
+</view>

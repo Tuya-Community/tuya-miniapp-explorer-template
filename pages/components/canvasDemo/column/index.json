@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "图表",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ff-chart": "/components/ff-chart/index"
+  }
+}

@@ -1,0 +1,70 @@
+@import './common.less';
+
+:root {
+  --main-bg-color: rgb(254, 254, 254); /* 浅色背景 */
+  --main-text-color: rgb(54, 54, 54); /* 深色文字 */
+  --main-arrow-color: rgba(0, 0, 0, 0.3);
+  --main-border-color: rgba(0, 0, 0, 0.1);
+  --main-card-bg-color: #ffffff;
+  --main-textarea-color: #000000;
+}
+
+:root[theme='dark'] {
+  --main-bg-color: rgba(255, 255, 255, 0.12); /* 深色背景 */
+  --main-text-color: rgb(197, 197, 197); /* 浅色文字 */
+  --main-arrow-color: rgba(255, 255, 255, 0.35);
+  --main-border-color: rgba(255, 255, 255, 0.1);
+  --main-card-bg-color: rgba(255, 255, 255, 0.12);
+  --main-textarea-color: #ffffff;
+  background-color: #2f2f2f;
+  color: var(--main-text-color);
+}
+
+.l-r-padding,
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.page-head {
+  padding: 30px 25px 40px;
+  text-align: center;
+}
+
+.page-head-title {
+  display: inline-block;
+  padding: 0 20px 10px 20px;
+  font-size: 16px;
+  color: var(--main-text-color);
+}
+
+.page-head-line {
+  margin: 0 auto;
+  width: 75px;
+  height: 1px;
+  background-color: var(--main-text-color);
+  font-size: 14px;
+}
+
+.page__desc {
+  margin-top: 5px;
+  color: var(--main-text-color);
+  text-align: left;
+  font-size: 14px;
+  line-height: 3;
+  /* padding-left: 20px; */
+}
+.page-section-title {
+  font-size: 14px;
+  color: var(--main-text-color);
+  margin-bottom: 5px;
+}

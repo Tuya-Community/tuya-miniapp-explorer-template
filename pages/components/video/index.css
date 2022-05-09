@@ -1,0 +1,86 @@
+.page-body {
+  padding: 10px 0;
+}
+
+.tc {
+  text-align: center;
+}
+
+video {
+  display: inline-block;
+  height: 225px;
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  z-index: 0;
+}
+
+.tyui-cells {
+  margin-top: 40px;
+  text-align: left;
+  position: relative;
+  background-color: var(--main-card-bg-color);
+  line-height: 1.41176471;
+  font-size: 17px;
+}
+
+.tyui-cells::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+  border-top-width: 0.5px;
+  border-top-style: solid;
+  border-top-color: rgb(217, 217, 217);
+}
+
+.tyui-cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.tyui-cell_input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tyui-cell_bd {
+  flex: 1;
+}
+
+.tyui-input {
+  height: 2.58823529em;
+  line-height: 2.58823529em;
+  min-height: 2.58823529em;
+  display: flex;
+  align-items: center;
+}
+
+.tyui-label {
+  width: 5em;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: var(--main-text-color);
+}
+
+.btn-area {
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.page-body-button {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">uploadFile</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-body-info">
+
+        <block ty:if="{{imageSrc}}">
+          <image src="{{imageSrc}}"></image>
+        </block>
+
+        <block ty:else>
+          <view class="image-plus image-plus-nb" bind:tap="chooseImage">
+            <view class="image-plus-horizontal"></view>
+            <view class="image-plus-vertical"></view>
+          </view>
+          <view class="image-plus-text">{{text}}</view>
+        </block>
+
+      </view>
+    </view>
+  </view>
+
+</view>

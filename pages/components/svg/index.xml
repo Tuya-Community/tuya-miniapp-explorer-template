@@ -1,0 +1,6 @@
+<view class="page-head">
+  <view class="page-head-title">svg</view>
+  <view class="page-head-line"></view>
+</view>
+<svg d="{{path}}" color="var(--ty-native-primary-color)" size="{{100}}"></svg>
+<svg d="{{path2}}" color="var(--ty-native-primary-color)" size="{{100}}"></svg>

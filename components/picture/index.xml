@@ -1,0 +1,9 @@
+
+<canvas 
+  class="canvasDom" 
+  canvas-id="myCanvas"
+  style="width: 300px; height: 300px;"
+  bindtouchstart="start"
+  bindlongtap="longtap"
+  binderror="error"
+></canvas>

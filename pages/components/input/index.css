@@ -1,0 +1,35 @@
+.page-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* .page-section-title {
+  color: #999999;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-bottom: 3px;
+  padding: 0 16px;
+  line-height: 1.4;
+} */
+
+.page-section-title {
+  color: var(--main-text-color);
+}
+
+.page-cell {
+  font-size: 17px;
+  padding: 16px;
+  background-color: var(--main-card-bg-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  margin-top: 10px;
+}
+
+.page-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+}

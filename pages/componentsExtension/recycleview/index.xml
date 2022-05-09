@@ -1,0 +1,11 @@
+<view id="recycleWrapper">
+  <block ty:for="{{list}}" ty:key="index">
+    <recycleview 
+        chunkId="{{'_chunk_id_'+index}}"
+        showLogInfo="{{true}}"
+        >
+      <card-list list="{{item}}"></card-list>
+    </recycleview>
+  </block>
+</view>
+<button style="position: fixed; top:0" bindtap="loadMore">加载下一页</button>

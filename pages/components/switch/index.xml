@@ -1,0 +1,36 @@
+<view class="page-head">
+  <view class="page-head-title">switch</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="page">
+  <view class="page__bd">
+    <view class="section section_gap">
+      <text class="page__desc pdl0">默认样式 type="switch"</text>
+      <view class="body-view">
+        <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change"/>
+        <switch bindchange="switch1Change"/>
+        <switch bindchange="switch1Change" color="var(--ty-native-warn-color)"/>
+      </view>
+    </view>
+    <view class="section section_gap">
+      <view class="page__desc pdl0">默认样式 type="checkbox"</view>
+      <view class="body-view">
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" />
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" />
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" disabled="true"/>
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" disabled="true"/>
+      </view>
+    </view>
+  </view>
+  <!-- <text class="page__desc">推荐展示样式</text>
+  <view class="switch-wrp">
+    <view class="switch-item">
+      <text>开启中</text>
+      <switch checked="{{true}}"></switch>
+    </view>
+    <view class="switch-item">
+      <text>关闭</text>
+      <switch></switch>
+    </view>
+  </view> -->
+</view>

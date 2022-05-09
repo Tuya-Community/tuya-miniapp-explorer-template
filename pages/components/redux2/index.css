@@ -1,0 +1,17 @@
+.mb-20 {
+  margin-bottom: 20px;
+}
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.px-20 {
+  padding: 20px;
+}
+
+.number {
+  color: red !important;
+  font-size: 20px !important;
+}

@@ -1,0 +1,32 @@
+.page-section {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.snip-wrap {
+  height: 325px;
+  border: 1px solid var(--ty-native-primary-color);
+  white-space: pre;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.snip-wrap .line {
+  display: block;
+  font-weight: bold;
+}
+
+.btn-wrap {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.btn-wrap .btn {
+  display: inline-block;
+  width: 184px;
+}
+
+.rich-text-wrap {
+  margin: 0 20px;
+}

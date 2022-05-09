@@ -1,0 +1,18 @@
+<view class="page" data-tyui-theme="{{theme}}">
+  <view class="page__hd">
+    <view class="page__title">Dialog</view>
+    <view class="page__desc">对话框</view>
+  </view>
+  <view class="page__bd">
+    <view class="tyui-btn-area l-r-padding">
+      <button class="base-btn" type="primary" bindtap="openConfirm">确认取消按钮</button>
+      <button class="base-btn" type="primary" bindtap="tapOneDialogButton">只有确认按钮</button>
+    </view>
+  </view>
+  <mpdialog title="标题" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+    <view>这里是内容</view>
+  </mpdialog>
+  <mpdialog title="标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+    <view>这里是内容，超过部分会自动换行换行。这里是内容，超过部分会自动换行换行</view>
+  </mpdialog>
+</view>

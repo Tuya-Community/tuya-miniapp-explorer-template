@@ -1,0 +1,32 @@
+.animation-element-wrapper {
+  display: flex;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.animation-element {
+  width: 100px;
+  height: 100px;
+  background-color: var(--ty-native-primary-color);
+}
+
+.animation-buttons {
+  padding: 10px 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.animation-button {
+  float: left;
+  line-height: 2;
+  margin: 5px 12px;
+}
+
+.bob {
+  color: red;
+  font-size: 30px;
+}

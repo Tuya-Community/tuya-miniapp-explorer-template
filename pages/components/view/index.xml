@@ -1,0 +1,36 @@
+<view class="page-head">
+  <view class="page-head-title">view</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">
+    <view>flex-direction: row</view>
+    <view>横向布局</view>
+  </view>
+  <view class='flex-wrp' style="justify-content: center; flex-direction:row; width:750rpx">
+    <view class="flex-item demo-text-1">A</view>
+    <view class="flex-item demo-text-2">B</view>
+    <view class="flex-item demo-text-3">C</view>
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">
+    <view>flex-direction: column</view>
+    <view>纵向布局</view>
+  </view>
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item flex-item-V demo-text-1">A</view>
+    <view class="flex-item flex-item-V demo-text-2">B</view>
+    <view class="flex-item flex-item-V demo-text-3">C</view>
+  </view>
+</view>
+<!-- <view class="container" bind:tap="handleTap" hoverClass="hover">
+  测试{{count}}
+</view>
+  
+<view class="item" hoverClass="hover"  bind:tap="handleTap" hoverStayTime="{{2000}}">hover-class测试: {{count}}</view> 
+
+<view class="box" data-tag='outer' hoverClass="hover1" bind:tap="handleFatherTap">
+  父节点
+  <view class="item" data-tag='inner' hoverStopPropagation="{{true}}" hoverClass="hover" hoverStartTime="{{100}}" hoverStayTime="{{1000}}" bind:tap="handleTap" >hover-class测试: {{count}}</view>
+</view> -->

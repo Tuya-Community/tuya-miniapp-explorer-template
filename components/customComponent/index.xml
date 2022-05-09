@@ -1,0 +1,90 @@
+<!-- <sjs module="color" src="./color.sjs" />
+<sjs module="handler" src="./handler.sjs" />
+
+ <view class="my-custom-component container" >
+  <text class="header" style="color: {{color.getRandomColor()}}" bindtap="{{handler.tap}}">{{ headerText }}</text>
+  <view class="content">
+    <slot></slot>
+  </view>
+  <view change:prop="{{handler.countObserver}}" prop="{{count}}" bindtap="click" style="fontSize:28px">CountObserver {{count}}</view>
+</view> -->
+
+<!-- <view class="slot-container" >
+  <slot></slot>
+
+</view>
+<view class="header">
+  <slot name="header"></slot>
+</view>
+<view class="content">
+  <slot name="content"></slot>
+</view>
+
+-->
+<!-- <button type="primary" bind:tap="click" class="button" id="this-button">按钮 {{count}}</button>
+<button bind:tap="clickadd" class="button">123</button>
+<text style="fontSize:{{handler.add(num1, num2)}}px">测试</text> -->
+<!--
+<sjs module="utils" src="./a.sjs" />
+<sjs module="handler" src="./handler.sjs" />
+
+<view bindtap="{{handler.tap}}" style="fontSize:28px">{{ utils.getName('TUYA') }}</view> -->
+
+<!-- <view ty:if="{{8}}">1</view>
+<view ty:if="{{undefined || true}}">2</view>
+<view ty:if="{{false || true}}">3</view>
+<view ty:if="{{8 || false}}">4</view>
+<view ty:if="{{false}}">5</view>
+<view ty:if="{{false || 8}}">6</view> -->
+<!-- <view class="footer" id="tyFootor">自定义组件 {{count}}</view>
+<addBtn /> -->
+<!--
+<template name="root2">
+  <view bind:tap="onTap1">Template root {{count}}</view>
+</template>
+
+<template is="root2"/>
+
+<view bind:tap="onTap2">Template root 222222222 {{count}}</view> -->
+
+ <!-- <template name="view">
+  <view>
+    <template is="children" data="{{r: r.children}}" />
+  </view>
+</template>
+
+<template name="text">
+  <text>
+    <template is="children" data="{{r: r.children}}" />
+  </text>
+</template>
+
+<template name="block">
+  <block>
+    <template is="children" data="{{r: r.children}}" />
+  </block>
+</template>
+
+
+<template name="children">
+  <block ty:for="{{r}}">
+    <block ty:if="{{item.type}}">
+      <template is="{{item.type}}" data="{{r: item}}" />
+    </block>
+    <block ty:else>
+      <view bind:tap="onComponentTemplateTap">{{item.content}}</view>
+    </block>
+ </block>
+</template>
+
+<template name="root">
+  <template is="{{r.type}}" data="{{r: r}}" />
+</template>
+
+<template is="root" data="{{r: root}}"></template> -->
+
+
+<view class="custom-container" style="display: inline" bind:tap="changeCount">
+  view hhh
+  <text style="custom-text">text {{count}}</text>
+</view>

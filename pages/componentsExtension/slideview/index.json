@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "slideview",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpslideview": "@tuya-miniapp/miniapp-components-plus/slideview/index",
+    "mpcell": "@tuya-miniapp/miniapp-components-plus/cell/index",
+    "mpcells": "@tuya-miniapp/miniapp-components-plus/cells/index"
+  }
+}

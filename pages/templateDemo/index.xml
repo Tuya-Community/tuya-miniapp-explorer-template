@@ -1,0 +1,28 @@
+<view>aaaaa</view>
+<template name="REMAX_TPL">
+  <block ty:for="{{root.children}}" ty:key="*this">
+    <template is="{{'REMAX_TPL_' + root.nodes[item].type}}" data="{{i: root.nodes[item]}}" />
+  </block>
+</template>
+
+<template name="REMAX_TPL_view">
+  <view class="{{i.props['class']}}">
+    <block ty:for="{{i.children}}" ty:key="{{id}}">
+      <template is="{{'REMAX_TPL_' + i.nodes[item].type}}" data="{{i: i.nodes[item]}}" />
+    </block>
+  </view>
+</template>
+
+<template name="REMAX_TPL_text">
+  <text>
+    <block ty:for="{{i.children}}" ty:key="{{id}}">
+      <template is="{{'REMAX_TPL_' + i.nodes[item].type}}" data="{{i: i.nodes[item]}}" />
+    </block>
+  </text>
+</template>
+
+<template name="REMAX_TPL_plain-text">
+  <block>{{i.text}}</block>
+</template>
+
+<template is="REMAX_TPL" data="{{root: root}}" />

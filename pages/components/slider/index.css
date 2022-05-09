@@ -1,0 +1,46 @@
+.section {
+  margin-bottom: 30px;
+}
+
+.section__title {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+/* // 以下是覆盖slider原生样式的代码，覆盖成粗粗的样式 */
+/* .ty-slider-handle-wrapper {
+  background-color: rgba(104, 172, 255, 0.2);
+  border-radius: 14rpx;
+  height: 90rpx;
+}
+
+.ty-slider {
+  padding: 0 !important;
+  height: 104rpx;
+}
+
+.ty-slider-handle {
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0) !important;
+  background-color: transparent !important;
+  top: 22rpx;
+  padding: 60rpx !important;
+  margin-left: -20rpx !important;
+  width: 50rpx !important;
+  height: 100rpx !important;
+}
+
+.ty-slider-handle::before {
+  content: " ";
+  width: 20rpx !important;
+  height: 100rpx !important;
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5) !important;
+  background-color: #cfd8e0 !important;
+  border: 4rpx solid #ffffff !important;
+  left: -6rpx !important;
+  top: -4rpx !important;
+  //padding: 30rpx 10rpx 40rpx 10rpx!important;
+} */

@@ -1,0 +1,35 @@
+<view class="container">
+  <map
+    id="myMap"
+    class="myMap"
+    style="border:10px solid red;padding: {{tagTop}}px;marginTop: {{marginTop}}px;"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    scale="{{scale}}"
+    markers="{{markers}}"
+    bindtap="handleTap"
+    bindmarkertap="handleMarkertap"
+    bindcallouttap="handleCallouttap"
+    border-width="{{2}}"
+    border-style="solid"
+    border-color="#007aff"
+    background-color="#ffc300"
+    border-radius="{{10}}"
+    data-map="{{value}}"
+    bindregionchange="handleRegionchange"
+  >
+    <view class="tag1" bindtap="clickTag">标签一</view>
+  </map>
+  <view class="btn-box">
+    <button class="btn" bindtap="changeLngLat" type="primary">设置经纬度</button>
+    <button class="btn" bindtap="apiMoveToLocation" type="primary">moveToLocation</button>
+    <button class="btn" bindtap="apiAddMarkers" type="primary">addMarkers</button>
+    <button class="btn" bindtap="apiRemoveMarkers" type="primary">removeMarkers</button>
+    <button class="btn" bindtap="scaleIn" type="primary">scale 放大</button>
+    <button class="btn" bindtap="scaleOut" type="primary">scale 缩小</button>
+    <button class="btn" bindtap="openConfirm" type="primary">显示弹窗</button>
+    <mpdialog title="标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+      <view>这里是内容，超过部分会自动换行换行。这里是内容，超过部分会自动换行换行</view>
+    </mpdialog>
+  </view>
+</view>

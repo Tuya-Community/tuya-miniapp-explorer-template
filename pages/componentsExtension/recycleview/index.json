@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "Tab2",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "recycleview": "@tuya-miniapp/miniapp-components-plus/recycleview/index",
+    "card-list": "/components/recycleviewCardList/index"
+  }
+}

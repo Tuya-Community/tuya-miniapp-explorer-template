@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "map",
+  "usingComponents": {
+    "mpdialog": "@tuya-miniapp/miniapp-components-plus/dialog/index"
+  }
+}

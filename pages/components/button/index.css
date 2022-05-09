@@ -1,0 +1,47 @@
+.component-title {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  padding: 30px 25px 40px;
+}
+
+.title-text {
+  display: inline-block;
+  padding: 0 20px 10px 20px;
+  border-bottom: 1px solid #000;
+}
+
+button {
+  display: block;
+  width: 184px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.button-sp-area {
+  text-align: center;
+}
+
+.mini-btn {
+  display: inline-block;
+  margin-right: 15px;
+  width: auto;
+}
+
+/* 测试view hover的样式 */
+.baseView {
+  border: 1px solid red;
+  display: block;
+  height: 40px;
+  font-size: 14px;
+  color: #000;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.hoverView {
+  background-color: red;
+}

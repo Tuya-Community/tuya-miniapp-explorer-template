@@ -1,0 +1,15 @@
+<sjs src="./chart.sjs" module="chart" />
+
+<view class="container">
+  {{chart.foo}}
+  <canvas
+    class="canvasDom"
+    canvas-id="myCanvas"
+    style="width: 305px; height: 205px;"
+  ></canvas>
+  <view
+    style="height: 50px;background: red"
+    size="{{size}}"
+    change:size="{{chart.bar}}"
+    bindtap="changeData">b:{{b}}, size: {{size}}</view>
+</view>

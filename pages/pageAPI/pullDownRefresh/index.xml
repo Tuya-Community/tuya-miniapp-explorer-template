@@ -1,0 +1,8 @@
+<view class="page-body">
+  <view class="page-body-info">
+    <text class="page-body-text">下滑页面即可刷新{{count}}</text>
+  </view>
+  <view class="btn-area">
+    <button bindtap="stopPullDownRefresh">停止刷新</button>
+  </view>
+</view>

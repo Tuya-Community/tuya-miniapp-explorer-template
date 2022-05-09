@@ -1,0 +1,9 @@
+.page-section {
+  width: 100%;
+  display: block;
+  margin: 30px 0;
+}
+
+.page-section:last-child {
+  margin-bottom: 0;
+}

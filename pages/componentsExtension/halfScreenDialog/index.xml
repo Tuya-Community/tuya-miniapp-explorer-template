@@ -1,0 +1,36 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">Half Screen Dialog</view>
+        <view class="page__desc">半屏弹窗，辅助完成当前页面任务时；提醒用户并引导用户的下一步操作；用户主动发起的任务时。</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button class="base-btn m-l-r-20" type="primary" bindtap="openTypeF">样式一</button>
+            <button class="base-btn m-l-r-20" type="primary" bindtap="openTypeS">样式二</button>
+            <button class="base-btn m-l-r-20" type="primary" bindtap="openTypeT">样式三</button>
+        </view>
+        <mphalfScreenDialog show="{{typeF}}" bindclose="onCloseTypeF">
+          <view slot="title">测试标题样式一</view>
+          <view slot="desc">这是自定义描述区</view>
+          <button slot="footer" type="default" class="half-screen-content-btn">样式一</button>
+          <button slot="footer" type="primary" class="half-screen-content-btn">样式一</button>
+        </mphalfScreenDialog>
+        <mphalfScreenDialog
+          bindbuttontap="buttontap"
+          show="{{typeS}}"
+          maskClosable="{{false}}"
+          title="测试标题样式二"
+          subTitle="测试标题B的副标题"
+          desc="辅助描述内容，可根据实际需要安排"
+          tips="辅助提示内容，可根据实际需要安排"
+          buttons="{{buttons}}"
+          bindclose="onCloseTypeS"
+        ></mphalfScreenDialog>
+       <mphalfScreenDialog show="{{typeT}}" closabled="{{false}}" bindclose="onCloseTypeT">
+          <view slot="title">测试标题样式三</view>
+          <view slot="desc">这是自定义描述区</view>
+          <button slot="footer" type="default" class="weui-btn">样式三</button>
+          <button slot="footer" type="primary" class="weui-btn">样式三</button>
+        </mphalfScreenDialog>
+    </view>
+</view>

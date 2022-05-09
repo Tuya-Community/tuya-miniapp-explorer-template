@@ -1,0 +1,25 @@
+.page-body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px 20px;
+}
+
+.ipc{
+  width: 100%;
+}
+
+.btn-box{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page-body-button {
+  width: 160px;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+}

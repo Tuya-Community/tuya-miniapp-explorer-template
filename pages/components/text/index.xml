@@ -1,0 +1,33 @@
+<view class="page-head">
+	<view class="page-head-title">text</view>
+	<view class="page-head-line"></view>
+</view>
+
+<view class="text-page">
+
+  <view class="page-body">
+    <view class="l-r-padding">
+      <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+        <text>{{text}}</text>
+      </view>
+      <button bindtap="add" class="btn">add line</button>
+      <button bindtap="remove" class="btn">remove line</button>
+    </view>
+  </view>
+
+  <!-- <text bindtap="handleTap" bindtouchstart="handleTouchStart">{{insertContent}}</text>
+    
+  <text style="display: block; border: 1px solid #000;" userSelect="{{userSelect}}">select-user属性测试</text>
+  
+  <text ty:if="{{userSelect}}">当前userSelect值为true</text>
+  <text ty:else>当前userSelect值为false</text>
+  
+  <text class="separtor" style="display: block;" >- - - - - - - - - - - - - - - - - - - - - - - - - - -</text>
+  
+  <text space="nbsp" userSelect="{{true}}">空格         终止</text><br/>
+  <text space="ensp" userSelect="{{true}}">空格         终止</text><br/>
+  <text space="emsp" userSelect="{{true}}">空格        终止</text><br/>
+
+  <text decode="{{true}}">&lt;小于号解码</text><br/>
+  <text>&lt;小于号不解码</text><br/> -->
+</view>

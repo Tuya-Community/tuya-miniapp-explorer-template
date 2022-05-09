@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">addPhoneContact</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <form bindsubmit="submit">
+      <view class="page-section">
+        <view class="tyui-cells__title">姓氏</view>
+        <view class="tyui-cells tyui-cells_after-title">
+          <view class="tyui-cell tyui-cell_input">
+            <input class="tyui-input" name="lastName" value="{{lastName}}" />
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="tyui-cells__title">名字</view>
+        <view class="tyui-cells tyui-cells_after-title">
+          <view class="tyui-cell tyui-cell_input">
+            <input class="tyui-input" name="firstName" value="{{firstName}}" />
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="tyui-cells__title">手机号</view>
+        <view class="tyui-cells tyui-cells_after-title">
+          <view class="tyui-cell tyui-cell_input">
+            <input class="tyui-input" name="mobilePhoneNumber" value="{{mobilePhoneNumber}}" />
+          </view>
+        </view>
+      </view>
+      <view class="btn-area">
+        <button type="primary" formType="submit">创建联系人</button>
+        <button type="default" formType="reset">重置</button>
+      </view>
+    </form>
+  </view>
+</view>

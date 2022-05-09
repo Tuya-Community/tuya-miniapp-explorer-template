@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mploading": "@tuya-miniapp/miniapp-components-plus/loading/index"
+  }
+}

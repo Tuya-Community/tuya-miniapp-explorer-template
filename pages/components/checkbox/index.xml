@@ -1,0 +1,24 @@
+<view class="page-head">
+  <view class="page-head-title">checkbox</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="l-r-padding mb-20">默认样式</view>
+<block>
+  <view class="check-wrp">
+    <checkbox checked="{{true}}"></checkbox>
+    <text class="check-text text-left">选中</text>
+  </view>
+  <view class="check-wrp">
+    <checkbox></checkbox>
+    <text class="check-text">未选中</text>
+  </view>
+  <view class="check-wrp">
+    <checkbox checked="{{true}}" disabled="true"></checkbox>
+    <text class="check-text">选中disabled</text>
+  </view>
+  <view class="check-wrp">
+    <checkbox disabled="true"></checkbox>
+    <text class="check-text">未选中disabled</text>
+  </view>
+</block>
+</checkbox-group>

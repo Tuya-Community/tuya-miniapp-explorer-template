@@ -1,0 +1,19 @@
+<view class="page" data-tyui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">Icons</view>
+        <view class="page__desc">图标</view>
+    </view>
+    <view class="page__bd">
+        <view class="icon-box">
+            <view class="icon-box__title">描边型</view>
+            <view class="tyui-grids iconex-warp">
+                <block ty:for="{{iconList}}" ty:key="*this">
+                    <navigator url="" class="tyui-grid iconex-item">
+                        <mpicon icon="{{item.icon}}" color="{{item.color}}" size="{{item.size}}"></mpicon>
+                        <view class="tyui-grid__label">{{item.icon}}</view>
+                    </navigator>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>

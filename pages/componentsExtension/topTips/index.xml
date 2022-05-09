@@ -1,0 +1,11 @@
+<view class="page" data-tyui-theme="{{theme}}">
+  <view class="page__hd">
+    <view class="page__title">Toptips</view>
+  </view>
+  <view class="page__bd">
+    <button class="m-l-r-20" type="primary" disabled="{{disabled}}" bindtap="showToptips">显示Toptips</button>
+    <mptoptips ext-class="top100" msg="距离顶部100px" type="error" show="{{show}}"></mptoptips>
+    <mptoptips ext-class="top200" msg="距离顶部200px" type="info" show="{{show}}"></mptoptips>
+    <mptoptips ext-class="top300" msg="距离顶部300px" type="success" show="{{show}}"></mptoptips>
+  </view>
+</view>

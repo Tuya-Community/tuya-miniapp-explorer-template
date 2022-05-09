@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "badge",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "mpcell": "@tuya-miniapp/miniapp-components-plus/cell/index",
+    "mpcells": "@tuya-miniapp/miniapp-components-plus/cells/index",
+    "mpbadge": "@tuya-miniapp/miniapp-components-plus/badge/index"
+  }
+}

@@ -1,0 +1,54 @@
+<view class="page-head">
+  <view class="page-head-title">input</view>
+  <view class="page-head-line"></view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">可以自动聚焦的input</view>
+  <view class="page-cell">
+    <input 
+      class="page-input" 
+      placeholder="将会获取焦点"
+      focus="{{focus}}"
+      />
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">控制最大输入长度的input</view>
+  <view class="page-cell">
+    <input 
+      class="page-input" 
+      maxlength="{{10}}" 
+      placeholder="{{placeholder}}"
+      />
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">实时获取输入值：{{inputValue}}</view>
+  <view class="page-cell">
+    <input class="page-input"  bindinput="bindKeyInput" bindblur="bindKeyBlur" bindfocus="bindKeyFocus" placeholder="输入同步到view中"/>
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">数字输入的input</view>
+  <view class="page-cell">
+    <input class="page-input" type="number" placeholder="这是一个数字输入框" />
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">密码输入的input</view>
+  <view class="page-cell">
+    <input class="page-input" password="{{true}}" type="text" placeholder="这是一个密码输入框" />
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">带小数点的input</view>
+  <view class="page-cell">
+    <input class="page-input" type="digit" placeholder="带小数点的数字键盘"/>
+  </view>
+</view>
+<view class="page-section">
+  <view class="page-section-title l-r-padding">身份证输入的input</view>
+  <view class="page-cell">
+    <input class="page-input" type="idcard" placeholder="身份证输入键盘" />
+  </view>
+</view>

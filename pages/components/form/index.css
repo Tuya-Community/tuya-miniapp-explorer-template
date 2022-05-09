@@ -1,0 +1,81 @@
+.form-page {
+  min-height: 100vh;
+}
+
+.item-wrap {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  display: block;
+  line-height: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: var(--main-text-color);
+}
+
+.radio {
+  display: block;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin-left: 10px;
+  color: var(--main-text-color);
+}
+
+.page-cell {
+  font-size: 14px;
+  padding: 0 16px;
+  background: var(--main-card-bg-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.page-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+}
+
+.textarea-wrap {
+  padding: 0 12px;
+  background: var(--main-card-bg-color);
+}
+.textarea-box {
+  width: 100%;
+  padding: 12px 0;
+  color: var(--main-textarea-color);
+}
+
+.btns-wrap {
+  margin-top: 10px;
+}
+.btn-line {
+  text-align: center;
+}
+.btn-line .submit-btn {
+  display: inline-block;
+  width: 184px;
+  margin-bottom: 15px;
+}
+.btn-line .reset-btn {
+  display: inline-block;
+  width: 184px;
+}
+
+.result-wrap {
+  padding-top: 20px;
+}
+.result-item {
+  padding: 0 20px 10px;
+}
+.result-name {
+  display: inline-block;
+  margin-right: 10px;
+}

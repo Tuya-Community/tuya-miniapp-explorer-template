@@ -1,0 +1,49 @@
+.page-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* .page-section-title {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+
+.area-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.area {
+  flex: none;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background: var(--ty-native-primary-color);
+  color: #fff;
+}
+
+.btn-line {
+  text-align: center;
+}
+
+.btn-line .btn {
+  display: inline-block;
+  width: 240px;
+}
+
+.btn-line .sec-btn {
+  margin-top: 10px;
+}
