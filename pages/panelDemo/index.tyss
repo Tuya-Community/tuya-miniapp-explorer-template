@@ -1,6 +1,3 @@
-.panel-page-wrp {
-}
-
 .top-fan {
   display: block;
   width: 70%;
@@ -108,14 +105,17 @@
 .container-view-wrp {
   padding: 15px 15px 50px;
 }
+
 .container-view-title {
   text-align: center;
 }
+
 .container-view-num {
   font-size: 50px;
   text-align: center;
   margin: 40px 0;
 }
+
 .slider-wrp {
   display: flex;
   align-items: center;
@@ -123,6 +123,7 @@
   font-size: 30px;
   color: #333333;
 }
+
 .container-slider {
   margin: 0 20px;
   flex: 1;
@@ -132,15 +133,16 @@
   display: flex;
   width: 100%;
   margin-top: 30px;
+  justify-content: space-around;
 }
 
 .btn-right {
-  width: 50%;
-  margin-right: 10px;
+  width: 45%;
 }
+
 .btn-left {
-  width: 50%;
-  margin-left: 10px;
+  background-color: #efefef;
+  width: 45%;
 }
 
 .border0 {
