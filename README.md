@@ -22,4 +22,4 @@ If you have bug feedback or any other suggestions, please submit an issue to us.
 
 ## Screenshot
 
-<img  src="assets/images/screen.png" width="375" />
+<img src="assets/images/screen.jpg" width="375" />
