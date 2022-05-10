@@ -2,7 +2,7 @@
   "navigationBarBackgroundColor": "red",
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "navigationBar",
-  "backgroundColor": "#F8F8F8",
+  "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "light",
   "usingComponents": {}
 }
