@@ -1,6 +1,5 @@
 {
   "navigationBarTextStyle": "@navTxtStyle",
   "navigationBarTitleText": "组件",
-  "backgroundColor": "#efefef",
   "backgroundTextStyle": "dark"
 }

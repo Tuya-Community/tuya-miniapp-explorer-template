@@ -1,6 +1,7 @@
 .top-fan {
   display: block;
-  width: 70%;
+  width: 525rpx;
+  height: 525rpx;
   margin: 30px auto;
   animation: spin 1s linear infinite;
 }

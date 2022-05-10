@@ -2,7 +2,7 @@
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "cell",
-  "backgroundColor": "#F8F8F8",
+  "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "light",
   "usingComponents": {
     "mpcell": "@tuya-miniapp/miniapp-components-plus/cell/index",

@@ -2,7 +2,7 @@
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "navigationBar",
-  "backgroundColor": "#F8F8F8",
+  "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "light",
   "usingComponents": {
     "mpnavigationbar": "@tuya-miniapp/miniapp-components-plus/navigationBarEx/index"

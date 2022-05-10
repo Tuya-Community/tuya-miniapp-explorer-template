@@ -1,7 +1,7 @@
 {
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "intersectionObserver",
-  "backgroundColor": "#F8F8F8",
+  "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "dark",
   "enablePullDownRefresh": true,
   "usingComponents": {

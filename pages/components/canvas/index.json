@@ -2,7 +2,6 @@
   "navigationBarBackgroundColor": "#ffffff",
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "canvas",
-  "backgroundColor": "#F8F8F8",
   "backgroundTextStyle": "dark",
   "enablePullDownRefresh": false,
   "usingComponents": {

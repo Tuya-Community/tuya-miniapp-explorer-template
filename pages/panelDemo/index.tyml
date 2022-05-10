@@ -15,7 +15,7 @@ module.exports = {
 }
 </sjs>
 <scrollview class="panel-page-wrp">
-  <image class="top-fan" mode="widthFix" src="/assets/images/panel/fan.png" style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"></image>
+  <image class="top-fan" mode="aspectFit" src="/assets/images/panel/fan.png" style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"></image>
   <view class="fan-config-area">
     <view class="config-item">
       <text class="config-item-title" bindtap="{{c3.getQuery}}">当前温度</text>
