@@ -114,8 +114,7 @@
     "pages/components/canvasDemo/demo3/index",
     "pages/components/canvasDemo/demo4/index",
     "pages/components/canvasDemo/demo5/index",
-    "pages/components/canvasDemo/column/index",
-    "pages/appThemeDemo/index"
+    "pages/components/canvasDemo/column/index"
   ],
   "tabBar": {
     "custom": true,
@@ -133,8 +132,8 @@
       {
         "pagePath": "pages/componentsExtension/index",
         "text": "扩展组件",
-        "iconPath": "@iconPath6",
-        "selectedIconPath": "@selectedIconPath6"
+        "iconPath": "@iconPath5",
+        "selectedIconPath": "@selectedIconPath5"
       },
       {
         "pagePath": "pages/pageAPI/index",
@@ -147,12 +146,6 @@
         "text": "面板",
         "iconPath": " @iconPath4",
         "selectedIconPath": " @selectedIconPath4"
-      },
-      {
-        "pagePath": "pages/appThemeDemo/index",
-        "text": "APP主题",
-        "iconPath": " @iconPath5",
-        "selectedIconPath": " @selectedIconPath5"
       }
     ]
   },

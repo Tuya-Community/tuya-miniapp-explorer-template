@@ -19,10 +19,8 @@
     "selectedIconPath3": "/assets/images/tab/interface_selected.png",
     "iconPath4": "/assets/images/tab/extension.png",
     "selectedIconPath4": "/assets/images/tab/extension_selected.png",
-    "iconPath5": "/assets/images/tab/zhuti.png",
-    "selectedIconPath5": "/assets/images/tab/zhuti_selected.png",
-    "iconPath6": "/assets/images/tab/kuozhan.png",
-    "selectedIconPath6": "/assets/images/tab/kuozhan_selected.png"
+    "iconPath5": "/assets/images/tab/kuozhan.png",
+    "selectedIconPath5": "/assets/images/tab/kuozhan_selected.png"
   },
   "dark": {
     "navBgColor": "#191919",
@@ -44,9 +42,7 @@
     "selectedIconPath3": "/assets/images/tab/interface_selected.png",
     "iconPath4": "/assets/images/tab/extension.png",
     "selectedIconPath4": "/assets/images/tab/extension_selected.png",
-    "iconPath5": "/assets/images/tab/zhuti.png",
-    "selectedIconPath5": "/assets/images/tab/zhuti_selected.png",
-    "iconPath6": "/assets/images/tab/kuozhan.png",
-    "selectedIconPath6": "/assets/images/tab/kuozhan_selected.png"
+    "iconPath5": "/assets/images/tab/kuozhan.png",
+    "selectedIconPath5": "/assets/images/tab/kuozhan_selected.png"
   }
 }
