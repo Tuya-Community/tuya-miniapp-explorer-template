@@ -17,7 +17,6 @@
     "@tuya-miniapp/miniapp-canvas": "latest",
     "@tuya-miniapp/miniapp-components-plus": "^1.5.0",
     "@tuya-miniapp/miniapp-gesture": "latest",
-    "@tuya-miniapp/miniapp-tool-kit": "latest",
     "redux": "^4.1.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"

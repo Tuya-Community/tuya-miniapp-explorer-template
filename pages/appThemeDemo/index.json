@@ -1,9 +1,0 @@
-{
-  "navigationBarBackgroundColor": "--tyui-B1",
-  "navigationBarTextStyle": "--tyui-B1-N1",
-  "navigationBarTitleText": "App Theme Demo",
-  "backgroundColor": "--tyui-B1",
-  "backgroundTextStyle": "dark",
-  "enablePullDownRefresh": true,
-  "usingComponents": {}
-}
