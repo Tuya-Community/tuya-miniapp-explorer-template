@@ -4,7 +4,7 @@
 
 Smart miniApp demo source code, welcome to use Smart Life APP to scan the code.
 
-<img  src="assets/images/miniappDemo.png" width="200" />
+<img  src="https://static1.tuyacn.com/static/tuya-miniapp-doc/images/miniappDemo.png" width="200" />
 
 ## Get Started
 

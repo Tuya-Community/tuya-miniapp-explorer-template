@@ -4,7 +4,7 @@
 
 智能小程序示例源码，欢迎使用智能生活 APP 扫码体验。
 
-<img  src="assets/images/miniappDemo.png" width="200" />
+<img  src="https://static1.tuyacn.com/static/tuya-miniapp-doc/images/miniappDemo.png" width="200" />
 
 ## 快速开始
 
