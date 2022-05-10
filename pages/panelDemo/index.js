@@ -1,57 +1,54 @@
 Page({
   data: {
-    arr: [],
+    showContainer: false,
+    isOpen: true,
+    spinSpeed: 1, // 0~100
+    spinDuration: '2s', // 动画时间
+    tempspinSpeed: 1,
+    isRock: false,
+    rockRotate: ['30', '60', '90'],
+    rockRotateIndex: 0,
   },
-
-  onLoad() {
-    let arr = []
-    for (let index = 0; index < 10000; index++) {
-      arr.push({ a: 'aaaa', key: index + 1 })
+  onPullDownRefresh() {
+    console.log('mothra onPullDownRefresh')
+    setTimeout(() => {
+      ty.stopPullDownRefresh()
+    }, 5000)
+  },
+  onReachBottom() {
+    console.log('mothra onReactBottom')
+  },
+  togglePan: function () {
+    this.setData({
+      isOpen: !this.data.isOpen,
+    })
+  },
+  checkRockBtn: function (e) {
+    this.setData({
+      rockRotateIndex: e.currentTarget.dataset.index,
+    })
+  },
+  toggleContainer: function () {
+    // 如果是展示弹窗，就将真是数据放入缓存
+    if (!this.data.showContainer) {
+      this.setData({
+        tempspinSpeed: this.data.spinSpeed,
+      })
     }
     this.setData({
-      arr,
+      showContainer: !this.data.showContainer,
     })
   },
-  update() {
-    let arr = []
-    for (let index = 0; index < 10000; index++) {
-      arr.push({ a: 'bbbb', key: index + 1 })
-    }
+  confirmContainer: function () {
     this.setData({
-      arr,
+      spinSpeed: this.data.tempspinSpeed,
+      spinDuration: 2 - ((2 - 0.2) / 100) * this.data.tempspinSpeed + 's',
     })
+    this.toggleContainer()
   },
-  add1000() {
-    let arr = []
-    for (let index = 0; index < 1000; index++) {
-      arr.push({ a: 'bbbb', key: index + 1 })
-    }
+  handleChangeSlider: function (e) {
     this.setData({
-      arr: this.data.arr.concat(arr),
-    })
-  },
-  change10Item() {
-    this.setData({
-      'arr[10]': {
-        a: 'ddddd',
-        index: 10,
-      },
-    })
-  },
-  change300Item() {
-    this.setData({
-      'arr[300]': {
-        a: 'ffff',
-        index: 300,
-      },
-    })
-  },
-  change9999Item() {
-    this.setData({
-      'arr[9999]': {
-        a: 'ffff',
-        index: 9999,
-      },
+      tempspinSpeed: e.detail.value,
     })
   },
 })
