@@ -1,6 +1,6 @@
 # Smart MiniApp Demo
 
-[English](README.md)  |  [中文版](README_cn.md)
+[English](README.md) | [中文版](README_cn.md)
 
 Smart miniApp demo source code, welcome to use Smart Life APP to scan the code.
 
@@ -22,4 +22,4 @@ If you have bug feedback or any other suggestions, please submit an issue to us.
 
 ## Screenshot
 
-<img  src="assets/images/demo.jpg" width="375" />
+<img  src="assets/images/screen.png" width="375" />
