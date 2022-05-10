@@ -2,7 +2,6 @@
   <view class="container">
     <view class="page-head">
     </view>
-
     <view class="page-body">
       <view class="btn-area">
         <button bindtap="setTabBarBadge">
@@ -22,17 +21,16 @@
         </button>
       </view>
     </view>
-
     <view class="btn-area">
       <button type="primary" bindtap="navigateBack">返回上一级</button>
     </view>
   </view>
 </block>
-
 <view class="index" ty:else>
   <view class="index-hd">
-    <image class="index-logo" src="/assets/images/api/resources/kind/logo.png"></image>
-    <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见 <navigator url="pages/doc-web-view/doc-web-view"
+    <image class="index-logo" src="/assets/images/tab/interface_selected.png"></image>
+    <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见
+      <navigator url="pages/doc-web-view/doc-web-view"
         class="tyui-agree__link">小程序开发文档</navigator>
     </view>
   </view>

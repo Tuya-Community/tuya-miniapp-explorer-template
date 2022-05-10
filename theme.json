@@ -8,7 +8,7 @@
     "bgColorTop": "#eeeeee",
     "bgColorBottom": "#efefef",
     "tabFontColor": "#000000",
-    "tabSelectedColor": "#3cc51f",
+    "tabSelectedColor": "#007aff",
     "tabBgColor": "#f5f5f5",
     "tabBorderStyle": "black",
     "iconPath1": "/assets/images/tab/component.png",
@@ -18,7 +18,11 @@
     "iconPath3": "/assets/images/tab/interface.png",
     "selectedIconPath3": "/assets/images/tab/interface_selected.png",
     "iconPath4": "/assets/images/tab/extension.png",
-    "selectedIconPath4": "/assets/images/tab/extension_selected.png"
+    "selectedIconPath4": "/assets/images/tab/extension_selected.png",
+    "iconPath5": "/assets/images/tab/zhuti.png",
+    "selectedIconPath5": "/assets/images/tab/zhuti_selected.png",
+    "iconPath6": "/assets/images/tab/kuozhan.png",
+    "selectedIconPath6": "/assets/images/tab/kuozhan_selected.png"
   },
   "dark": {
     "navBgColor": "#191919",
@@ -29,7 +33,7 @@
     "bgColorTop": "#191919",
     "bgColorBottom": "#1f1f1f",
     "tabFontColor": "#ffffff",
-    "tabSelectedColor": "#51a937",
+    "tabSelectedColor": "#007aff",
     "tabBgColor": "#191919",
     "tabBorderStyle": "white",
     "iconPath1": "/assets/images/tab/component.png",
@@ -39,6 +43,10 @@
     "iconPath3": "/assets/images/tab/interface.png",
     "selectedIconPath3": "/assets/images/tab/interface_selected.png",
     "iconPath4": "/assets/images/tab/extension.png",
-    "selectedIconPath4": "/assets/images/tab/extension_selected.png"
+    "selectedIconPath4": "/assets/images/tab/extension_selected.png",
+    "iconPath5": "/assets/images/tab/zhuti.png",
+    "selectedIconPath5": "/assets/images/tab/zhuti_selected.png",
+    "iconPath6": "/assets/images/tab/kuozhan.png",
+    "selectedIconPath6": "/assets/images/tab/kuozhan_selected.png"
   }
 }

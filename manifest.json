@@ -133,8 +133,8 @@
       {
         "pagePath": "pages/componentsExtension/index",
         "text": "扩展组件",
-        "iconPath": "@iconPath2",
-        "selectedIconPath": "@selectedIconPath2"
+        "iconPath": "@iconPath6",
+        "selectedIconPath": "@selectedIconPath6"
       },
       {
         "pagePath": "pages/pageAPI/index",
@@ -151,8 +151,8 @@
       {
         "pagePath": "pages/appThemeDemo/index",
         "text": "APP主题",
-        "iconPath": " @iconPath1",
-        "selectedIconPath": " @selectedIconPath1"
+        "iconPath": " @iconPath5",
+        "selectedIconPath": " @selectedIconPath5"
       }
     ]
   },
