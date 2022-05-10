@@ -22,4 +22,4 @@ npm i
 
 ## 截图
 
-<img  src="assets/images/screen.png" width="375" />
+<img src="assets/images/screen.jpg" width="375" />
