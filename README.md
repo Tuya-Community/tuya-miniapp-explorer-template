@@ -1,12 +1,12 @@
-# Smart MiniApp Demo
+# Tuya Mini App Sample
 
 [English](README.md) | [中文版](README_cn.md)
 
-Smart miniApp demo source code, welcome to use Smart Life APP to scan the code.
+This topic describes the source code of Tuya's Mini App sample. You can use the Smart Life app to scan the following QR code and try out the sample.
 
 <img  src="https://static1.tuyacn.com/static/tuya-miniapp-doc/images/miniappDemo.png" width="200" />
 
-## Get Started
+## Get started
 
 ```shell
 yarn add
@@ -14,22 +14,20 @@ or
 npm i
 ```
 
-After completing the above steps, use the Smart miniApp Developer Tool to import the project and open it.
+Then, use the Mini App developer tool to import the project and open the sample.
 
-## Documentation
+## References
 
-For more Documentation, Tutorials, API Reference Doc, please check:
+For more information about the framework, components, APIs, and tutorials, see [Tuya Mini App](https://developer.tuya.com/cn/miniapp).
 
-Smart MiniApp official documentation：https://developer.tuya.com/cn/miniapp
+## Technical support
 
-## Questions
+If you have any problems or suggestions, submit a ticket to request technical support.
 
-If you have bug feedback or any other suggestions, please submit an issue to us.
+## Preview
 
-## Screenshot
+<img src="assets/images/screen.jpg" width="220" />
 
-<img src="assets/images/screen.jpg" width="375" />
+## Licenses
 
-## License
-
-For more information, please refer to the [LICENSE](LICENSE) file.
+For more information, see the [LICENSE](LICENSE) file.
