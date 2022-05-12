@@ -1,22 +1,16 @@
 {
   "name": "mothra-explorer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Smart miniprogram official sample application",
   "main": "app.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@tuya-miniapp/minipack": "^0.2.8"
-  },
   "dependencies": {
     "@antv/f2": "^3.8.10-beta.1",
     "@tuya-miniapp/BaseKit": "latest",
     "@tuya-miniapp/MiniKit": "latest",
     "@tuya-miniapp/TYKit": "latest",
-    "@tuya-miniapp/miniapp-canvas": "latest",
-    "@tuya-miniapp/miniapp-components-plus": "^1.5.0",
-    "@tuya-miniapp/miniapp-gesture": "latest",
+    "@tuya-miniapp/miniapp-canvas": "^2.0.0",
+    "@tuya-miniapp/miniapp-components-plus": "^2.0.0",
+    "@tuya-miniapp/miniapp-gesture": "^2.0.0",
     "redux": "^4.1.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
