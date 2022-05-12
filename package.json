@@ -1,11 +1,6 @@
 {
   "name": "mothra-explorer",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@tuya-miniapp/minipack": "^0.2.8"
   },
