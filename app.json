@@ -168,8 +168,8 @@
     "downloadFile": 60000
   },
   "dependencies": {
-    "base-kit": "2.1.2",
-    "mini-kit": "2.3.0",
-    "ty-kit": "2.0.7"
+    "BaseKit": "2.1.2",
+    "MiniKit": "2.3.0",
+    "TYKit": "2.0.7"
   }
 }
