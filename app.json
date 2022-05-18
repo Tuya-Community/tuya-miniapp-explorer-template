@@ -3,6 +3,7 @@
   "pages": [
     "pages/components/index",
     "pages/components/video/index",
+    "pages/components/camera/index",
     "pages/components/movable/index",
     "pages/components/form/index",
     "pages/components/view/index",

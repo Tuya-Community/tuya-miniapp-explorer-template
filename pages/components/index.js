@@ -53,6 +53,7 @@ Page({
         name: '媒体组件',
         open: false,
         pages: [
+          { path: 'camera', title: 'camera' },
           { path: 'image', title: 'image' },
           { path: 'ipc-player', title: 'ipc-player' },
           { path: 'video', title: 'video' },
