@@ -1,0 +1,6 @@
+{
+  "commitUrlFormat": "./commit/{{hash}}",
+  "compareUrlFormat": "./compare/{{previousTag}}...{{currentTag}}",
+  "issueUrlFormat": "./issues/{{id}}",
+  "userUrlFormat": "/{{user}}"
+}

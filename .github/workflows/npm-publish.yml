@@ -1,0 +1,45 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
+
+name: release-please
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure committer
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - name: Bump Version
+        uses: qzb/standard-version-action@v1.0.5
+      - name: Npm publish
+        run: |
+          npm whoami
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: ${{ github.ref }}
+      - name: cnpm sync
+        run: |
+          export PKG=$(cat package.json | grep "name" | cut -d'"' -f 4)
+          echo "\npackage name: $PKG\n"
+          curl -X PUT  https://registry-direct.npmmirror.com/$PKG/sync\?sync_upstream\=true
+          sleep 5
+          echo "\nhttps://registry.npmmirror.com/$PKG\n"
+          echo "\nhttps://npmmirror.com/$PKG\n"
