@@ -1,5 +1,5 @@
 {
-  "name": "@tuya-materials/tuya-miniapp-common-template",
+  "name": "@tuya-materials/tuya-miniapp-explorer-template",
   "version": "1.0.2",
   "description": "Smart miniprogram official sample application",
   "dependencies": {
