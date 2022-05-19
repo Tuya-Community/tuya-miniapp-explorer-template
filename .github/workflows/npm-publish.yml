@@ -38,8 +38,11 @@ jobs:
       - name: cnpm sync
         run: |
           export PKG=$(cat package.json | grep "name" | cut -d'"' -f 4)
-          echo "\npackage name: $PKG\n"
+          printf "\n"
+          echo "package name: $PKG"
           curl -X PUT  https://registry-direct.npmmirror.com/$PKG/sync\?sync_upstream\=true
           sleep 5
-          echo "\nhttps://registry.npmmirror.com/$PKG\n"
-          echo "\nhttps://npmmirror.com/$PKG\n"
+          printf "\n"
+          echo "https://registry.npmmirror.com/$PKG"
+          printf "\n"
+          echo "https://npmmirror.com/$PKG"
