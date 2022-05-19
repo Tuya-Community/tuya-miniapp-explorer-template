@@ -1,5 +1,5 @@
 {
-  "name": "mothra-explorer",
+  "name": "@tuya-materials/tuya-miniapp-common-template",
   "version": "1.0.0",
   "description": "Smart miniprogram official sample application",
   "dependencies": {
