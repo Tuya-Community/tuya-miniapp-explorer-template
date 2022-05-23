@@ -167,10 +167,5 @@
     "connectSocket": 60000,
     "uploadFile": 60000,
     "downloadFile": 60000
-  },
-  "dependencies": {
-    "BaseKit": "2.1.2",
-    "MiniKit": "2.3.0",
-    "TYKit": "2.0.7"
   }
 }
