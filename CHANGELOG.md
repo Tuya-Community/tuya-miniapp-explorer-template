@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.6 (2022-05-31)
+
+
+### Bug Fixes
+
+* app.json tabBar list ([6f45b5f](./commit/6f45b5f6468ed618fda4e8183476a3a1ae156177))
+
 ### 1.0.5 (2022-05-25)
 
 
