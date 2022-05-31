@@ -145,8 +145,8 @@
       {
         "pagePath": "pages/panelDemo/index",
         "text": "面板",
-        "iconPath": " @iconPath4",
-        "selectedIconPath": " @selectedIconPath4"
+        "iconPath": "@iconPath4",
+        "selectedIconPath": "@selectedIconPath4"
       }
     ]
   },
