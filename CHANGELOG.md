@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.7 (2022-06-17)
+
+
+### Bug Fixes
+
+* remove tabbar custom style ([7f2c98c](./commit/7f2c98c294b4e9197ffa653b9c2240ccb36311d5))
+
 ### 1.0.6 (2022-05-31)
 
 
