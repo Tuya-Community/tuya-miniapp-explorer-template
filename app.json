@@ -118,7 +118,6 @@
     "pages/components/canvasDemo/column/index"
   ],
   "tabBar": {
-    "custom": true,
     "color": "@tabFontColor",
     "backgroundColor": "@tabBgColor",
     "selectedColor": "@tabSelectedColor",
