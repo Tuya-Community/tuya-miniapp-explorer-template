@@ -119,6 +119,7 @@
   ],
   "tabBar": {
     "color": "@tabFontColor",
+    "custom": false,
     "backgroundColor": "@tabBgColor",
     "selectedColor": "@tabSelectedColor",
     "borderStyle": "@tabBorderStyle",
