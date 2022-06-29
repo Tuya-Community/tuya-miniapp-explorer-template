@@ -1,0 +1,26 @@
+<view class="card">
+  <view class="slogan">
+    <text>智能小程序小部件</text>
+  </view>
+  <view class="features">
+    <view class="item">
+      <image src="/assets/component_selected.png" />
+      <view>
+        <text>基础组件</text>
+        <text>40+</text>
+      </view>
+    </view>
+    <view class="item">
+      <image src="/assets/kuozhan_selected.png" />
+      <view><text>扩展能力</text>  <text>30+</text></view>
+    </view>
+    <view class="item">
+      <image src="/assets/interface_selected.png" />
+      <view><text>API 能力</text>  <text>100+</text></view>
+    </view>
+    <view class="item">
+      <image src="/assets/extension_selected.png" />
+      <view><text>面板能力</text>  <text>20+</text></view>
+    </view>
+  </view>
+</view>
