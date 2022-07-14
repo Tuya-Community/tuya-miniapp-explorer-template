@@ -1,4 +1,4 @@
-<sjs src="./chart.sjs" module="chart" />
+<!-- <sjs src="./chart.sjs" module="chart" /> -->
 
 <view class="container">
   {{chart.foo}}

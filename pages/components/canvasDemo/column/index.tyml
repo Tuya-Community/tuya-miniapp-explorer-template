@@ -1,5 +1,4 @@
-<sjs src="./column.sjs" module="column" />
-
+<!-- <sjs src="./column.sjs" module="column" /> -->
 <view class="pageContainer">
   <view class="pageView">-------- 页面图表 ---------</view>
   {{column.too}}
@@ -14,7 +13,6 @@
     size="{{size}}"
     change:size="{{column.lar}}"
     bindtap="changePageData">b:{{b}}, size: {{size}}</view>
-
   <view class="pageView">-------- 自定义组件图表 ---------</view>
   <ff-chart a="1"></ff-chart>
 </view>
