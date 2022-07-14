@@ -7,6 +7,7 @@
     "@tuya-miniapp/miniapp-canvas": "^2.0.0",
     "@tuya-miniapp/miniapp-components-plus": "^2.0.0",
     "@tuya-miniapp/miniapp-gesture": "^2.0.0",
+    "lottie-miniapp": "^1.9.1",
     "redux": "^4.1.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
