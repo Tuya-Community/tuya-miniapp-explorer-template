@@ -4,7 +4,7 @@ Component({
     created: function () {
       this.render = new Render(this)
     },
-    attached: function (e) {
+    ready: function (e) {
       this.draw()
     },
   },
