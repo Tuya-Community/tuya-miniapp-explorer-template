@@ -18,7 +18,7 @@ export default Render({
       // Step 4: 渲染图表
       chart.render()
     } else {
-      let canvas = await getCanvasById('myCanvas')
+      let canvas = await getCanvasById('pageCanvas')
       // Step 1: 创建 Chart 对象
       chart = new F2.Chart({
         el: canvas,
