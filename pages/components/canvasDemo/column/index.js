@@ -1,23 +1,24 @@
+import Render from './index.rjs'
+let render
 Page({
-  data: {
-    size: 1,
-    b: 1,
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function () {
+    render = new Render(this)
   },
+
   onReady() {
-    // const query = ty.createSelectorQuery();
-    // query.select('#myCanvas').fields({size: true, scrollOffset:true, node: true}, function(res){
-    //   console.log(1001, res)
-    // }).exec()
-    console.log('page onReady', this)
+    this.draw()
   },
-  changePageData: function () {
-    this.setData({
-      size: this.data.size + 1,
-    })
-  },
-  getPageData: function (params) {
-    this.setData({
-      b: this.data.b + 1,
-    })
+
+  draw() {
+    render.draw([
+      { genre: 'Sports', sold: Math.floor(Math.random() * 500) },
+      { genre: 'Strategy', sold: Math.floor(Math.random() * 500) },
+      { genre: 'Action', sold: Math.floor(Math.random() * 500) },
+      { genre: 'Shooter', sold: Math.floor(Math.random() * 500) },
+      { genre: 'Other', sold: Math.floor(Math.random() * 500) },
+    ])
   },
 })

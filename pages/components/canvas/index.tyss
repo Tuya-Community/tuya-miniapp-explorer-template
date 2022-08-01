@@ -7,3 +7,12 @@
 .page-section:last-child {
   margin-bottom: 0;
 }
+
+.canvas-title {
+  text-align: center;
+  margin: 16px 0;
+}
+
+canvas {
+  margin: 0 auto;
+}
