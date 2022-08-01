@@ -25,7 +25,7 @@ export default Render({
     }
     canvasCar.requestAnimationFrame(renderLoop)
 
-    let img = canvas.createImage()
+    let img = canvasCar.createImage()
     img.onload = () => {
       this._img = img
     }
