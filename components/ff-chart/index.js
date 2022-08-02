@@ -1,32 +1,22 @@
+import Render from './index.rjs'
 Component({
-  properties: {
-    a: {
-      type: Number,
-      value: 0,
-    },
-  },
-  data: {
-    size: 1,
-    b: 1
-  },
   lifetimes: {
     created: function () {
-      console.log('ff-canvas created')
+      this.render = new Render(this)
     },
-    attached: function (e) {
-      console.log('ff-canvas attached')
+    ready: function (e) {
+      this.draw()
     },
   },
   methods: {
-    changeData: function () {
-      this.setData({
-        size: this.data.size + 1
-      })
+    draw() {
+      this.render.draw([
+        { genre: 'Sports', sold: Math.floor(Math.random() * 500) },
+        { genre: 'Strategy', sold: Math.floor(Math.random() * 500) },
+        { genre: 'Action', sold: Math.floor(Math.random() * 500) },
+        { genre: 'Shooter', sold: Math.floor(Math.random() * 500) },
+        { genre: 'Other', sold: Math.floor(Math.random() * 500) },
+      ])
     },
-    getData: function (params) {
-   			this.setData({
-				b: this.data.b + 1
-			})
-    }
-  }
+  },
 })

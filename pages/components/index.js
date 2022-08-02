@@ -72,6 +72,8 @@ Page({
         pages: [
           { path: 'canvas', title: 'canvas' },
           { path: 'canvasDemo/column', title: '图表' },
+          { path: 'canvasDemo/imageData', title: 'imageData & Path2D' },
+          { path: 'canvasDemo/lottie', title: 'lottie' },
           { path: 'canvasDemo/rect', title: 'rect' },
           { path: 'canvasDemo/circle', title: 'circle' },
           { path: 'canvasDemo/polygon', title: 'polygon' },

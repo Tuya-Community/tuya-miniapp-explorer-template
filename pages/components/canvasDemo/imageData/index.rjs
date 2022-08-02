@@ -1,0 +1,26 @@
+// index.rjs
+export default Render({
+  async renderImageData() {
+    let canvas3 = await getCanvasById('canvas3')
+    let ctx = canvas3.getContext('2d')
+    let imgData = ctx.createImageData(100, 100)
+    for (let i = 0; i < imgData.width * imgData.height * 4; i += 4) {
+      imgData.data[i + 0] = 255
+      imgData.data[i + 1] = 0
+      imgData.data[i + 2] = 0
+      imgData.data[i + 3] = 155
+    }
+    ctx.putImageData(imgData, 50, 50)
+  },
+
+  async renderPath2D() {
+    let canvas4 = await getCanvasById('canvas4')
+    let ctx = canvas4.getContext('2d')
+    let path1 = canvas4.createPath2D()
+    path1.rect(10, 10, 100, 100)
+    let path2 = canvas4.createPath2D(path1)
+    path2.moveTo(220, 60)
+    path2.arc(170, 60, 50, 0, 2 * Math.PI)
+    ctx.stroke(path2)
+  },
+})
