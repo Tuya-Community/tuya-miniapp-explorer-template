@@ -1,6 +1,6 @@
 {
   "name": "@tuya-materials/tuya-miniapp-explorer-template",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Smart miniprogram official sample application",
   "dependencies": {
     "@antv/f2": "^3.8.10-beta.1",
