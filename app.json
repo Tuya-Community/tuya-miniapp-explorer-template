@@ -101,6 +101,7 @@
     "pages/componentsExtension/photo/index",
     "pages/componentsExtension/requireFailure/index",
     "pages/componentsExtension/drag/index",
+    "pages/componentsExtension/recycleview/index",
     "pages/components/canvasDemo/imageData/index",
     "pages/components/canvasDemo/lottie/index",
     "pages/components/canvasDemo/rect/index",

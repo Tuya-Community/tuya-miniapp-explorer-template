@@ -1,13 +1,17 @@
 <view class="page">
-    <view class="page__hd">
-        <view class="page__title">Slideview</view>
-        <view class="page__desc">左滑操作</view>
+  <view class="page__hd">
+    <view class="page__title">Slideview</view>
+    <view class="page__desc">左滑操作，搭配cell组件</view>
+  </view>
+  <view class="page__bd">
+    <view class="tyui-cells">
+      <mpslideview show="{{true}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+        <mpcell value="左滑可以删除" footer="说明文字"></mpcell>
+      </mpslideview>
+      <view style="height: 16px; background: #f2f2f2"></view>
+      <mpslideview show="{{true}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+        <mpcell value="左滑可以删除" footer="说明文字"></mpcell>
+      </mpslideview>
     </view>
-    <view class="page__bd">
-      <view class="tyui-cells">
-          <mpslideview show="{{true}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
-              <mpcell value="左滑可以删除" footer="说明文字"></mpcell>
-          </mpslideview>
-      </view>
-    </view>
+  </view>
 </view>
