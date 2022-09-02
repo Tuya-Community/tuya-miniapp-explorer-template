@@ -4,11 +4,10 @@
 }
 
 .index-hd {
-  padding: 40px 40px 20px;
+  padding: 28px 24px 40px;
   text-align: center;
 }
 .index-bd {
-  /* padding: 0 15px 20px; */
   padding: 0 15px 20px;
 }
 .index-ft {
@@ -16,15 +15,12 @@
   text-align: center;
 }
 .index-logo {
-  /* width: 43px;
-    height: 43px; */
-  width: 43px;
-  height: 43px;
+  width: 144rpx;
+  height: 144rpx;
 }
 .index-desc {
-  margin-top: 10px;
-  color: var(--main-text-color);
-  /* font-size: 14px; */
+  margin-top: 12px;
+  color: var(--main-title-color);
   font-size: 14px;
 }
 
@@ -33,11 +29,10 @@
   position: relative;
   background-color: var(--tyui-BG-2);
   line-height: 1.41176471;
-  /* font-size: 32px; */
   font-size: 17px;
-
   transform: translateY(-50%);
   transition: 0.3s;
+  background: #fff;
 }
 
 .navigator-box-show {
@@ -46,8 +41,7 @@
 }
 
 .navigator {
-  /* padding: 10px 15px; */
-  padding: 10px 15px;
+  padding: 8px 15px;
   position: relative;
   display: flex;
   align-items: center;
@@ -56,10 +50,8 @@
 .navigator:before {
   content: ' ';
   position: absolute;
-  /* left: 15px; */
   left: 15px;
   top: 0;
-  /* right: 15px; */
   right: 15px;
   height: 1px;
   /* border-top: 1px solid var(--tyui-FG-3); */
@@ -78,7 +70,6 @@
 }
 
 .navigator-arrow {
-  /* padding-right: 13px; */
   padding-right: 13px;
   position: relative;
 }
@@ -86,9 +77,6 @@
 .navigator-arrow:after {
   content: ' ';
   display: inline-block;
-  /* height: 9px;
-    width: 9px;
-    border-width: 1px 1px 0 0; */
   height: 9px;
   width: 9px;
   border-width: 1px 1px 0 0;
@@ -97,17 +85,15 @@
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: absolute;
   top: 50%;
-  /* margin-top: -4px; */
   margin-top: -4px;
-  /* right: 14px; */
   right: 14px;
 }
 
 .kind-list-item {
-  /* margin: 10px 0; */
-  margin: 10px 0;
-  background-color: var(--main-bg-color);
-  border-radius: 2px;
+  margin: 16px 0;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .kind-list-item:first-child {
@@ -118,17 +104,15 @@
   color: var(--main-text-color);
 }
 .kind-list-img {
-  /* width: 30px;
-    height: 30px; */
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
 }
 .kind-list-item-hd {
-  /* padding: 15px; */
-  padding: 15px;
+  padding: 16px;
   display: flex;
+  font-size: 26rpx;
   align-items: center;
-
   transition: opacity 0.3s;
 }
 .kind-list-item-hd-show {
