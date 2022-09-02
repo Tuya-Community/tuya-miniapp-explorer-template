@@ -32,7 +32,7 @@ export default Render({
     img.src = './car.png'
   },
 
-  render(ctx) {
+  render(canvas = null, ctx) {
     ctx.clearRect(0, 0, 300, 300)
     this.drawBall(ctx)
     this.drawCar(ctx)
