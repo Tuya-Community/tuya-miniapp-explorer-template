@@ -39,8 +39,8 @@
       <block ty:for="{{list}}" ty:key="{{item.id}}">
         <view class="kind-list-item">
           <view data-id="{{item.id}}" class="kind-list-item-hd" bindtap="kindToggle">
-            <view class="kind-list-text">{{item.name}}</view>
             <image class="kind-list-img" src="/assets/images/api/resources/kind/{{item.id}}.png"></image>
+            <view class="kind-list-text">{{item.name}}</view>
           </view>
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
