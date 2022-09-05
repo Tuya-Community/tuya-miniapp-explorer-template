@@ -133,12 +133,6 @@
         "selectedIconPath": "@selectedIconPath1"
       },
       {
-        "pagePath": "pages/componentsExtension/index",
-        "text": "扩展组件",
-        "iconPath": "@iconPath5",
-        "selectedIconPath": "@selectedIconPath5"
-      },
-      {
         "pagePath": "pages/pageAPI/index",
         "text": "接口",
         "iconPath": "@iconPath3",
