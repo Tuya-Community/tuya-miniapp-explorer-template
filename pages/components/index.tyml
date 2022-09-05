@@ -7,9 +7,9 @@
   tabs="{{tabs}}"
   swiperClass="tyui-tabs-swiper"
   activeClass="tab-bar-title__selected">
-    <view class="index-bd"  ty:for="{{tabs}}"  ty:key="title" slot="tab-content-{{index}}">
+    <view class="index-bd" slot="tab-content-0">
       <view class="kind-list">
-        <block ty:for="{{index === 0 ? list : list2}}">
+        <block ty:for="{{list}}">
           <view class="kind-list-item">
             <view data-id="{{item.id}}" class="kind-list-item-hd" bind:tap="kindToggle">
               <image class="kind-list-img" src="/assets/images/component/resources/kind/{{item.id}}.png"></image>
@@ -20,6 +20,28 @@
                 <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="path">
                   <navigator url="pages/components/{{page.path}}/index" class="navigator">
                     <view class="navigator-text">{{page.title}}</view>
+                    <view class="navigator-arrow"></view>
+                  </navigator>
+                </block>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="index-bd" slot="tab-content-1">
+      <view class="kind-list">
+        <block ty:for="{{list2}}">
+          <view class="kind-list-item">
+            <view data-id="{{item.id}}" class="kind-list-item-hd" bind:tap="kindToggle2">
+              <image class="kind-list-img" src="/assets/images/component/resources/kind/{{item.id}}.png"></image>
+              <view class="kind-list-text">{{item.name}}</view>
+            </view>
+            <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+              <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+                <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="path">
+                  <navigator url="pages/componentsExtension/{{page}}/index" class="navigator">
+                    <view class="navigator-text">{{page}}</view>
                     <view class="navigator-arrow"></view>
                   </navigator>
                 </block>
