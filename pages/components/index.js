@@ -1,5 +1,6 @@
 Page({
   data: {
+    tabs: [{ title: '基础组件' }, { title: '扩展组件' }],
     list: [
       {
         id: 'view',
