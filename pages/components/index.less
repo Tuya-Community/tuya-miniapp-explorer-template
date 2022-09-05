@@ -148,7 +148,9 @@ page {
 .tyui-tabs-swiper {
   height: 100vh;
   height: ~'calc(100vh - 40px)';
-  overflow-y: auto;
+  swiper-item {
+    overflow: auto;
+  }
 }
 .kind-list-item:first-child {
   margin-top: 40rpx;

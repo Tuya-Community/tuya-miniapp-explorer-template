@@ -5,17 +5,11 @@
   </view>
   <mptabs
   tabs="{{tabs}}"
-  activeTab="{{activeTab}}"
   swiperClass="tyui-tabs-swiper"
-  bindtabclick="onTabCLick"
-  bindchange="onChange"
   activeClass="tab-bar-title__selected">
-    <!-- <view ty:for="{{tabs}}" ty:key="title" slot="tab-content-{{index}}" >
-      <tyList></tyList>
-    </view> -->
     <view class="index-bd"  ty:for="{{tabs}}"  ty:key="title" slot="tab-content-{{index}}">
       <view class="kind-list">
-        <block ty:for="{{list}}">
+        <block ty:for="{{index === 0 ? list : list2}}">
           <view class="kind-list-item">
             <view data-id="{{item.id}}" class="kind-list-item-hd" bind:tap="kindToggle">
               <image class="kind-list-img" src="/assets/images/component/resources/kind/{{item.id}}.png"></image>

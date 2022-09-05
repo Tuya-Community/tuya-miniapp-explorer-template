@@ -26,7 +26,6 @@
     "pages/components/icon/index",
     "pages/components/richText/index",
     "pages/components/textarea/index",
-    "pages/components/svg/index",
     "pages/components/canvas/index",
     "pages/components/map/index",
     "pages/components/ipc-player/index",
