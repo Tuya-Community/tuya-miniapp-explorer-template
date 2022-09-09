@@ -3,7 +3,7 @@
 	<view class="page-head-line"></view>
 </view>
 
-<view class="section l-r-padding" ty:for="{{array}}" ty:key="{{item.mode}}">
+<view class="section l-r-padding" ty:for="{{array}}" ty:key="mode">
   <view class="page-section-title">{{item.text}}</view>
   <view class="section__ctn">
     <image class="image" lazy-load src="{{item.src}}" mode="{{item.mode}}" bindload="load" binderror="error"></image>

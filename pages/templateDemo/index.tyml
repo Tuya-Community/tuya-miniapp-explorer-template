@@ -7,7 +7,7 @@
 
 <template name="REMAX_TPL_view">
   <view class="{{i.props['class']}}">
-    <block ty:for="{{i.children}}" ty:key="{{id}}">
+    <block ty:for="{{i.children}}" ty:key="*this">
       <template is="{{'REMAX_TPL_' + i.nodes[item].type}}" data="{{i: i.nodes[item]}}" />
     </block>
   </view>
@@ -15,7 +15,7 @@
 
 <template name="REMAX_TPL_text">
   <text>
-    <block ty:for="{{i.children}}" ty:key="{{id}}">
+    <block ty:for="{{i.children}}" ty:key="*this">
       <template is="{{'REMAX_TPL_' + i.nodes[item].type}}" data="{{i: i.nodes[item]}}" />
     </block>
   </text>
