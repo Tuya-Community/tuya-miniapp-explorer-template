@@ -20,14 +20,14 @@
 .ball {
   width: 200px;
   height: 200px;
-  background: var(--ty-native-primary-color);
+  background: var(--app-native-primary-color);
   border-radius: 50%;
 }
 
 .ball2 {
   width: 200px;
   height: 200px;
-  background: var(--ty-native-primary-color);
+  background: var(--app-native-primary-color);
   border-radius: 50%;
 }
 

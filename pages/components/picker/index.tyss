@@ -1099,7 +1099,7 @@ icon {
 }
 
 .tyui-navbar__item.tyui-bar__item_on {
-  color: var(--ty-native-primary-color);
+  color: var(--app-native-primary-color);
 }
 
 .tyui-navbar__slider {
@@ -1109,7 +1109,7 @@ icon {
   bottom: 0;
   width: 6em;
   height: 3px;
-  background-color: var(--ty-native-primary-color);
+  background-color: var(--app-native-primary-color);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;

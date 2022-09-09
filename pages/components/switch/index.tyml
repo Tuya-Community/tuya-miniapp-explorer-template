@@ -9,7 +9,7 @@
       <view class="body-view">
         <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change"/>
         <switch bindchange="switch1Change"/>
-        <switch bindchange="switch1Change" color="var(--ty-native-warn-color)"/>
+        <switch bindchange="switch1Change" color="var(--app-native-warn-color)"/>
       </view>
     </view>
     <view class="section section_gap">

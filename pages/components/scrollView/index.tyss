@@ -51,7 +51,7 @@
 }
 
 .demo-text-1 {
-  background-color: var(--ty-native-primary-color);
+  background-color: var(--app-native-primary-color);
 }
 
 .demo-text-2 {
