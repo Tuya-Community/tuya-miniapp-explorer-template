@@ -18,7 +18,7 @@
       <slot name="{{item.slot}}"></slot>
     </block>
     <block ty:else>
-      <view style="height: 50px; border: 1px solid green; margin: 16px 0;" data-index="{{index}}" columns="{{1}}" item-data="{{item.data}}" bind:click="itemClick">???????{{index}}</view>
+      <view style="height: 50px; border: 1px solid green; margin: 16px 0;" data-index="{{index}}" columns="{{1}}" item-data="{{item.data}}" bind:click="itemClick">{{index}}</view>
     </block>
   </view>
 </view>

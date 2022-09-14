@@ -40,9 +40,9 @@ Page({
         value: value[name],
       })
     }
-    this.setData({
-      resultData,
-    })
+
+    console.log(value)
+    this.setData({ resultData })
   },
 
   handleReset(ev) {
@@ -54,9 +54,7 @@ Page({
         value: value[name],
       })
     }
-    this.setData({
-      resultData,
-    })
+    this.setData({ resultData })
   },
 
   handleTextareaInput(ev) {

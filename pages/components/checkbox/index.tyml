@@ -21,3 +21,16 @@
     <text class="check-text">未选中disabled</text>
   </view>
 </block>
+<view class="mt-40">
+  <view class="l-r-padding mb-20">推荐展示样式</view>
+  <view class="page__bd">
+    <view class="section section_gap">
+      <checkbox-group class="checkbox-group" bindchange="checkboxChange">
+        <label class="radio" ty:for="{{items}}" ty:key="name" >
+          <checkbox value="{{item.value}}" checked="{{item.checked}}" disabled="{{item.disabled}}"></checkbox>
+          <text class="text">{{item.name}}</text>
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+</view>

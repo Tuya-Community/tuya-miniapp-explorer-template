@@ -55,6 +55,9 @@ Component({
     dragging: false,
   },
   methods: {
+    drag() {
+      console.log('drag')
+    },
     vibrate() {
       if (this.data.platform !== 'devtools') ty.vibrateShort()
     },
@@ -114,7 +117,6 @@ Component({
      * column 改变时候需要清空 list, 以防页面溢出
      */
     columnChange() {
-
       this.setData({
         list: [],
       })
@@ -168,7 +170,9 @@ Component({
       setTimeout(() => this.initDom(), 0)
     },
   },
-  ready() {
-    this.init()
+  lifetimes: {
+    ready() {
+      this.init()
+    },
   },
 })

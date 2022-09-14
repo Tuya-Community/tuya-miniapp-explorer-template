@@ -4,7 +4,7 @@
   bindscroll="scroll"
   bindscrolltolower="lower"
   >
-  <view class="list-wrap" bindtouchstart="start" bindtouchend="end" bindtouchmove="move">
+  <view class="list-wrap">
     <view class="list-wrap__item">
       <view class="image-card" ty:for="imageArr">
         <view class="image-card__wrap" >

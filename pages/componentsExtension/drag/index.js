@@ -109,17 +109,15 @@ Page({
       fixed: false,
     })
     setTimeout(() => {
-      this.setData({
-        listData,
-      })
+      this.setData({ listData })
       this.drag.init()
     }, 300)
   },
-  // scroll(e) {
-  //   this.setData({
-  //     pageMetaScrollTop: e.detail.scrollTop,
-  //   })
-  // },
+  scroll(e) {
+    // this.setData({
+    //   pageMetaScrollTop: e.detail.scrollTop,
+    // })
+  },
   // // 页面滚动
   // onPageScroll(e) {
   //   this.setData({

@@ -9,5 +9,5 @@
       <button class="base-btn" type="primary" bindtap="openDialog">模拟 ActionSheet</button>
     </view>
   </view>
-  <mpactionSheet bindactiontap="btnClick" show="{{showDialog}}" actions="{{groups}}" title="这是一个标题，可以为一行或者两行。" close="{{closeDialog}}"></mpactionSheet>
+  <mpactionSheet show="{{showDialog}}" actions="{{groups}}" title="这是一个标题，可以为一行或者两行。" bind:close="closeDialog" bind:actiontap="btnClick"></mpactionSheet>
 </view>
