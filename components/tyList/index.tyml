@@ -1,18 +1,19 @@
-<scroll-view 
-  style="height: 100%"
-  scrollY="{{true}}"
-  bindscroll="scroll"
-  bindscrolltolower="lower"
-  >
+<scroll-view style="height: 100%" scrollY="{{true}}" bindscroll="scroll" bindscrolltolower="lower">
   <view class="list-wrap">
     <view class="list-wrap__item">
       <view class="image-card" ty:for="imageArr">
-        <view class="image-card__wrap" >
-          <image class="image-card__wrap__img" src="https://images.tuyacn.com/oceanus/file/623c7736-ec7e-5847-affc-83530deb8644.png?imageMogr2/thumbnail/x152" mode="scaleToFill"></image>
+        <view class="image-card__wrap">
+          <image
+            class="image-card__wrap__img"
+            src="https://images.tuyacn.com/oceanus/file/623c7736-ec7e-5847-affc-83530deb8644.png?imageMogr2/thumbnail/x152"
+            mode="scaleToFill"
+          ></image>
           <view class="image-card__wrap__cont">
             <view class="image-card__wrap__cont__top">
               <view class="image-card__wrap__cont__tit">标题11</view>
-              <view class="image-card__wrap__cont__subtit">广大开发者以涂鸦小程序为载体，利用小程序提供的丰富基础能力完成服务搭建，实现多品牌、多品类设备配网、控制、管理和场景联动，打造智能设备更多新玩法。</view>
+              <view class="image-card__wrap__cont__subtit"
+                >广大开发者以涂鸦小程序为载体，利用小程序提供的丰富基础能力完成服务搭建，实现多品牌、多品类设备配网、控制、管理和场景联动，打造智能设备更多新玩法。</view
+              >
             </view>
             <view class="image-card__wrap__cont__bot">
               <view class="image-card__wrap__cont__time">2021.11.14</view>

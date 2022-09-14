@@ -1,24 +1,33 @@
 <sjs module="handler" src="./index.sjs"></sjs>
-<view class="item-wrap item-wrap-class"
-			list="{{list}}"
-			style="{{wrapStyle}}"
-			baseData="{{baseData}}"
-			change:list="{{handler.listObserver}}"
-			change:baseData="{{handler.baseDataObserver}}">
+<view
+  class="item-wrap item-wrap-class"
+  list="{{list}}"
+  style="{{wrapStyle}}"
+  baseData="{{baseData}}"
+  change:list="{{handler.listObserver}}"
+  change:baseData="{{handler.baseDataObserver}}"
+>
   <view
-		class="item"
-		ty:for="{{list}}"
-		ty:key="id"
-		data-index="{{index}}"
-		style="width: {{100/columns}}%"
-		bind:touchstart="{{handler.touchStart}}"
-		catch:touchmove="{{handler.touchMove}}"
-		catch:touchend="{{handler.touchEnd}}">
+    class="item"
+    ty:for="{{list}}"
+    ty:key="id"
+    data-index="{{index}}"
+    style="width: {{100/columns}}%"
+    bind:touchstart="{{handler.touchStart}}"
+    catch:touchmove="{{handler.touchMove}}"
+    catch:touchend="{{handler.touchEnd}}"
+  >
     <block ty:if="{{item.extraNode}}">
       <slot name="{{item.slot}}"></slot>
     </block>
     <block ty:else>
-      <view style="height: 50px; border: 1px solid green; margin: 16px 0;" data-index="{{index}}" columns="{{1}}" item-data="{{item.data}}" bind:click="itemClick">{{index}}</view>
+      <view
+        style="height: 50px; border: 1px solid green; margin: 16px 0"
+        data-index="{{index}}"
+        columns="{{1}}"
+        item-data="{{item.data}}"
+        bind:click="itemClick"
+        >{{index}}</view>
     </block>
   </view>
 </view>
