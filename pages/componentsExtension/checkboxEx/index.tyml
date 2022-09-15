@@ -1,18 +1,31 @@
-<view class="page" data-tyui-theme="{{theme}}">
-    <view class="page__hd">
-        <view class="page__title">checkbox checkbox-group</view>
-        <view class="page__desc">复选框</view>
-    </view>
-    <view class="page__bd">
-        <mpcells title="单选列表项">
-            <mpcheckboxgroup prop="radio" multi="{{false}}" bindchange="radioChange">
-                <mpcheckbox multi="{{false}}" ty:for="{{radioItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
-            </mpcheckboxgroup>
-        </mpcells>
-        <mpcells title="复选列表项">
-            <mpcheckboxgroup prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
-                <mpcheckbox ty:for="{{checkboxItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
-            </mpcheckboxgroup>
-        </mpcells>
-    </view>
+<view class="page" data-tyui-theme="{{ theme }}">
+  <view class="page__hd">
+    <view class="page__title">checkbox checkbox-group</view>
+    <view class="page__desc">复选框</view>
+  </view>
+  <view class="page__bd">
+    <mpcells title="单选列表项">
+      <mpcheckboxgroup prop="radio" multi="{{ false }}" bindchange="radioChange">
+        <mpcheckbox
+          multi="{{ false }}"
+          ty:for="{{ radioItems }}"
+          ty:key="value"
+          label="{{ item.name }}"
+          value="{{ item.value }}"
+          checked="{{ item.checked }}"
+        ></mpcheckbox>
+      </mpcheckboxgroup>
+    </mpcells>
+    <mpcells title="复选列表项">
+      <mpcheckboxgroup prop="checkbox" multi="{{ true }}" data-id="a" bindchange="checkboxChange">
+        <mpcheckbox
+          ty:for="{{ checkboxItems }}"
+          ty:key="value"
+          label="{{ item.name }}"
+          value="{{ item.value }}"
+          checked="{{ item.checked }}"
+        ></mpcheckbox>
+      </mpcheckboxgroup>
+    </mpcells>
+  </view>
 </view>

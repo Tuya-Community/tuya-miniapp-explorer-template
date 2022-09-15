@@ -77,7 +77,7 @@ module.exports = {
       <view class="container-view-num">{{tempspinSpeed+''}}</view>
       <view class="slider-wrp">
         <image src="/assets/images/panel/icon-add-select.png" mode="heightFix" style="width: 20px; height: 20px"></image>
-        <slider class="container-slider" backgroundColor="rgba(75,177,152)" bindchanging="handleChangeSlider" value="{{tempspinSpeed}}"></slider>
+        <slider class="container-slider" backgroundColor="rgba(75,177,152)" bindchanging="handleChangeSlider" bindchange="handleChangeSlider" value="{{tempspinSpeed}}"></slider>
         <image src="/assets/images/panel/icon-sami-select.png" mode="heightFix" style="width: 20px; height: 20px"></image>
       </view>
       <view class="container-btn-wrp">

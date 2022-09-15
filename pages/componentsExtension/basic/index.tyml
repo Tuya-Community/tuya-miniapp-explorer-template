@@ -8,6 +8,7 @@
     bindpinch="{{anim.pinch}}"
     bindpressMove="{{anim.pressmove}}"
     bindtwoFingerPressMove="{{anim.pressmove}}"
+    bind:longTap="longTap"
   >
     <view class="test" id="test"></view>
   </gesture>
