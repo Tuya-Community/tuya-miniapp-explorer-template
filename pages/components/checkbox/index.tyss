@@ -1,12 +1,12 @@
 .radio-group {
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: block;
   background: var(--main-card-bg-color);
 }
 
 .radio {
   display: block;
-  border-top: 1px solid rgba(0, 0, 0, .2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding: 13px 0;
   align-items: center;
   margin: 0 20px;
