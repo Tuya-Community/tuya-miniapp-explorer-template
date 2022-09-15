@@ -1,29 +1,28 @@
 <view class="page" data-tyui-theme="{{theme}}" bindtap="handleTap">
   <view class="page__hd">
-      <view class="page__title">selectText</view>
-      <view class="page__desc">可选文本组件</view>
+    <view class="page__title">selectText</view>
+    <view class="page__desc">可选文本组件</view>
   </view>
   <view>
     <view class="demo-block">
       <block ty:for="{{arr}}" ty:key="placement">
-        <view class="list-item" >
+        <view class="list-item">
           <mpselecttext
             show-copy-btn="{{true}}"
             placement="{{item.placement}}"
             value="{{item.value}}"
             data-id="{{index}}"
             on-document-tap="{{evt}}"
-          >
-          </mpselecttext>
+          />
         </view>
       </block>
       <view>
         <button type="primary" bindtap="getCopyContent">获取复制的内容</button>
-        <view style="text-align: center;">{{copyContent}}</view>
+        <view style="text-align: center">{{copyContent}}</view>
       </view>
 
       <!-- <view class="list-item">
-        <mpselecttext value="默认的长按效果与浏览器一致"></mpselecttext>
+        <mpselecttext value="默认的长按效果与浏览器一致" />
       </view> -->
     </view>
   </view>

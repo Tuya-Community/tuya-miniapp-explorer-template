@@ -1,5 +1,5 @@
 <view>
-  <audio  src="{{src}}" id="myAudio" ></audio>
+  <audio src="{{src}}" id="myAudio" />
 
   <button type="primary" bindtap="audioPlay">播放</button>
   <button type="primary" bindtap="audioPause">暂停</button>

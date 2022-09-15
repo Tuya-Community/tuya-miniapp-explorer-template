@@ -1,21 +1,18 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">downloadFile</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
     <image ty:if="{{imageSrc}}" src="{{imageSrc}}" />
     <block ty:else>
       <view class="page-body-wording">
-        <text class="page-body-text">
-          点击按钮下载服务端示例图片
-        </text>
+        <text class="page-body-text">点击按钮下载服务端示例图片</text>
       </view>
       <view class="btn-area">
         <button bind:tap="downloadImage" type="primary">下载</button>
       </view>
     </block>
   </view>
-
 </view>

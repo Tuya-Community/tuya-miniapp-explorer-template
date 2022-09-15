@@ -4,6 +4,6 @@
     <view class="page__desc">九宫格</view>
   </view>
   <view class="page__bd">
-    <mpgrids grids="{{ grids }}"></mpgrids>
+    <mpgrids grids="{{ grids }}" />
   </view>
 </view>

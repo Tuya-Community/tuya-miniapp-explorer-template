@@ -11,7 +11,7 @@
             <label class="tyui-label">姓名</label>
           </view>
           <view class="tyui-cell__bd">
-            <input class="tyui-input" type="number" pattern="[0-9]*" placeholder="请输入姓名"/>
+            <input class="tyui-input" type="number" pattern="[0-9]*" placeholder="请输入姓名" />
           </view>
         </view>
         <view class="tyui-cell">
@@ -19,7 +19,7 @@
             <label class="tyui-label">手机号</label>
           </view>
           <view class="tyui-cell__bd">
-            <input class="tyui-input" type="number" pattern="[0-9]*" placeholder="请输入手机号"/>
+            <input class="tyui-input" type="number" pattern="[0-9]*" placeholder="请输入手机号" />
           </view>
         </view>
       </view>
@@ -28,7 +28,8 @@
   <view class="tyui-form__tips-area">
     <label for="tyuiAgree" class="tyui-agree">
       <checkbox></checkbox>
-      <text class="tyui-agree__text">阅读并同意
+      <text class="tyui-agree__text">
+        阅读并同意
         <navigator href="javascript:void(0);">《相关条款》</navigator>
       </text>
     </label>

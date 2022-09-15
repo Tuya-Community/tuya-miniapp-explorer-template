@@ -1,13 +1,9 @@
 <view class="page-head">
   <view class="page-head-title">canvas</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="canvas-title">----------页面动画----------</view>
-<canvas
-  type="2d"
-  canvas-id="pageCanvas"
-  style="width:300px;height:300px"
-></canvas>
+<canvas type="2d" canvas-id="pageCanvas" style="width: 300px; height: 300px" />
 <view class="canvas-title">----------组件内动画----------</view>
 <view class="page-section">
   <picture></picture>

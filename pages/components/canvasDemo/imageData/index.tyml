@@ -1,10 +1,10 @@
 <canvas
   type="2d"
   canvas-id="canvas3"
-  style="width: 300px; height: 300px;border: 1px solid orange"
+  style="width: 300px; height: 300px; border: 1px solid orange"
 ></canvas>
 <canvas
   type="2d"
   canvas-id="canvas4"
-  style="width: 300px; height: 300px;border: 1px solid blue"
+  style="width: 300px; height: 300px; border: 1px solid blue"
 ></canvas>

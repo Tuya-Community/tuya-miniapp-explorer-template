@@ -1,61 +1,84 @@
 <view class="page-head">
-	<view class="page-head-title">rich-text</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">rich-text</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="container">
+  <view class="page-section l-r-padding">
+    <view class="page-section-title">通过HTML String渲染</view>
 
-	<view class="page-section l-r-padding">
-		<view class="page-section-title">通过HTML String渲染</view>
+    <view class="snip-wrap">
+      <text class="line" decode="true">&lt;div&gt;</text>
+      <text class="line" decode="true">&nbsp;&nbsp;&lt;h1&gt;Title&lt;/h1&gt;</text>
+      <text class="line" decode="true">&nbsp;&nbsp;&lt;p&gt;</text>
+      <text class="line" decode="true">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Life&nbsp;is&nbsp;&lt;i&gt;like&lt;/i&gt;&nbsp;a&nbsp;box&nbsp;of
+      </text>
+      <text class="line" decode="true">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;b&gt;chocolates&lt;/b&gt;.
+      </text>
+      <text class="line" decode="true">&nbsp;&nbsp;&lt;/p&gt;</text>
+      <text class="line" decode="true">&lt;/div&gt;</text>
+    </view>
 
-		<view class="snip-wrap">
-			<text class="line" decode="true">&lt;div&gt;</text>
-			<text class="line" decode="true">&nbsp;&nbsp;&lt;h1&gt;Title&lt;/h1&gt;</text>
-			<text class="line" decode="true">&nbsp;&nbsp;&lt;p&gt;</text>
-			<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Life&nbsp;is&nbsp;&lt;i&gt;like&lt;/i&gt;&nbsp;a&nbsp;box&nbsp;of</text>
-			<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;b&gt;chocolates&lt;/b&gt;.</text>
-			<text class="line" decode="true">&nbsp;&nbsp;&lt;/p&gt;</text>
-			<text class="line" decode="true">&lt;/div&gt;</text>
-		</view>
+    <view class="btn-wrap">
+      <button type="primary" class="btn" bindtap="showHTMLRender">渲染HTML</button>
+    </view>
 
-		<view class="btn-wrap">
-			<button type="primary" class="btn" bindtap="showHTMLRender">渲染HTML</button>
-		</view>
+    <view class="rich-text-wrap" ty:if="{{isHTMLRender}}">
+      <rich-text nodes="{{htmlContent}}"></rich-text>
+    </view>
+  </view>
 
-		<view class="rich-text-wrap" ty:if="{{isHTMLRender}}">
-			<rich-text nodes="{{htmlContent}}"></rich-text>
-		</view>
-	</view>
+  <view class="page-section l-r-padding">
+    <view class="page-section-title">通过节点渲染</view>
 
-	<view class="page-section l-r-padding">
-		<view class="page-section-title">通过节点渲染</view>
+    <view class="snip-wrap">
+      <scroll-view scroll-y="true">
+        <text class="line" decode="true">Page({</text>
+        <text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;data: {</text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nodes: [{
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: 'div',
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;attrs: {
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:
+          'outer',
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;children: [{
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:
+          'text',
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text:
+          'You never know what you're gonna get.'
+        </text>
+        <text class="line" decode="true">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]
+        </text>
+        <text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]</text>
+        <text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;}</text>
+        <text class="line" decode="true">}]</text>
+      </scroll-view>
+    </view>
 
-		<view class="snip-wrap">
-			<scroll-view scroll-y="true">
-				<text class="line" decode="true">Page({</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;data: {</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nodes: [{</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: 'div',</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;attrs: {</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: 'outer',</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;children: [{</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: 'text',</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text: 'You never know what you're gonna get.'</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]</text>
-				<text class="line" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;}</text>
-				<text class="line" decode="true">}]</text>
-			</scroll-view>
-		</view>
+    <view class="btn-wrap">
+      <button type="primary" class="btn" bindtap="showNodeRender">渲染Node</button>
+    </view>
 
-		<view class="btn-wrap">
-			<button type="primary" class="btn" bindtap="showNodeRender">渲染Node</button>
-		</view>
-
-		<view class="rich-text-wrap" ty:if="{{isNodesRender}}">
-			<rich-text nodes="{{htmlContent1}}"></rich-text>
-		</view>
-	</view>
-
+    <view class="rich-text-wrap" ty:if="{{isNodesRender}}">
+      <rich-text nodes="{{htmlContent1}}"></rich-text>
+    </view>
+  </view>
 </view>

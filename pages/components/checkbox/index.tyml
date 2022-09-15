@@ -1,11 +1,11 @@
 <view class="page-head">
   <view class="page-head-title">checkbox</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="l-r-padding mb-20">默认样式</view>
 <block>
   <view class="check-wrp">
-    <checkbox checked="{{true}}"></checkbox>
+    <checkbox checked="{{true}}" />
     <text class="check-text text-left">选中</text>
   </view>
   <view class="check-wrp">
@@ -13,11 +13,11 @@
     <text class="check-text">未选中</text>
   </view>
   <view class="check-wrp">
-    <checkbox checked="{{true}}" disabled="true"></checkbox>
+    <checkbox checked="{{true}}" disabled="true" />
     <text class="check-text">选中disabled</text>
   </view>
   <view class="check-wrp">
-    <checkbox disabled="true"></checkbox>
+    <checkbox disabled="true" />
     <text class="check-text">未选中disabled</text>
   </view>
 </block>
@@ -26,8 +26,12 @@
   <view class="page__bd">
     <view class="section section_gap">
       <checkbox-group class="checkbox-group" bindchange="checkboxChange">
-        <label class="radio" ty:for="{{items}}" ty:key="name" >
-          <checkbox value="{{item.value}}" checked="{{item.checked}}" disabled="{{item.disabled}}"></checkbox>
+        <label class="radio" ty:for="{{items}}" ty:key="name">
+          <checkbox
+            value="{{item.value}}"
+            checked="{{item.checked}}"
+            disabled="{{item.disabled}}"
+          />
           <text class="text">{{item.name}}</text>
         </label>
       </checkbox-group>

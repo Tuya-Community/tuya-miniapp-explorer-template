@@ -4,10 +4,16 @@
     <view class="page__desc" bindtouchmove="touchmove">弹出式菜单</view>
   </view>
   <view class="page__bd">
-    <view class="weui-btn-area l-r-padding" >
+    <view class="weui-btn-area l-r-padding">
       <!-- <button class="weui-btn" type="default" bindtap="open">原生 ActionSheet</button> -->
       <button class="base-btn" type="primary" bindtap="openDialog">模拟 ActionSheet</button>
     </view>
   </view>
-  <mpactionSheet show="{{showDialog}}" actions="{{groups}}" title="这是一个标题，可以为一行或者两行。" bind:close="closeDialog" bind:actiontap="btnClick"></mpactionSheet>
+  <mpactionSheet
+    show="{{showDialog}}"
+    actions="{{groups}}"
+    title="这是一个标题，可以为一行或者两行。"
+    bind:close="closeDialog"
+    bind:actiontap="btnClick"
+  />
 </view>

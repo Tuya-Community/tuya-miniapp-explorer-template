@@ -14,10 +14,10 @@
 
 </view>
 <view class="header">
-  <slot name="header"></slot>
+  <slot name="header" />
 </view>
 <view class="content">
-  <slot name="content"></slot>
+  <slot name="content" />
 </view>
 
 -->
@@ -81,7 +81,7 @@
   <template is="{{r.type}}" data="{{r: r}}" />
 </template>
 
-<template is="root" data="{{r: root}}"></template> -->
+<template is="root" data="{{r: root}}" /> -->
 
 <view class="custom-container" style="display: inline" bind:tap="changeCount">
   view hhh

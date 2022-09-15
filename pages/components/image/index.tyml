@@ -1,11 +1,18 @@
 <view class="page-head">
-	<view class="page-head-title">image</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">image</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="section l-r-padding" ty:for="{{array}}" ty:key="mode">
   <view class="page-section-title">{{item.text}}</view>
   <view class="section__ctn">
-    <image class="image" lazy-load src="{{item.src}}" mode="{{item.mode}}" bindload="load" binderror="error"></image>
+    <image
+      class="image"
+      lazy-load
+      src="{{item.src}}"
+      mode="{{item.mode}}"
+      bindload="load"
+      binderror="error"
+    />
   </view>
 </view>

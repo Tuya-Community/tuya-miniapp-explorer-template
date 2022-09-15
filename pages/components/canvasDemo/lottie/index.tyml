@@ -1,5 +1,5 @@
 <view>
-  <canvas type="2d" canvas-id="canvas5" style="width: 100%"></canvas>
+  <canvas type="2d" canvas-id="canvas5" style="width: 100%" />
   <button bindtap="stop">暂停动画</button>
   <button bindtap="play">开启动画</button>
 </view>

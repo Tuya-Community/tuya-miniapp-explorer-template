@@ -1,11 +1,10 @@
-<sjs module="anim" src="./anim.sjs"></sjs>
+<sjs module="anim" src="./anim.sjs" />
 <button bindtap="handlePropagation">{{propagation ? 'ON' : 'OFF'}}</button>
 <view>propagation: {{propagation}}</view>
 <gesture bindpressMove="{{anim.pressmovewrapper}}">
-	<view class="wrapper" id="wrapper" style="left: 0; top: 0;">
-		<gesture bindpressMove="{{anim.pressmoveinner}}" propagation="{{propagation}}">
-			<view class="inner" id="inner" style="left: 0; top: 0;">
-			</view>
-		</gesture>
-	</view>
+  <view class="wrapper" id="wrapper" style="left: 0; top: 0">
+    <gesture bindpressMove="{{anim.pressmoveinner}}" propagation="{{propagation}}">
+      <view class="inner" id="inner" style="left: 0; top: 0" />
+    </gesture>
+  </view>
 </gesture>

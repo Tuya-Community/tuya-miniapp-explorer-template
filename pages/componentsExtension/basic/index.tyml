@@ -1,15 +1,14 @@
-
-<sjs module="anim" src="./anim.sjs"></sjs>
+<sjs module="anim" src="./anim.sjs" />
 
 <view>
-  <gesture 
-    bindrotate="{{anim.rotate}}" 
+  <gesture
+    bindrotate="{{anim.rotate}}"
     bindmultipointStart="{{anim.multitouchstart}}"
     bindpinch="{{anim.pinch}}"
     bindpressMove="{{anim.pressmove}}"
     bindtwoFingerPressMove="{{anim.pressmove}}"
     bind:longTap="longTap"
   >
-    <view class="test" id="test"></view>
+    <view class="test" id="test" />
   </gesture>
 </view>

@@ -9,10 +9,20 @@
       <button class="base-btn" type="primary" bindtap="tapOneDialogButton">只有确认按钮</button>
     </view>
   </view>
-  <mpdialog title="标题" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+  <mpdialog
+    title="标题"
+    show="{{showOneButtonDialog}}"
+    bindbuttontap="tapDialogButton"
+    buttons="{{oneButton}}"
+  >
     <view>这里是内容</view>
   </mpdialog>
-  <mpdialog title="标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <mpdialog
+    title="标题"
+    show="{{dialogShow}}"
+    bindbuttontap="tapDialogButton"
+    buttons="{{buttons}}"
+  >
     <view>这里是内容，超过部分会自动换行换行。这里是内容，超过部分会自动换行换行</view>
   </mpdialog>
 </view>

@@ -1,11 +1,11 @@
 <view class="page-head">
   <view class="page-head-title">radio</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="l-r-padding mb-20">默认样式</view>
 <block>
   <view class="check-wrp">
-    <radio checked="true"></radio>
+    <radio checked="true" />
     <text class="check-text text-left">选中</text>
   </view>
   <view class="check-wrp">
@@ -13,11 +13,11 @@
     <text class="check-text">未选中</text>
   </view>
   <view class="check-wrp">
-    <radio checked="true" disabled="true"></radio>
+    <radio checked="true" disabled="true" />
     <text class="check-text">选中disabled</text>
   </view>
   <view class="check-wrp">
-    <radio disabled="true"></radio>
+    <radio disabled="true" />
     <text class="check-text">未选中disabled</text>
   </view>
 </block>
@@ -26,8 +26,8 @@
   <view class="page__bd">
     <view class="section section_gap">
       <radio-group class="radio-group" bindchange="radioChange">
-        <label class="radio" ty:for="{{items}}" ty:key="name" >
-          <radio value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}"></radio>
+        <label class="radio" ty:for="{{items}}" ty:key="name">
+          <radio value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />
           <text class="text">{{item.value}}</text>
         </label>
       </radio-group>

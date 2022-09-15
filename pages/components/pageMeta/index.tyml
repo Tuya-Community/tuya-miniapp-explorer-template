@@ -1,5 +1,2 @@
- <page-meta
-    background-color="{{nbBackgroundColor}}"
-    bindscroll="handleScroll"
-  />
-  <button bindtap="setBackgroundColor">设置背景色</button>
+<page-meta background-color="{{nbBackgroundColor}}" bindscroll="handleScroll" />
+<button bindtap="setBackgroundColor">设置背景色</button>

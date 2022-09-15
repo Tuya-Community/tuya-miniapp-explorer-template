@@ -1,7 +1,7 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">录音/音频</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -11,11 +11,11 @@
           <text class="time-big">{{formatedRecordTime}}</text>
         </view>
         <view class="page-body-buttons">
-          <view class="page-body-button"></view>
+          <view class="page-body-button" />
           <view class="page-body-button" bindtap="startRecord">
-            <image class="images" src="/assets/images/record.png"></image>
+            <image class="images" src="/assets/images/record.png" />
           </view>
-          <view class="page-body-button"></view>
+          <view class="page-body-button" />
         </view>
       </block>
 
@@ -24,11 +24,11 @@
           <text class="time-big">{{formatedRecordTime}}</text>
         </view>
         <view class="page-body-buttons">
-          <view class="page-body-button"></view>
+          <view class="page-body-button" />
           <view class="page-body-button" bind:tap="stopRecord">
-            <view class="button-stop-record"></view>
+            <view class="button-stop-record" />
           </view>
-          <view class="page-body-button"></view>
+          <view class="page-body-button" />
         </view>
       </block>
 
@@ -38,12 +38,12 @@
           <text class="time-small">{{formatedRecordTime}}</text>
         </view>
         <view class="page-body-buttons">
-          <view class="page-body-button"></view>
+          <view class="page-body-button" />
           <view class="page-body-button" bind:tap="playVoice">
-            <image class="images" src="/assets/images/play.png"></image>
+            <image class="images" src="/assets/images/play.png" />
           </view>
           <view class="page-body-button" bind:tap="clear">
-            <image class="images" src="/assets/images/trash.png"></image>
+            <image class="images" src="/assets/images/trash.png" />
           </view>
         </view>
       </block>
@@ -55,17 +55,16 @@
         </view>
         <view class="page-body-buttons">
           <view class="page-body-button" bind:tap="stopVoice">
-            <image class="images" src="/assets/images/stop.png"></image>
+            <image class="images" src="/assets/images/stop.png" />
           </view>
           <!-- <view class="page-body-button" bind:tap="pauseVoice">
-            <image src="/assets/images/pause.png"></image>
+            <image src="/assets/images/pause.png" />
           </view> -->
           <view class="page-body-button" bind:tap="clear">
-            <image class="images" src="/assets/images/trash.png"></image>
+            <image class="images" src="/assets/images/trash.png" />
           </view>
         </view>
       </block>
     </view>
   </view>
-
 </view>

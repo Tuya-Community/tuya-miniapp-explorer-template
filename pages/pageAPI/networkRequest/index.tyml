@@ -1,17 +1,15 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">request</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
     <view class="page-body-wording">
-      <text class="page-body-text">
-        点击向服务器发起请求
-      </text>
+      <text class="page-body-text">点击向服务器发起请求</text>
     </view>
     <view class="btn-area">
-      <button bind:tap="makeRequest" type="primary" >request</button>
+      <button bind:tap="makeRequest" type="primary">request</button>
     </view>
   </view>
 </view>

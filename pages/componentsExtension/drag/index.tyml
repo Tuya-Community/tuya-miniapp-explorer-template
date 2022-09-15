@@ -17,21 +17,21 @@
   >
     <view slot="before" class="cell">
       <view class="cell__bd" style="height: 160rpx">
-        <view class="extra"> 第0个元素之前插入该元素, 该元素不参与排序 </view>
+        <view class="extra">第0个元素之前插入该元素, 该元素不参与排序</view>
       </view>
     </view>
     <view slot="after" class="cell">
       <view class="cell__bd" style="height: 160rpx">
-        <view class="extra"> 第0个元素之后插入该元素, 该元素不参与排序 </view>
+        <view class="extra">第0个元素之后插入该元素, 该元素不参与排序</view>
       </view>
     </view>
     <view slot="plus" class="cell">
       <view class="cell__bd" style="height: 160rpx">
         <view class="plus-wrap" bindtap="add">
-          <view class="plus"></view>
+          <view class="plus" />
         </view>
       </view>
     </view>
   </drag>
 </view>
-<view class="empty-bottom {{ isIphoneX ? 'isX' : '' }}"></view>
+<view class="empty-bottom {{ isIphoneX ? 'isX' : '' }}" />

@@ -1,7 +1,7 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">getSystemInfo</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -12,7 +12,7 @@
             <view class="tyui-label">手机品牌</view>
           </view>
           <view class="tyui-cell__bd">
-            <text class="tyui-input" >{{systemInfo.brand}}</text>
+            <text class="tyui-input">{{systemInfo.brand}}</text>
           </view>
         </view>
         <view class="tyui-cell tyui-cell_view">
@@ -60,13 +60,15 @@
             <view class="tyui-label">DPR</view>
           </view>
           <view class="tyui-cell__bd">
-            <text class="tyui-input" >{{systemInfo.pixelRatio}}</text>
+            <text class="tyui-input">{{systemInfo.pixelRatio}}</text>
           </view>
         </view>
       </view>
       <view class="btn-area">
         <button type="primary" bind:tap="getSystemInfo">获取手机系统信息</button>
-        <button type="primary" bind:tap="getSystemInfoSync" style="marginTop: 20rpx">获取手机系统信息/同步方法</button>
+        <button type="primary" bind:tap="getSystemInfoSync" style="margintop: 20rpx">
+          获取手机系统信息/同步方法
+        </button>
       </view>
     </view>
   </view>

@@ -9,7 +9,8 @@
     object-fit="{{objectFit}}"
     orientation="{{orientation}}"
     bindconnectChange="onConnectChange"
-    binderror="onError">
+    binderror="onError"
+  >
     <view class="btn-box">
       <button bindtap="setMuted1" class="page-body-button" type="primary">开启静音</button>
       <button bindtap="setMuted2" class="page-body-button" type="primary">关闭静音</button>
@@ -17,12 +18,17 @@
       <button bindtap="setSoundMode2" class="page-body-button" type="primary">听筒播放</button>
       <button bindtap="setClarity1" class="page-body-button" type="primary">标清播放</button>
       <button bindtap="setClarity2" class="page-body-button" type="primary">高清播放</button>
-      <button bindtap="orientationChange" class="page-body-button" type="primary">orientation 切换 </button>
-      <button bindtap="objectFitChange" class="page-body-button" type="primary">objectFit 切换 </button>
+      <button bindtap="orientationChange" class="page-body-button" type="primary">
+        orientation 切换
+      </button>
+      <button bindtap="objectFitChange" class="page-body-button" type="primary">
+        objectFit 切换
+      </button>
       <button bindtap="snapshot" class="page-body-button" type="primary">截取视频影像</button>
-      <view>截取视频影像如下:
+      <view>
+        截取视频影像如下:
         <view>
-          <image src="{{tempImagePath}}"></image>
+          <image src="{{tempImagePath}}" />
         </view>
       </view>
     </view>

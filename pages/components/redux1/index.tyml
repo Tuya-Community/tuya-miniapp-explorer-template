@@ -6,30 +6,24 @@
   <view class="container">
     <view class="mb-20">
       <view>点击按钮执行同步action使number + 1</view>
-      <button bindtap="testSyncAction" type="primary">
-        点击按钮加一，执行同步action
-      </button>
+      <button bindtap="testSyncAction" type="primary">点击按钮加一，执行同步action</button>
     </view>
     <view class="mb-20">
       <view>点击按钮执行异步action模拟异步请求状态</view>
-      <button bindtap="testAsyncAction" type="primary">
-      执行异步action
-    </button>
+      <button bindtap="testAsyncAction" type="primary">执行异步action</button>
     </view>
     <view class="mb-20">
       <view>通过this.seletComponent 获取子组件实例，执行对应子组件点击事件，使number + 1</view>
-      <button bindtap="testSelectComponent" type="primary">
-      执行子组件click事件
-    </button>
+      <button bindtap="testSelectComponent" type="primary">执行子组件click事件</button>
     </view>
   </view>
   <view class="mb-20">
     <view>子组件通过触发action，使得父组件number + 1</view>
-    <xlComponent id="xl" class="mb-20" title="传入标题1" bindxlComponentClick="testSyncAction"></xlComponent>
+    <xlComponent id="xl" class="mb-20" title="传入标题1" bindxlComponentClick="testSyncAction" />
   </view>
   <view class="mb-20">
     <view>路由跳转去 页面2，页面2能和当前页面共用一份数据</view>
-    <navigator url="pages/components/redux2/index" >
+    <navigator url="pages/components/redux2/index">
       <button type="primary">跳转页面2</button>
     </navigator>
   </view>

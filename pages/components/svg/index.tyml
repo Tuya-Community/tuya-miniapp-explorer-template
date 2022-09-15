@@ -1,6 +1,6 @@
 <view class="page-head">
   <view class="page-head-title">svg</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
-<svg d="{{path}}" color="var(--app-native-primary-color)" size="{{100}}"></svg>
-<svg d="{{path2}}" color="var(--app-native-primary-color)" size="{{100}}"></svg>
+<svg d="{{path}}" color="var(--app-native-primary-color)" size="{{100}}" />
+<svg d="{{path2}}" color="var(--app-native-primary-color)" size="{{100}}" />

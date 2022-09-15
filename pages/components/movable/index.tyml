@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">movable</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">movable</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="container">
@@ -8,9 +8,7 @@
     <view class="page-section-title l-r-padding">movable移动功能</view>
     <view class="area-wrap">
       <movable-area class="area">
-        <movable-view class="block" x="{{x}}" y="{{y}}" direction="all">
-          text
-        </movable-view>
+        <movable-view class="block" x="{{x}}" y="{{y}}" direction="all">text</movable-view>
       </movable-area>
     </view>
     <view class="btn-wrap">
@@ -18,7 +16,9 @@
         <button type="primary" bindtap="moveFn" class="btn">点击移动到(30px, 30px)</button>
       </view>
       <view class="btn-line">
-        <button type="primary" bindtap="moveStep" class="btn sec-btn">点击移动到({{x + 10}}px, {{y + 10}}px)</button>
+        <button type="primary" bindtap="moveStep" class="btn sec-btn">
+          点击移动到({{x + 10}}px, {{y + 10}}px)
+        </button>
       </view>
     </view>
   </view>
@@ -63,9 +63,10 @@
     <view class="page-section-title l-r-padding">可缩放</view>
     <view class="area-wrap">
       <movable-area class="area">
-        <movable-view class="block" direction="all" scale="{{true}}" scale-value="{{2}}">text</movable-view>
+        <movable-view class="block" direction="all" scale="{{true}}" scale-value="{{2}}">
+          text
+        </movable-view>
       </movable-area>
     </view>
   </view>
-    
 </view>

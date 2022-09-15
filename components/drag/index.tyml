@@ -1,4 +1,4 @@
-<sjs module="handler" src="./index.sjs"></sjs>
+<sjs module="handler" src="./index.sjs" />
 <view
   class="item-wrap item-wrap-class"
   list="{{list}}"
@@ -18,7 +18,7 @@
     catch:touchend="{{handler.touchEnd}}"
   >
     <block ty:if="{{item.extraNode}}">
-      <slot name="{{item.slot}}"></slot>
+      <slot name="{{item.slot}}" />
     </block>
     <block ty:else>
       <view
@@ -27,7 +27,9 @@
         columns="{{1}}"
         item-data="{{item.data}}"
         bind:click="itemClick"
-        >{{index}}</view>
+      >
+        {{index}}
+      </view>
     </block>
   </view>
 </view>

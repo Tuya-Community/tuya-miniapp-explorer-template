@@ -8,13 +8,13 @@
     bindstop="stop"
     binderror="error"
     bindinitdone="initdone"
-  ></camera>
+  />
   <view class="btn-area">
     <button class="page-body-button" type="primary" bindtap="takePhoto">takePhoto API</button>
     <button class="page-body-button" type="primary" bindtap="setZoom">setZoom API</button>
     <button class="page-body-button" type="primary" bindtap="devicePositionCHnage">device-position 属性</button>
     <button class="page-body-button" type="primary" bindtap="flashChange">flash 属性</button>
     <view>预览照片:</view>
-    <image ty:if="{{src}}" mode="widthFix" src="{{src}}"></image>
+    <image ty:if="{{src}}" mode="widthFix" src="{{src}}" />
   </view>
 </view>

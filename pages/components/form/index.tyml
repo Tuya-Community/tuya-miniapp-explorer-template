@@ -1,27 +1,27 @@
 <view class="page-head">
   <view class="page-head-title">form</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="form-page">
   <view class="page-section">
     <form bindsubmit="handleSubmit" bindreset="handleReset" id="formSelf">
       <view class="item-wrap">
         <text class="page-section-title section-title">switch</text>
-        <switch name="switch"></switch>
+        <switch name="switch" />
       </view>
       <view class="item-wrap">
         <text class="page-section-title section-title">slider</text>
-        <slider name="slider" show-value="{{true}}" value="{{42}}"></slider>
+        <slider name="slider" show-value="{{true}}" value="{{42}}" />
       </view>
       <view class="item-wrap">
         <text class="page-section-title section-title">checkbox</text>
         <checkbox-group name="CheckboxGroup">
           <view class="radio">
-            <checkbox value="选项一"></checkbox>
+            <checkbox value="选项一" />
             <text class="text">选项一</text>
           </view>
           <view class="radio">
-            <checkbox value="选项二"></checkbox>
+            <checkbox value="选项二" />
             <text class="text">选项二</text>
           </view>
         </checkbox-group>
@@ -30,17 +30,17 @@
         <text class="page-section-title section-title">radio</text>
         <radio-group name="RadioGroup">
           <view class="radio">
-            <radio  value="单选一"></radio>
+            <radio value="单选一" />
             <text class="text">单选一</text>
           </view>
           <view class="radio">
-            <radio  value="单选二"></radio>
+            <radio value="单选二" />
             <text class="text">单选二</text>
           </view>
         </radio-group>
       </view>
       <view class="item-wrap">
-        <text class=" page-section-title section-title">input</text>
+        <text class="page-section-title section-title">input</text>
         <view class="page-cell">
           <input class="page-input" name="input" placeholder="请输入" />
         </view>
@@ -48,21 +48,36 @@
       <view class="item-wrap">
         <text class="page-section-title section-title">textarea</text>
         <view class="textarea-wrap">
-          <textarea name="textarea" placeholder="请输入" class="textarea-box" bindinput="handleTextareaInput"></textarea>
+          <textarea
+            name="textarea"
+            placeholder="请输入"
+            class="textarea-box"
+            bindinput="handleTextareaInput"
+          />
         </view>
       </view>
       <view class="btns-wrap">
         <view class="btn-line">
-          <button form-type="submit" id="triggerBtn" data-info="提交的按钮" type="primary" class="submit-btn">提交</button>
+          <button
+            form-type="submit"
+            id="triggerBtn"
+            data-info="提交的按钮"
+            type="primary"
+            class="submit-btn"
+          >
+            提交
+          </button>
         </view>
         <view class="btn-line">
-          <button form-type="reset" id="resetBtn" data-info="reset的按钮" class="reset-btn">重置</button>
+          <button form-type="reset" id="resetBtn" data-info="reset的按钮" class="reset-btn">
+            重置
+          </button>
         </view>
       </view>
     </form>
     <view class="result-wrap">
       <view ty:for="{{resultData}}" ty:key="name" class="result-item">
-        <text class="result-name">{{item.name}}: </text>
+        <text class="result-name">{{item.name}}:</text>
         <text>{{item.value}}</text>
       </view>
     </view>

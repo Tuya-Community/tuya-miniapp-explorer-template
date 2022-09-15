@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">swiper</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">swiper</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="container">
@@ -13,38 +13,54 @@
         vertical="{{vertical}}"
         interval="{{interval}}"
         duration="{{duration}}"
-        >
+      >
         <block ty:for="{{background}}" ty:key="*this">
           <swiper-item>
-            <view class="swiper-item {{item}}"></view>
+            <view class="swiper-item {{item}}" />
           </swiper-item>
         </block>
       </swiper>
     </view>
-    <view class="page-section" style="margin-top: 40rpx;margin-bottom: 0;">
+    <view class="page-section" style="margin-top: 40rpx; margin-bottom: 0">
       <view class="tyui-cells tyui-cells_after-title">
         <view class="page-cell tyui-cell_switch">
           <view class="tyui-cell__bd">指示点</view>
           <view class="tyui-cell__ft">
-            <switch checked="{{indicatorDots}}" bindchange="changeProperty" data-property-name="indicatorDots" />
+            <switch
+              checked="{{indicatorDots}}"
+              bindchange="changeProperty"
+              data-property-name="indicatorDots"
+            />
           </view>
         </view>
         <view class="page-cell tyui-cell_switch">
           <view class="tyui-cell__bd">自动播放</view>
           <view class="tyui-cell__ft">
-            <switch checked="{{autoplay}}" bindchange="changeProperty" data-property-name="autoplay" />
+            <switch
+              checked="{{autoplay}}"
+              bindchange="changeProperty"
+              data-property-name="autoplay"
+            />
           </view>
         </view>
         <view class="page-cell tyui-cell_switch">
           <view class="tyui-cell__bd">衔接滑动</view>
           <view class="tyui-cell__ft">
-            <switch checked="{{circular}}" bindchange="changeProperty" data-property-name="circular" />
+            <switch
+              checked="{{circular}}"
+              bindchange="changeProperty"
+              data-property-name="circular"
+            />
           </view>
         </view>
         <view class="page-cell tyui-cell_switch">
           <view class="tyui-cell__bd">竖向</view>
           <view class="tyui-cell__ft">
-            <switch checked="{{vertical}}" bindchange="changeProperty" data-property-name="vertical" />
+            <switch
+              checked="{{vertical}}"
+              bindchange="changeProperty"
+              data-property-name="vertical"
+            />
           </view>
         </view>
       </view>
@@ -55,12 +71,24 @@
         <text>幻灯片切换时长(ms)</text>
         <text class="info">{{duration}}</text>
       </view>
-      <slider value="{{duration}}" min="{{500}}" max="{{2000}}" bindchange="changeProperty" data-property-name="duration" />
+      <slider
+        value="{{duration}}"
+        min="{{500}}"
+        max="{{2000}}"
+        bindchange="changeProperty"
+        data-property-name="duration"
+      />
       <view class="page-section-title">
         <text>自动播放间隔时长(ms)</text>
         <text class="info">{{interval}}</text>
       </view>
-      <slider value="{{interval}}" min="{{2000}}" max="{{10000}}" bindchange="changeProperty" data-property-name="interval" />
+      <slider
+        value="{{interval}}"
+        min="{{2000}}"
+        max="{{10000}}"
+        bindchange="changeProperty"
+        data-property-name="interval"
+      />
     </view>
   </view>
 </view>

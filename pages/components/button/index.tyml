@@ -1,6 +1,6 @@
 <view class="page-head">
   <view class="page-head-title">button</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="button-page">
   <button loading="true">纯净button</button>

@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">scroll-view</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">scroll-view</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="page-section">
@@ -8,16 +8,16 @@
     <text>Vertical Scroll</text>
     <view>纵向滚动</view>
   </view>
-  <view class='page-section-spacing'>
-    <scroll-view 
-      style="height: 150px;"
+  <view class="page-section-spacing">
+    <scroll-view
+      style="height: 150px"
       scrollY="{{true}}"
       bindscroll="scroll"
       bindscrolltoupper="upper"
       bindscrolltolower="lower"
-      >
+    >
       <view id="demo1" class="scroll-view-item demo-text-1">A</view>
-      <view id="demo2"  class="scroll-view-item demo-text-2">B</view>
+      <view id="demo2" class="scroll-view-item demo-text-2">B</view>
       <view id="demo3" class="scroll-view-item demo-text-3">C</view>
     </scroll-view>
   </view>
@@ -29,7 +29,7 @@
     <view>横向滚</view>
   </view>
   <view class="page-section-spacing">
-    <scroll-view 
+    <scroll-view
       class="scroll-view_H"
       scrollX="{{true}}"
       scrollIntoView="{{toView}}"
@@ -37,10 +37,10 @@
       bindscroll="scroll"
       bindscrolltoupper="upper"
       bindscrolltolower="lower"
-      >
+    >
       <view class="box">
         <view id="demo4" class="scroll-view-item_H demo-text-1">A</view>
-        <view id="demo5"  class="scroll-view-item_H demo-text-2">B</view>
+        <view id="demo5" class="scroll-view-item_H demo-text-2">B</view>
         <view id="demo6" class="scroll-view-item_H demo-text-3">C</view>
       </view>
     </scroll-view>

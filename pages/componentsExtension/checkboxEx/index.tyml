@@ -13,7 +13,7 @@
           label="{{ item.name }}"
           value="{{ item.value }}"
           checked="{{ item.checked }}"
-        ></mpcheckbox>
+        />
       </mpcheckboxgroup>
     </mpcells>
     <mpcells title="复选列表项">
@@ -24,7 +24,7 @@
           label="{{ item.name }}"
           value="{{ item.value }}"
           checked="{{ item.checked }}"
-        ></mpcheckbox>
+        />
       </mpcheckboxgroup>
     </mpcells>
   </view>

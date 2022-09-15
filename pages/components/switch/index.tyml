@@ -1,15 +1,15 @@
 <view class="page-head">
   <view class="page-head-title">switch</view>
-  <view class="page-head-line"></view>
+  <view class="page-head-line" />
 </view>
 <view class="page">
   <view class="page__bd">
     <view class="section section_gap">
       <text class="page__desc pdl0">默认样式 type="switch"</text>
       <view class="body-view">
-        <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change"/>
-        <switch bindchange="switch1Change"/>
-        <switch bindchange="switch1Change" color="var(--app-native-warn-color)"/>
+        <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change" />
+        <switch bindchange="switch1Change" />
+        <switch bindchange="switch1Change" color="var(--app-native-warn-color)" />
       </view>
     </view>
     <view class="section section_gap">
@@ -17,8 +17,13 @@
       <view class="body-view">
         <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" />
         <switch bindtouchstart="switch1Change" type="checkbox" checked="true" />
-        <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" disabled="true"/>
-        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" disabled="true"/>
+        <switch
+          bindtouchstart="switch1Change"
+          type="checkbox"
+          checked="{{switch2Checked}}"
+          disabled="true"
+        />
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" disabled="true" />
       </view>
     </view>
   </view>
@@ -26,7 +31,7 @@
   <view class="switch-wrp">
     <view class="switch-item">
       <text>开启中</text>
-      <switch checked="{{true}}"></switch>
+      <switch checked="{{true}}" />
     </view>
     <view class="switch-item">
       <text>关闭</text>

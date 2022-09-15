@@ -1,7 +1,7 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">navigationBarLoading</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -12,5 +12,4 @@
       <button bindtap="setNavigationBarColor">设置页面导航条颜色</button>
     </view>
   </view>
-
 </view>

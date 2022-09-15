@@ -1,7 +1,7 @@
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">scanCode</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -15,5 +15,4 @@
       <button type="primary" bind:tap="scanCode">扫一扫</button>
     </view>
   </view>
-
 </view>

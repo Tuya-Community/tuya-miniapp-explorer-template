@@ -1,9 +1,7 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">get/set/ClipboardData</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -13,7 +11,13 @@
           <view class="tyui-label">Copy</view>
         </view>
         <view class="tyui-cell__bd">
-          <input class="tyui-input" type="text" name="key" value="{{value}}" bind:input="valueChanged"></input>
+          <input
+            class="tyui-input"
+            type="text"
+            name="key"
+            value="{{value}}"
+            bind:input="valueChanged"
+          />
         </view>
       </view>
       <view class="tyui-cell tyui-cell_input">
@@ -31,5 +35,4 @@
       <button bind:tap="paste">粘贴</button>
     </view>
   </view>
-
 </view>

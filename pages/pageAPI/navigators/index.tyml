@@ -1,9 +1,7 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">navigateTo/Back, redirectTo</view>
-    <view class="page-head-line"></view>
+    <view class="page-head-line" />
   </view>
 
   <view class="page-body">
@@ -15,5 +13,4 @@
       <button bindtap="reLaunch">关闭所有页面并跳转</button>
     </view>
   </view>
-
 </view>

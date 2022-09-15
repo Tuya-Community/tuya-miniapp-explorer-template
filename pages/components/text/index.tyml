@@ -1,10 +1,9 @@
 <view class="page-head">
-	<view class="page-head-title">text</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">text</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="text-page">
-
   <view class="page-body">
     <view class="l-r-padding">
       <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">

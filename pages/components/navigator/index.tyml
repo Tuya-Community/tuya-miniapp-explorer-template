@@ -1,22 +1,47 @@
 <view class="page-head">
-	<view class="page-head-title">navigator</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">navigator</view>
+  <view class="page-head-line" />
 </view>
 
 <view class="btn-area l-r-padding">
   <button class="navigator-btn">
-    <navigator url="pages/components/button/index" class="link" hover-class="navigator-hover">跳转到新页面 button</navigator>
+    <navigator url="pages/components/button/index" class="link" hover-class="navigator-hover">
+      跳转到新页面 button
+    </navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/view/index" class="link" open-type="redirect" hover-class="other-navigator-hover">在当前页打开 view</navigator>
+    <navigator
+      url="pages/components/view/index"
+      class="link"
+      open-type="redirect"
+      hover-class="other-navigator-hover"
+    >
+      在当前页打开 view
+    </navigator>
   </button>
   <button class="navigator-btn">
-    <navigator  class="link" open-type="navigateBack" hover-class="other-navigator-hover">返回</navigator>
+    <navigator class="link" open-type="navigateBack" hover-class="other-navigator-hover">
+      返回
+    </navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/index" class="link" open-type="switchTab" hover-class="other-navigator-hover">切换到tab</navigator>
+    <navigator
+      url="pages/components/index"
+      class="link"
+      open-type="switchTab"
+      hover-class="other-navigator-hover"
+    >
+      切换到tab
+    </navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/input/index" class="link" open-type="reLaunch" hover-class="other-navigator-hover">reLaunch 打开 input</navigator>
+    <navigator
+      url="pages/components/input/index"
+      class="link"
+      open-type="reLaunch"
+      hover-class="other-navigator-hover"
+    >
+      reLaunch 打开 input
+    </navigator>
   </button>
 </view>

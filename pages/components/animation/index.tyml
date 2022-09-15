@@ -1,9 +1,8 @@
-
 <view class="container">
   <view class="page-body">
     <view class="page-section">
       <view class="animation-element-wrapper">
-        <view class="animation-element" animation="{{animation}}"></view>
+        <view class="animation-element" animation="{{animation}}" />
       </view>
       <view class="animation-buttons" scroll-y="true">
         <button class="animation-button" bindtap="rotate">旋转</button>
