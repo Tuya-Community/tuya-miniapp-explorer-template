@@ -1,8 +1,8 @@
 Page({
   data: {
-    lastName: "tony",
-    firstName: "zhang",
-    mobilePhoneNumber: "10086"
+    lastName: 'tony',
+    firstName: 'zhang',
+    mobilePhoneNumber: '10086',
   },
   submit(e) {
     const formData = e.detail.value
@@ -14,7 +14,7 @@ Page({
       },
       fail(res) {
         console.log('addPhoneContact ====== fail', res)
-      }
+      },
     })
-  }
+  },
 })

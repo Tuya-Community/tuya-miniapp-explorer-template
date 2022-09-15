@@ -36,10 +36,7 @@ Page({
       ty.getStorage({
         key,
         success: function (storageData) {
-          console.log(
-            'getStorage ======== success',
-            JSON.stringify(storageData)
-          )
+          console.log('getStorage ======== success', JSON.stringify(storageData))
           if (storageData === '') {
             that.setData({
               key,

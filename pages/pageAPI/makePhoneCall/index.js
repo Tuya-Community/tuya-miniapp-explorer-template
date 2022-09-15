@@ -1,17 +1,17 @@
 Page({
   data: {
-    disabled: true
+    disabled: true,
   },
   bindInput(e) {
     this.inputValue = e.detail.value
 
     if (this.inputValue.length > 0) {
       this.setData({
-        disabled: false
+        disabled: false,
       })
     } else {
       this.setData({
-        disabled: true
+        disabled: true,
       })
     }
   },
@@ -20,7 +20,7 @@ Page({
       phoneNumber: this.inputValue,
       success() {
         console.log('成功拨打电话')
-      }
+      },
     })
-  }
+  },
 })

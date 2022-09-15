@@ -10,19 +10,19 @@ Page({
     console.log('加载了一页数据')
     const demoList = this.getList(20)
     this.setData({
-      [`list[${this.data.list.length}]`]: demoList
+      [`list[${this.data.list.length}]`]: demoList,
     })
   },
   getList(num) {
     const list = []
     for (let i = 0; i < num; i++) {
       list.push({
-        height: this.getRadomHeight()
+        height: this.getRadomHeight(),
       })
     }
     return list
   },
   getRadomHeight() {
     return parseInt(Math.random() * 100 + 300)
-  }
+  },
 })

@@ -4,9 +4,9 @@ Page({
   },
   showNavigationBarLoading() {
     ty.showNavigationBarLoading({
-      complete: function() {
+      complete: function () {
         console.log('showNavigationBarLoading')
-      }
+      },
     })
   },
   hideNavigationBarLoading() {
@@ -14,17 +14,17 @@ Page({
   },
   setNavigationBarTitle() {
     ty.setNavigationBarTitle({
-      title: '测试测试'
+      title: '测试测试',
     })
   },
-  setNavigationBarColor(){
+  setNavigationBarColor() {
     ty.setNavigationBarColor({
       frontColor: '#ffffff',
       backgroundColor: '#ff0000',
       animation: {
         duration: 2,
-        timingFunc: 'easeIn'
-      }
+        timingFunc: 'easeIn',
+      },
     })
-  }
+  },
 })

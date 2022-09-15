@@ -1,6 +1,6 @@
 Page({
   navigateTo() {
-    ty.navigateTo({url: 'pages/pageAPI/navigators/index'})
+    ty.navigateTo({ url: 'pages/pageAPI/navigators/index' })
   },
 
   navigateBack() {
@@ -8,14 +8,14 @@ Page({
   },
 
   redirectTo() {
-    ty.redirectTo({url: 'pages/pageAPI/navigators/index'})
+    ty.redirectTo({ url: 'pages/pageAPI/navigators/index' })
   },
 
   switchTab() {
-    ty.switchTab({url: 'pages/components/index'})
+    ty.switchTab({ url: 'pages/components/index' })
   },
 
   reLaunch() {
-    ty.tabBarTo({url: 'pages/components/index'})
-  }
+    ty.tabBarTo({ url: 'pages/components/index' })
+  },
 })

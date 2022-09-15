@@ -2,15 +2,13 @@
 export const INCREASE = 'INCREASE'
 
 export const increase = {
-  type: INCREASE
+  type: INCREASE,
 }
 
 export const addCountAsync = () => {
-  return dispatch => {
+  return (dispatch) => {
     setTimeout(() => {
-      dispatch(
-        { type: 'GET_DATA' }
-      )
+      dispatch({ type: 'GET_DATA' })
     }, 2000)
   }
 }

@@ -1,6 +1,6 @@
 Page({
   data: {
-    screenBrightness: 0
+    screenBrightness: 0,
   },
 
   onLoad() {
@@ -10,16 +10,16 @@ Page({
   changeBrightness(e) {
     const value = parseFloat(e.detail.value).toFixed(1)
     this.setData({
-      screenBrightness: value
+      screenBrightness: value,
     })
     ty.setScreenBrightness({
       value,
-      success: function(res) {
+      success: function (res) {
         console.log(`setScreenBrightness ========= success`, res)
       },
-      fail: function(res) {
+      fail: function (res) {
         console.log(`setScreenBrightness ========= fail`, res)
-      }
+      },
     })
   },
 
@@ -27,17 +27,15 @@ Page({
     const self = this
     // console.log(`_updateScreenBrightness`)
     ty.getScreenBrightness({
-      success: function(res) {
+      success: function (res) {
         console.log(`getScreenBrightness ========= success`, res)
         self.setData({
-          screenBrightness: Number.parseFloat(
-            res.value.toFixed(1)
-          )
+          screenBrightness: Number.parseFloat(res.value.toFixed(1)),
         })
       },
-      fail: function(res) {
+      fail: function (res) {
         console.log(`getScreenBrightness ========= fail`, res)
-      }
+      },
     })
-  }
+  },
 })

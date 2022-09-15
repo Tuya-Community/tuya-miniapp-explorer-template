@@ -7,37 +7,37 @@ Page({
     const self = this
 
     self.setData({
-      loading: true
+      loading: true,
     })
 
     ty.request({
       url: requestUrl,
       requestId: 'test-request',
-      method: "GET",
+      method: 'GET',
       success(result) {
         self.setData({
-          loading: false
+          loading: false,
         })
         ty.showModal({
           title: '请求成功',
           content: `${result.data}`,
           confirmText: '确定',
-          cancelText: '取消'
+          cancelText: '取消',
         })
 
         console.log('request success', result)
       },
 
-      fail({errMsg}) {
+      fail({ errMsg }) {
         console.log('request fail', errMsg)
         ty.showToast({
           title: '请求失败',
-          icon: 'none'
+          icon: 'none',
         })
         self.setData({
-          loading: false
+          loading: false,
         })
-      }
+      },
     })
-  }
+  },
 })

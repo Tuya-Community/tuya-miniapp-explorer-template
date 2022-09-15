@@ -1,6 +1,6 @@
 Page({
   data: {
-    result: ''
+    result: '',
   },
 
   scanCode() {
@@ -9,12 +9,12 @@ Page({
       success(res) {
         console.log(`scanCode ===== success `, res)
         that.setData({
-          result: res.result
+          result: res.result,
         })
       },
       fail(res) {
         console.log(`scanCode ===== success `, res)
-      }
+      },
     })
-  }
+  },
 })
