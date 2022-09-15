@@ -1,127 +1,130 @@
 <sjs module="c3">
-  var getQuery = function(a,b,c){ const query = b.descriptor.createSelectorQuery(); query
-  .select('.pb20') .fields({ size: true, scrollOffset: true, node: true }, function (res) {
-  console.log(1001, res) }) .exec() }; module.exports = { getQuery: getQuery }
+  var getQuery = function(a,b,c) {
+  const query = b.descriptor.createSelectorQuery(); 
+  query.select('.pb20').fields({ size: true, scrollOffset: true, node: true }, function (res) {
+    console.log(1001, res)
+  }).exec()
+  }; 
+module.exports = { getQuery: getQuery }
 </sjs>
-<scrollview class="panel-page-wrp">
-  <image
-    class="top-fan"
-    mode="aspectFit"
-    src="/assets/images/panel/fan.png"
-    style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"
-  />
-  <view class="fan-config-area">
-    <view class="config-item">
-      <text class="config-item-title" bindtap="{{c3.getQuery}}">当前温度</text>
-      <text class="config-item-subtitle">0℃</text>
-    </view>
-    <view class="config-item">
-      <text class="config-item-title">倒计时剩余时间</text>
-      <text class="config-item-subtitle">50分钟</text>
-    </view>
-    <view class="config-item border0">
-      <text class="config-item-title">工作模式</text>
-      <text class="config-item-subtitle">自然风</text>
+
+<image
+  class="top-fan"
+  mode="aspectFit"
+  src="/assets/images/panel/fan.png"
+  style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"
+/>
+<view class="fan-config-area">
+  <view class="config-item">
+    <text class="config-item-title" bindtap="{{c3.getQuery}}">当前温度</text>
+    <text class="config-item-subtitle">0℃</text>
+  </view>
+  <view class="config-item">
+    <text class="config-item-title">倒计时剩余时间</text>
+    <text class="config-item-subtitle">50分钟</text>
+  </view>
+  <view class="config-item border0">
+    <text class="config-item-title">工作模式</text>
+    <text class="config-item-subtitle">自然风</text>
+  </view>
+</view>
+<view class="pb20">
+  <view class="config-list-area">
+    <text>风扇{{isOpen ? '开' : '关'}}</text>
+    <view
+      class="config-list-icon-wrp {{isOpen ? 'config-list-icon-wrp-active' : ''}}"
+      bindtap="togglePan"
+    >
+      <image
+        src="/assets/images/panel/icon-close-brand.png"
+        style="display: {{isOpen ? 'none' : 'inline-block'}}"
+        class="config-list-icon"
+      />
+      <image
+        src="/assets/images/panel/icon-close-white.png"
+        style="display: {{isOpen ? 'inline-block' : 'none'}}"
+        class="config-list-icon"
+      />
     </view>
   </view>
-  <view class="pb20">
-    <view class="config-list-area">
-      <text>风扇{{isOpen ? '开' : '关'}}</text>
-      <view
-        class="config-list-icon-wrp {{isOpen ? 'config-list-icon-wrp-active' : ''}}"
-        bindtap="togglePan"
-      >
-        <image
-          src="/assets/images/panel/icon-close-brand.png"
-          style="display: {{isOpen ? 'none' : 'inline-block'}}"
-          class="config-list-icon"
-        />
-        <image
-          src="/assets/images/panel/icon-close-white.png"
-          style="display: {{isOpen ? 'inline-block' : 'none'}}"
-          class="config-list-icon"
-        />
-      </view>
+  <view class="config-list-area" bindtap="toggleContainer">
+    <view class="config-left-title">
+      <image
+        src="/assets/images/panel/icon-fan.png"
+        mode="widthFix"
+        style="margin-right: 10px; width: 20px"
+      />
+      <text>风速</text>
     </view>
-    <view class="config-list-area" bindtap="toggleContainer">
+    <view class="config-right-area">
+      <text class="config-right-title">{{spinSpeed + ''}}</text>
+      <image
+        src="/assets/images/panel/icon-arrow-right.png"
+        mode="widthFix"
+        class="config-right-icon"
+      />
+    </view>
+  </view>
+  <view class="config-list-area flex-column">
+    <view class="config-rock-top-area w100">
       <view class="config-left-title">
         <image
-          src="/assets/images/panel/icon-fan.png"
+          src="/assets/images/panel/icon-rock.png"
           mode="widthFix"
           style="margin-right: 10px; width: 20px"
         />
-        <text>风速</text>
+        <text>上下摆风开关</text>
       </view>
       <view class="config-right-area">
-        <text class="config-right-title">{{spinSpeed + ''}}</text>
-        <image
-          src="/assets/images/panel/icon-arrow-right.png"
-          mode="widthFix"
-          class="config-right-icon"
-        />
+        <switch color="rgb(75,177,152)" />
       </view>
     </view>
-    <view class="config-list-area flex-column">
-      <view class="config-rock-top-area w100">
-        <view class="config-left-title">
-          <image
-            src="/assets/images/panel/icon-rock.png"
-            mode="widthFix"
-            style="margin-right: 10px; width: 20px"
-          />
-          <text>上下摆风开关</text>
-        </view>
-        <view class="config-right-area">
-          <switch color="rgb(75,177,152)" />
-        </view>
-      </view>
-      <view class="config-right-area w100">
-        <view
-          class="rock-btn-wrp"
-          ty:for="{{rockRotate}}"
-          ty:key="*this"
-          data-index="{{index}}"
-          bindtap="checkRockBtn"
-        >
-          <view class="rock-btn {{index === rockRotateIndex ? 'rock-btn-active' : ''}}">
-            {{item}}
-          </view>
+    <view class="config-right-area w100">
+      <view
+        class="rock-btn-wrp"
+        ty:for="{{rockRotate}}"
+        ty:key="*this"
+        data-index="{{index}}"
+        bindtap="checkRockBtn"
+      >
+        <view class="rock-btn {{index === rockRotateIndex ? 'rock-btn-active' : ''}}">
+          {{item}}
         </view>
       </view>
     </view>
   </view>
-  <page-container
-    show="{{showContainer}}"
-    position="bottom"
-    round="{{true}}"
-    bindclickoverlay="toggleContainer"
-  >
-    <view class="container-view-wrp">
-      <view class="container-view-title">风速</view>
-      <view class="container-view-num">{{tempspinSpeed+''}}</view>
-      <view class="slider-wrp">
-        <image
-          src="/assets/images/panel/icon-add-select.png"
-          mode="heightFix"
-          style="width: 20px; height: 20px"
-        />
-        <slider
-          class="container-slider"
-          backgroundColor="rgba(75,177,152)"
-          bindchanging="handleChangeSlider"
-          bindchange="handleChangeSlider"
-          value="{{tempspinSpeed}}"
-        />
-        <image
-          src="/assets/images/panel/icon-sami-select.png"
-          mode="heightFix"
-          style="width: 20px; height: 20px"
-        />
-      </view>
-      <view class="container-btn-wrp">
-        <button class="btn-right" bindtap="confirmContainer" type="primary">确认</button>
-        <button class="btn-left" bindtap="toggleContainer" type="default">取消</button>
-      </view>
+</view>
+<page-container
+  show="{{showContainer}}"
+  position="bottom"
+  round="{{true}}"
+  bindclickoverlay="toggleContainer"
+>
+  <view class="container-view-wrp">
+    <view class="container-view-title">风速</view>
+    <view class="container-view-num">{{tempspinSpeed+''}}</view>
+    <view class="slider-wrp">
+      <image
+        src="/assets/images/panel/icon-add-select.png"
+        mode="heightFix"
+        style="width: 20px; height: 20px"
+      />
+      <slider
+        class="container-slider"
+        backgroundColor="rgba(75,177,152)"
+        bindchanging="handleChangeSlider"
+        bindchange="handleChangeSlider"
+        value="{{tempspinSpeed}}"
+      />
+      <image
+        src="/assets/images/panel/icon-sami-select.png"
+        mode="heightFix"
+        style="width: 20px; height: 20px"
+      />
     </view>
-  </page-container>
-</scrollview>
+    <view class="container-btn-wrp">
+      <button class="btn-right" bindtap="confirmContainer" type="primary">确认</button>
+      <button class="btn-left" bindtap="toggleContainer" type="default">取消</button>
+    </view>
+  </view>
+</page-container>

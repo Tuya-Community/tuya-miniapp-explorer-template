@@ -1,6 +1,6 @@
 {
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "组件",
+  "navigationBarTitleText": "扩展组件",
   "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "dark"
+  "navigationBarTextStyle": "@navTxtStyle",
+  "backgroundTextStyle": "@bgTxtStyle"
 }

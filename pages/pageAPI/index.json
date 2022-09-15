@@ -1,6 +1,6 @@
 {
-  "navigationBarTextStyle": "black",
   "navigationBarTitleText": "小程序接口能力展示",
   "backgroundColor": "#f2f4f6",
-  "backgroundTextStyle": "light"
+  "navigationBarTextStyle": "@navTxtStyle",
+  "backgroundTextStyle": "@bgTxtStyle"
 }
