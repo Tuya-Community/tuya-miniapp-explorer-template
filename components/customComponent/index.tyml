@@ -47,7 +47,7 @@
 
 <view bind:tap="onTap2">Template root 222222222 {{count}}</view> -->
 
- <!-- <template name="view">
+<!-- <template name="view">
   <view>
     <template is="children" data="{{r: r.children}}" />
   </view>
@@ -82,7 +82,6 @@
 </template>
 
 <template is="root" data="{{r: root}}"></template> -->
-
 
 <view class="custom-container" style="display: inline" bind:tap="changeCount">
   view hhh

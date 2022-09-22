@@ -15,17 +15,7 @@
       <button slot="footer" type="default" plain class="half-screen-content-btn">样式一</button>
       <button slot="footer" type="primary" class="half-screen-content-btn">样式一</button>
     </mphalfScreenDialog>
-    <mphalfScreenDialog
-          bindbuttontap="buttontap"
-          show="{{typeS}}"
-          maskClosable="{{false}}"
-          title="测试标题样式二"
-          subTitle="测试标题B的副标题"
-          desc="辅助描述内容，可根据实际需要安排"
-          tips="辅助提示内容，可根据实际需要安排"
-          buttons="{{buttons}}"
-          bindclose="onCloseTypeS"
-        ></mphalfScreenDialog>
+    <mphalfScreenDialog bindbuttontap="buttontap" show="{{typeS}}" maskClosable="{{false}}" title="测试标题样式二" subTitle="测试标题B的副标题" desc="辅助描述内容，可根据实际需要安排" tips="辅助提示内容，可根据实际需要安排" buttons="{{buttons}}" bindclose="onCloseTypeS"></mphalfScreenDialog>
     <mphalfScreenDialog show="{{typeT}}" closabled="{{false}}" bindclose="onCloseTypeT">
       <view slot="title">测试标题样式三</view>
       <view slot="desc">这是自定义描述区</view>

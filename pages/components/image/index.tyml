@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">image</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">image</view>
+  <view class="page-head-line"></view>
 </view>
 
 <view class="section l-r-padding" ty:for="{{array}}" ty:key="mode">

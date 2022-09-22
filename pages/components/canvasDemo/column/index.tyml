@@ -2,11 +2,7 @@
 <view class="pageContainer">
   <view class="pageView">-------- 页面图表 ---------</view>
   {{column.too}}
-  <canvas
-    class="canvasPageDom"
-    canvas-id="pageCanvas"
-    style="width: 100%; height: 250px;"
-  ></canvas>
+  <canvas class="canvasPageDom" canvas-id="pageCanvas" style="width: 100%; height: 250px"></canvas>
   <button bindtap="draw">重新渲染页面图表</button>
   <view class="pageView">-------- 自定义组件图表 ---------</view>
   <ff-chart></ff-chart>

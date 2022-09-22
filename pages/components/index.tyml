@@ -3,10 +3,7 @@
     <image class="index-logo" src="/assets/images/Grouplogo.png"></image>
     <view class="index-desc">以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求自定义组件样式。</view>
   </view>
-  <mptabs
-  tabs="{{tabs}}"
-  swiperClass="plus-tabs-swiper"
-  activeClass="tab-bar-title__selected">
+  <mptabs tabs="{{tabs}}" swiperClass="plus-tabs-swiper" activeClass="tab-bar-title__selected">
     <view class="index-bd" slot="tab-content-0">
       <view class="kind-list">
         <block ty:for="{{list}}">

@@ -59,7 +59,7 @@
           <view class="plus-cells plus-cells_in-small-appmsg">
             <navigator url="" class="plus-cell plus-cell_example plus-cell_access" hover-class="plus-cell_active">
               <view class="plus-cell__hd">
-                <image src="/assets/images/component/resources/kind/logo.png" style="width: 20px;height: 20px;margin-right: 16px;vertical-align:middle;" />
+                <image src="/assets/images/component/resources/kind/logo.png" style="width: 20px; height: 20px; margin-right: 16px; vertical-align: middle" />
               </view>
               <view class="plus-cell__bd plus-cell_primary">
                 <view>文字标题</view>
@@ -68,7 +68,7 @@
             </navigator>
             <navigator url="" class="plus-cell plus-cell_example plus-cell_access" hover-class="plus-cell_active">
               <view class="plus-cell__hd">
-                <image src="/assets/images/component/resources/kind/logo.png" style="width: 20px;height: 20px;margin-right: 16px;vertical-align:middle;" />
+                <image src="/assets/images/component/resources/kind/logo.png" style="width: 20px; height: 20px; margin-right: 16px; vertical-align: middle" />
               </view>
               <view class="plus-cell__bd plus-cell_primary">
                 <view>文字标题</view>

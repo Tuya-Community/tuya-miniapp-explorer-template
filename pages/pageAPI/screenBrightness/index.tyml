@@ -1,5 +1,3 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">get/set/ScreenBrightness</view>
@@ -14,7 +12,7 @@
     <view class="page-section page-section-gap">
       <view class="page-section-title">设置屏幕亮度</view>
       <view class="body-view">
-        <slider bindchange="changeBrightness" value="{{screenBrightness}}" min="0" max="1" step="0.1"/>
+        <slider bindchange="changeBrightness" value="{{screenBrightness}}" min="0" max="1" step="0.1" />
       </view>
     </view>
   </view>

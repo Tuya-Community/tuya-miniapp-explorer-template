@@ -1,13 +1,13 @@
 <view class="page" data-tyui-theme="{{theme}}">
-    <view class="page__hd">
-        <view class="page__title">Loading</view>
-        <view class="page__desc">加载中</view>
-    </view>
-    <view class="page__bd">
-        <!-- <button bindtap="close">关闭animateion</button> -->
-        <mploading type="circle"></mploading>
-        <!-- <mploading type="circle" tips="{{tips}}"></mploading> -->
-        <mploading duration="{{900}}" ext-class="demo0" type="dot-gray" show="{{show}}" animated="{{animated}}"></mploading>
-        <mploading type="dot-white" ext-class="demo1"></mploading>
-    </view>
+  <view class="page__hd">
+    <view class="page__title">Loading</view>
+    <view class="page__desc">加载中</view>
+  </view>
+  <view class="page__bd">
+    <!-- <button bindtap="close">关闭animateion</button> -->
+    <mploading type="circle"></mploading>
+    <!-- <mploading type="circle" tips="{{tips}}"></mploading> -->
+    <mploading duration="{{900}}" ext-class="demo0" type="dot-gray" show="{{show}}" animated="{{animated}}"></mploading>
+    <mploading type="dot-white" ext-class="demo1"></mploading>
+  </view>
 </view>

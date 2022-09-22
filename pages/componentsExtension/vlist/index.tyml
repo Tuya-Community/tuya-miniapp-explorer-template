@@ -3,7 +3,6 @@
     <view class="page__title">Index List</view>
     <view class="page__desc">类通讯录列表</view>
   </view>
-  <view class="page__bd">
-        </view>
+  <view class="page__bd"> </view>
 </view>
 <mpindexList class="city__list" list="{{list}}" bindchoose="onChoose"></mpindexList>

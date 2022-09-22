@@ -1,19 +1,4 @@
-<sjs module="c3">
-
-var getQuery = function(a,b,c){
-  const query = b.descriptor.createSelectorQuery()
-    query
-      .select('.pb20')
-      .fields({ size: true, scrollOffset: true, node: true }, function (res) {
-        console.log(1001, res)
-      })
-      .exec()
-}
-
-module.exports = {
-  getQuery: getQuery
-}
-</sjs>
+<sjs module="c3"> var getQuery = function(a,b,c){ const query = b.descriptor.createSelectorQuery() query .select('.pb20') .fields({ size: true, scrollOffset: true, node: true }, function (res) { console.log(1001, res) }) .exec() } module.exports = { getQuery: getQuery } </sjs>
 <scrollview class="panel-page-wrp">
   <image class="top-fan" mode="aspectFit" src="/assets/images/panel/fan.png" style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"></image>
   <view class="fan-config-area">
@@ -33,8 +18,7 @@ module.exports = {
   <view class="pb20">
     <view class="config-list-area">
       <text>风扇{{isOpen ? '开' : '关'}}</text>
-      <view class="config-list-icon-wrp {{isOpen ? 'config-list-icon-wrp-active' : ''}}"
-                  bindtap="togglePan">
+      <view class="config-list-icon-wrp {{isOpen ? 'config-list-icon-wrp-active' : ''}}" bindtap="togglePan">
         <image src="/assets/images/panel/icon-close-brand.png" style="display: {{isOpen ? 'none' : 'inline-block'}}" class="config-list-icon"></image>
         <image src="/assets/images/panel/icon-close-white.png" style="display: {{isOpen ? 'inline-block' : 'none'}}" class="config-list-icon"></image>
       </view>
@@ -66,12 +50,7 @@ module.exports = {
       </view>
     </view>
   </view>
-  <page-container
-      show="{{showContainer}}"
-      position="bottom"
-      round="{{true}}"
-      bindclickoverlay="toggleContainer"
-    >
+  <page-container show="{{showContainer}}" position="bottom" round="{{true}}" bindclickoverlay="toggleContainer">
     <view class="container-view-wrp">
       <view class="container-view-title">风速</view>
       <view class="container-view-num">{{tempspinSpeed+''}}</view>
@@ -82,7 +61,7 @@ module.exports = {
       </view>
       <view class="container-btn-wrp">
         <button class="btn-right" bindtap="confirmContainer" type="primary">确认</button>
-        <button class="btn-left"  bindtap="toggleContainer" type="default">取消</button>
+        <button class="btn-left" bindtap="toggleContainer" type="default">取消</button>
       </view>
     </view>
   </page-container>

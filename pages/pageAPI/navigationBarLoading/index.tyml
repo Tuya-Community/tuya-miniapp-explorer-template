@@ -12,5 +12,4 @@
       <button bindtap="setNavigationBarColor">设置页面导航条颜色</button>
     </view>
   </view>
-
 </view>

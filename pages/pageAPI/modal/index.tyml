@@ -1,5 +1,3 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">modal</view>
@@ -12,5 +10,4 @@
       <button type="default" bindtap="noTitlemodalTap">无标题的modal</button>
     </view>
   </view>
-
 </view>

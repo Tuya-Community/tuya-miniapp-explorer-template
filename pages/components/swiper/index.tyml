@@ -5,15 +5,7 @@
 <view class="container">
   <view class="page-body">
     <view class="page-section page-section-spacing swiper">
-      <swiper
-        
-        indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}"
-        circular="{{circular}}"
-        vertical="{{vertical}}"
-        interval="{{interval}}"
-        duration="{{duration}}"
-        >
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}">
         <block ty:for="{{background}}" ty:key="*this">
           <swiper-item>
             <view class="swiper-item {{item}}"></view>
@@ -21,7 +13,7 @@
         </block>
       </swiper>
     </view>
-    <view class="page-section" style="margin-top: 40rpx;margin-bottom: 0;">
+    <view class="page-section" style="margin-top: 40rpx; margin-bottom: 0">
       <view class="plus-cells plus-cells_after-title">
         <view class="page-cell plus-cell_switch">
           <view class="plus-cell__bd">指示点</view>

@@ -14,13 +14,13 @@
       </mpcells>
       <mpcells title="表单" footer="底部说明文字底部说明文字">
         <mpcell prop="name" title="姓名" ext-class="">
-          <input bindinput="formInputChange" data-field="name" class="plus-input" placeholder="请输入姓名"/>
+          <input bindinput="formInputChange" data-field="name" class="plus-input" placeholder="请输入姓名" />
         </mpcell>
         <mpcell prop="qq" title="qq" ext-class="">
-          <input bindinput="formInputChange" data-field="qq" class="plus-input" placeholder="请输入qq"/>
+          <input bindinput="formInputChange" data-field="qq" class="plus-input" placeholder="请输入qq" />
         </mpcell>
         <mpcell prop="mobile" title="手机号" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="mobile" class="plus-input" placeholder="请输入手机号"/>
+          <input bindinput="formInputChange" data-field="mobile" class="plus-input" placeholder="请输入手机号" />
           <button slot="footer" type="default" class="plus-vcode-btn">获取验证码</button>
         </mpcell>
         <mpcell prop="date" title="日期" ext-class="">
@@ -29,13 +29,13 @@
           </picker>
         </mpcell>
         <mpcell prop="vcode" title="验证码" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="vcode" class="plus-input" placeholder="请输入验证码"/>
+          <input bindinput="formInputChange" data-field="vcode" class="plus-input" placeholder="请输入验证码" />
           <image slot="footer" class="plus-vcode-img" src="/assets/images/vcode.jpg" style="width: 108px; height: 30px"></image>
         </mpcell>
       </mpcells>
       <mpcells title="提交后表单项报错">
         <mpcell show-error prop="idcard" title="卡号" ext-class="">
-          <input bindinput="formInputChange" data-field="idcard" class="plus-input" placeholder="请输入卡号"/>
+          <input bindinput="formInputChange" data-field="idcard" class="plus-input" placeholder="请输入卡号" />
         </mpcell>
       </mpcells>
       <mpcells title="开关">
@@ -57,7 +57,7 @@
       <mpcells title="选择">
         <mpcell ext-class="plus-cell_select plus-cell_select-before">
           <view slot="title" style="width: 105px">
-            <picker aria-role="listbox"  bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
+            <picker aria-role="listbox" bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
               <view>{{countryCodes[countryCodeIndex]}}</view>
             </picker>
           </view>
@@ -82,7 +82,8 @@
       <label class="plus-agree">
         <checkbox />
         <text class="plus-agree__checkbox"></text>
-        <view class="plus-agree__text">阅读并同意
+        <view class="plus-agree__text"
+          >阅读并同意
           <navigator>《相关条款》</navigator>
         </view>
       </label>

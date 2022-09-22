@@ -7,9 +7,9 @@
     <view class="section section_gap">
       <text class="page__desc pdl0">默认样式 type="switch"</text>
       <view class="body-view">
-        <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change"/>
-        <switch bindchange="switch1Change"/>
-        <switch bindchange="switch1Change" color="var(--app-native-warn-color)"/>
+        <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change" />
+        <switch bindchange="switch1Change" />
+        <switch bindchange="switch1Change" color="var(--app-native-warn-color)" />
       </view>
     </view>
     <view class="section section_gap">
@@ -17,8 +17,8 @@
       <view class="body-view">
         <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" />
         <switch bindtouchstart="switch1Change" type="checkbox" checked="true" />
-        <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" disabled="true"/>
-        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" disabled="true"/>
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" disabled="true" />
+        <switch bindtouchstart="switch1Change" type="checkbox" checked="true" disabled="true" />
       </view>
     </view>
   </view>

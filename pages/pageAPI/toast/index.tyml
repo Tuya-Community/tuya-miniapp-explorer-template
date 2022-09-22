@@ -1,5 +1,3 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">toast</view>
@@ -22,5 +20,4 @@
       </view>
     </view>
   </view>
-
 </view>

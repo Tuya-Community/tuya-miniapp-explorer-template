@@ -9,5 +9,4 @@
       <button type="default" bindtap="actionSheetTap">弹出action sheet</button>
     </view>
   </view>
-
 </view>

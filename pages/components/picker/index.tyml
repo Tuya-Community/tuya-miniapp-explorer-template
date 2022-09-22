@@ -5,48 +5,36 @@
 <view class="section">
   <text class="page__desc">普通选择器</text>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-    <view class="picker">
-      当前选择：{{array[index]}}
-    </view>
+    <view class="picker"> 当前选择：{{array[index]}} </view>
   </picker>
 </view>
 <view class="section">
   <view class="page__desc">普通objectArray选择器</view>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{objectArray}}" range-key="{{'id'}}">
-    <view class="picker">
-      当前选择：{{array[index]}}
-    </view>
+    <view class="picker"> 当前选择：{{array[index]}} </view>
   </picker>
 </view>
 <view class="section">
   <view class="page__desc">多列选择器</view>
   <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
-    <view class="picker">
-      当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
-    </view>
+    <view class="picker"> 当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}} </view>
   </picker>
 </view>
 <view class="section">
   <view class="page__desc">多列ObjectArray选择器</view>
   <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" range="{{objectMultiArray}}" range-key="{{'name'}}">
-    <view class="picker">
-      当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
-    </view>
+    <view class="picker"> 当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}} </view>
   </picker>
 </view>
 <view class="section">
   <view class="page__desc">时间选择器</view>
   <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
-    <view class="picker">
-      当前选择: {{time}}
-    </view>
+    <view class="picker"> 当前选择: {{time}} </view>
   </picker>
 </view>
 <view class="section">
   <view class="page__desc">日期选择器</view>
   <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
-    <view class="picker">
-      当前选择: {{date}}
-    </view>
+    <view class="picker"> 当前选择: {{date}} </view>
   </picker>
 </view>

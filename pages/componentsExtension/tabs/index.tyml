@@ -1,12 +1,5 @@
-<mptabs
-  tabs="{{tabs}}"
-  activeTab="{{activeTab}}"
-  swiperClass="plus-tabs-swiper"
-  bindtabclick="onTabCLick"
-  bindchange="onChange"
-  activeClass="tab-bar-title__selected"
->
-  <view ty:for="{{tabs}}" ty:key="title" slot="tab-content-{{index}}" >
+<mptabs tabs="{{tabs}}" activeTab="{{activeTab}}" swiperClass="plus-tabs-swiper" bindtabclick="onTabCLick" bindchange="onChange" activeClass="tab-bar-title__selected">
+  <view ty:for="{{tabs}}" ty:key="title" slot="tab-content-{{index}}">
     <tyList></tyList>
   </view>
 </mptabs>

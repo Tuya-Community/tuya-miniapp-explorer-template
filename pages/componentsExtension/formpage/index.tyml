@@ -11,7 +11,7 @@
             <label class="plus-label">姓名</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入姓名"/>
+            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入姓名" />
           </view>
         </view>
         <view class="plus-cell">
@@ -19,7 +19,7 @@
             <label class="plus-label">手机号</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入手机号"/>
+            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入手机号" />
           </view>
         </view>
       </view>
@@ -28,7 +28,8 @@
   <view class="plus-form__tips-area">
     <label for="tyuiAgree" class="plus-agree">
       <checkbox></checkbox>
-      <text class="plus-agree__text">阅读并同意
+      <text class="plus-agree__text"
+        >阅读并同意
         <navigator href="javascript:void(0);">《相关条款》</navigator>
       </text>
     </label>

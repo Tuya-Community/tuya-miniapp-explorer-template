@@ -1,34 +1,20 @@
 <view class="page-head">
-	<view class="page-head-title">textarea</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">textarea</view>
+  <view class="page-head-line"></view>
 </view>
 
 <view class="page-body">
   <view class="page-section">
     <view class="page-section-title l-r-padding">输入区域高度自适应，不会出现滚动条</view>
     <view class="textarea-wrp">
-      <textarea 
-        class="textarea-box" 
-        placeholder="请输入"
-        autoHeight="{{true}}"
-        bindinput="bindTextAreainput"
-        bindfocus="bindTextAreaFocus"
-        bindblur="bindTextAreaBlur"
-        bindlinechange="linechange"
-        />
+      <textarea class="textarea-box" placeholder="请输入" autoHeight="{{true}}" bindinput="bindTextAreainput" bindfocus="bindTextAreaFocus" bindblur="bindTextAreaBlur" bindlinechange="linechange" />
     </view>
   </view>
 
   <view class="page-section">
     <view class="page-section-title l-r-padding">这是一个可以自动聚焦的textarea</view>
     <view class="textarea-wrp">
-      <textarea 
-        class="textarea-box" 
-        focus="{{true}}"
-        style="height: 74px"
-        />
+      <textarea class="textarea-box" focus="{{true}}" style="height: 74px" />
     </view>
   </view>
-
 </view>
-

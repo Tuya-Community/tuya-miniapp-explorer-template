@@ -21,16 +21,16 @@
           <!-- <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image> -->
         </mpcell>
         <mpcell value="标题文字" footer="说明文字">
-          <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+          <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"></image>
         </mpcell>
       </mpcells>
     </checkbox-group>
     <mpcells title="带跳转的列表项">
       <mpcell link="{{true}}" hover="{{true}}" value="有hover效果" footer="说明文字">
-        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"></image>
       </mpcell>
       <mpcell link="{{true}}" url="pages/componentsExtension/actionSheetEx/index" value="带跳转URL" footer="说明文字">
-        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+        <image slot="icon" src="/assets/images/component/resources/kind/logo.png" style="margin-right: 16px; vertical-align: middle; width: 20px; height: 20px"></image>
       </mpcell>
     </mpcells>
   </view>

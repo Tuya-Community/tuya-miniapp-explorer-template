@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">page-container</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">page-container</view>
+  <view class="page-head-line"></view>
 </view>
 
 <view class="title">弹出位置</view>
@@ -10,7 +10,6 @@
   <button class="btn" bindtap="popup" data-position="bottom">底部弹出</button>
   <button class="btn" bindtap="popup" data-position="center">中央弹出</button>
 </view>
-
 
 <view class="title">弹窗圆角</view>
 <view class="box">
@@ -23,9 +22,7 @@
   <button class="btn" bindtap="changeOverlayStyle" data-type="black">黑色半透明遮罩</button>
   <button class="btn" bindtap="changeOverlayStyle" data-type="white">白色半透明遮罩</button>
   <button class="btn" bindtap="changeOverlayStyle" data-type="blur">模糊遮罩</button>
-
 </view>
-
 
 <page-container
   style="height: 500px"
@@ -46,8 +43,6 @@
   overlay-style="{{overlayStyle}}"
 >
   <view class="detail-page">
-    <button type="primary" bindtap="exit">
-    推出
-    </button>
+    <button type="primary" bindtap="exit"> 推出 </button>
   </view>
 </page-container>

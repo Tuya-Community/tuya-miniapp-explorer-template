@@ -4,7 +4,7 @@
     <view class="page__desc" bindtouchmove="touchmove">弹出式菜单</view>
   </view>
   <view class="page__bd">
-    <view class="weui-btn-area l-r-padding" >
+    <view class="weui-btn-area l-r-padding">
       <!-- <button class="weui-btn" type="default" bindtap="open">原生 ActionSheet</button> -->
       <button class="base-btn" type="primary" bindtap="openDialog">模拟 ActionSheet</button>
     </view>
