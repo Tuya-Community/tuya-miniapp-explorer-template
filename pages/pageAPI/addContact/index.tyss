@@ -4,7 +4,7 @@ input {
 
 .page-body-text-screen-brightness {
   font-size: 40px;
-  font-family: -apple-system-font, Helvetica Neue,Helvetica,sans-serif;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
 }
 
 .page-section-gap {
@@ -24,7 +24,7 @@ input {
  * Licensed under the MIT license
  */
 
- .page-head {
+.page-head {
   padding: 30px 25px 40px;
   text-align: center;
 }
@@ -37,7 +37,7 @@ input {
   margin: 0 auto;
   width: 75px;
   height: 1px;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-body-info {
@@ -57,7 +57,7 @@ input {
 .page-body-text {
   font-size: 15px;
   line-height: 26px;
-  color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .btn-area {
@@ -1649,9 +1649,8 @@ button.tyui-vcode-btn {
 
 .tyui-msg {
   padding-top: 48px;
-  padding: calc(48px + constant(safe-area-inset-top))
-    constant(safe-area-inset-right) constant(safe-area-inset-bottom)
-    constant(safe-area-inset-left);
+  padding: calc(48px + constant(safe-area-inset-top)) constant(safe-area-inset-right)
+    constant(safe-area-inset-bottom) constant(safe-area-inset-left);
   padding: calc(48px + env(safe-area-inset-top)) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   text-align: center;
@@ -1882,9 +1881,8 @@ button.tyui-vcode-btn {
 
 .tyui-form {
   padding: 56px 0 0;
-  padding: calc(56px + constant(safe-area-inset-top))
-    constant(safe-area-inset-right) constant(safe-area-inset-bottom)
-    constant(safe-area-inset-left);
+  padding: calc(56px + constant(safe-area-inset-top)) constant(safe-area-inset-right)
+    constant(safe-area-inset-bottom) constant(safe-area-inset-left);
   padding: calc(56px + env(safe-area-inset-top)) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   display: -webkit-box;
@@ -1968,10 +1966,8 @@ button.tyui-vcode-btn {
 .tyui-article {
   padding: 24px 16px;
   padding: 24px calc(16px + constant(safe-area-inset-right))
-    calc(24px + constant(safe-area-inset-bottom))
-    calc(16px + constant(safe-area-inset-left));
-  padding: 24px calc(16px + env(safe-area-inset-right))
-    calc(24px + env(safe-area-inset-bottom))
+    calc(24px + constant(safe-area-inset-bottom)) calc(16px + constant(safe-area-inset-left));
+  padding: 24px calc(16px + env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom))
     calc(16px + env(safe-area-inset-left));
   font-size: 17px;
   color: var(--tyui-FG-0);
@@ -2790,8 +2786,8 @@ a.tyui-media-box:active {
   border-top-right-radius: 12px;
   overflow: hidden;
   padding: 0 24px;
-  padding: 0 calc(24px + constant(safe-area-inset-right))
-    constant(safe-area-inset-bottom) calc(24px + constant(safe-area-inset-left));
+  padding: 0 calc(24px + constant(safe-area-inset-right)) constant(safe-area-inset-bottom)
+    calc(24px + constant(safe-area-inset-left));
   padding: 0 calc(24px + env(safe-area-inset-right)) env(safe-area-inset-bottom)
     calc(24px + env(safe-area-inset-left));
 }
@@ -2845,9 +2841,7 @@ a.tyui-media-box:active {
   left: auto;
 }
 
-.tyui-half-screen-dialog__hd__main
-  + .tyui-half-screen-dialog__hd__side
-  .tyui-icon-btn {
+.tyui-half-screen-dialog__hd__main + .tyui-half-screen-dialog__hd__side .tyui-icon-btn {
   right: 0;
 }
 
@@ -3431,8 +3425,7 @@ input[type='search']::-webkit-search-results-decoration {
   padding: 16px;
   padding: 16px calc(16px + constant(safe-area-inset-right)) 16px
     calc(16px + constant(safe-area-inset-left));
-  padding: 16px calc(16px + env(safe-area-inset-right)) 16px
-    calc(16px + env(safe-area-inset-left));
+  padding: 16px calc(16px + env(safe-area-inset-right)) 16px calc(16px + env(safe-area-inset-left));
   position: relative;
   text-align: center;
   font-size: 17px;
@@ -3490,17 +3483,9 @@ input[type='search']::-webkit-search-results-decoration {
   height: 100%;
   margin: 0 auto;
   z-index: 3;
-  background-image: -webkit-linear-gradient(
-      top,
-      hsla(0, 0%, 100%, 0.95),
-      hsla(0, 0%, 100%, 0.6)
-    ),
+  background-image: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6)),
     -webkit-linear-gradient(bottom, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6));
-  background-image: linear-gradient(
-      180deg,
-      hsla(0, 0%, 100%, 0.95),
-      hsla(0, 0%, 100%, 0.6)
-    ),
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6)),
     linear-gradient(0deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6));
   background-position: top, bottom;
   background-size: 100% 92px;
@@ -3511,17 +3496,9 @@ input[type='search']::-webkit-search-results-decoration {
 
 @media (prefers-color-scheme: dark) {
   .tyui-picker__mask {
-    background-image: -webkit-linear-gradient(
-        top,
-        rgba(35, 35, 35, 0.95),
-        rgba(35, 35, 35, 0.6)
-      ),
+    background-image: -webkit-linear-gradient(top, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6)),
       -webkit-linear-gradient(bottom, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
-    background-image: linear-gradient(
-        180deg,
-        rgba(35, 35, 35, 0.95),
-        rgba(35, 35, 35, 0.6)
-      ),
+    background-image: linear-gradient(180deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6)),
       linear-gradient(0deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
   }
 }
@@ -4240,8 +4217,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 @media (prefers-color-scheme: dark) {
-  .tyui-slideview__btn-group_default
-    ~ .tyui-slideview__btn-group_default:before {
+  .tyui-slideview__btn-group_default ~ .tyui-slideview__btn-group_default:before {
     border-left-color: var(--tyui-FG-3);
   }
 }
@@ -4351,17 +4327,13 @@ page {
   padding-left: 16px;
 }
 
-.tyui-navigation-bar__inner
-  .tyui-navigation-bar__left
-  .tyui-navigation-bar__btn {
+.tyui-navigation-bar__inner .tyui-navigation-bar__left .tyui-navigation-bar__btn {
   display: inline-block;
   vertical-align: middle;
   background-repeat: no-repeat;
 }
 
-.tyui-navigation-bar__inner
-  .tyui-navigation-bar__left
-  .tyui-navigation-bar__btn_goback {
+.tyui-navigation-bar__inner .tyui-navigation-bar__left .tyui-navigation-bar__btn_goback {
   font-size: 12px;
   width: 1em;
   height: 2em;
@@ -4374,9 +4346,7 @@ page {
   background-color: currentColor;
 }
 
-.tyui-navigation-bar__inner
-  .tyui-navigation-bar__left
-  .tyui-navigation-bar__btn_goback:active {
+.tyui-navigation-bar__inner .tyui-navigation-bar__left .tyui-navigation-bar__btn_goback:active {
   opacity: 0.5;
 }
 

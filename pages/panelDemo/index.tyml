@@ -1,4 +1,12 @@
-<sjs module="c3"> var getQuery = function(a,b,c){ const query = b.descriptor.createSelectorQuery() query .select('.pb20') .fields({ size: true, scrollOffset: true, node: true }, function (res) { console.log(1001, res) }) .exec() } module.exports = { getQuery: getQuery } </sjs>
+<sjs module="c3">
+var getQuery = function(a,b,c){ 
+  const query = b.descriptor.createSelectorQuery()
+  query.select('.pb20')
+    .fields({ size: true, scrollOffset: true, node: true }, function (res) { 
+      console.log(1001, res)
+    }).exec()
+  }
+module.exports = { getQuery: getQuery } </sjs>
 <scrollview class="panel-page-wrp">
   <image class="top-fan" mode="aspectFit" src="/assets/images/panel/fan.png" style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"></image>
   <view class="fan-config-area">

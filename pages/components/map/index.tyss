@@ -1,11 +1,11 @@
-.container{
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 0 20px 20px;
 }
 
-.scrollBox{
+.scrollBox {
   width: 100%;
   border: 2px solid green;
   overflow: hidden;
@@ -28,7 +28,7 @@
   align-items: center;
 }
 
-.btn-box{
+.btn-box {
   width: 100%;
   margin-top: 20px;
   display: flex;
@@ -36,14 +36,14 @@
   flex-wrap: wrap;
 }
 
-.btn{
+.btn {
   width: 160px;
   margin-bottom: 20px;
   display: inline-block;
   padding: 10px 20px;
 }
 
-.box{
+.box {
   background-color: darkorange;
   height: 200px;
   width: 100px;
