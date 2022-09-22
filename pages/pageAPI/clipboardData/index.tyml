@@ -1,35 +1,30 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">get/set/ClipboardData</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
-    <view class="tyui-cells tyui-cells_after-title">
-      <view class="tyui-cell tyui-cell_input">
-        <view class="tyui-cell__hd">
-          <view class="tyui-label">Copy</view>
+    <view class="plus-cells plus-cells_after-title">
+      <view class="plus-cell plus-cell_input">
+        <view class="plus-cell__hd">
+          <view class="plus-label">Copy</view>
         </view>
-        <view class="tyui-cell__bd">
-          <input class="tyui-input" type="text" name="key" value="{{value}}" bind:input="valueChanged"></input>
+        <view class="plus-cell__bd">
+          <input class="plus-input" type="text" name="key" value="{{value}}" bind:input="valueChanged"></input>
         </view>
       </view>
-      <view class="tyui-cell tyui-cell_input">
-        <view class="tyui-cell__hd">
-          <view class="tyui-label">Paste</view>
+      <view class="plus-cell plus-cell_input">
+        <view class="plus-cell__hd">
+          <view class="plus-label">Paste</view>
         </view>
-        <view class="tyui-cell__bd">
-          <text class="tyui-input">{{pasted}}</text>
+        <view class="plus-cell__bd">
+          <text class="plus-input">{{pasted}}</text>
         </view>
       </view>
     </view>
-
     <view class="btn-area">
       <button type="primary" bind:tap="copy">复制</button>
       <button bind:tap="paste">粘贴</button>
     </view>
   </view>
-
 </view>

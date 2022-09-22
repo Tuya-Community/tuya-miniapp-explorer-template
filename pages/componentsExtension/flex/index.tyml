@@ -1,31 +1,57 @@
 <view class="page" data-tyui-theme="{{theme}}">
-    <view class="page__hd">
-        <view class="page__title">Flex</view>
-        <view class="page__desc">Flex布局</view>
+  <view class="page__hd">
+    <view class="page__title">Flex</view>
+    <view class="page__desc">Flex布局</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
     </view>
-    <view class="page__bd page__bd_spacing">
-        <view class="tyui-flex">
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-        </view>
-        <view class="tyui-flex">
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-        </view>
-        <view class="tyui-flex">
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-        </view>
-        <view class="tyui-flex">
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-        </view>
-        <view class="tyui-flex">
-            <view><view class="placeholder">tuya</view></view>
-            <view class="tyui-flex__item"><view class="placeholder">tuya</view></view>
-            <view><view class="placeholder">tuya</view></view>
-        </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
     </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+    <view class="plus-flex">
+      <view>
+        <view class="placeholder">tuya</view>
+      </view>
+      <view class="plus-flex__item">
+        <view class="placeholder">tuya</view>
+      </view>
+      <view>
+        <view class="placeholder">tuya</view>
+      </view>
+    </view>
+  </view>
 </view>
