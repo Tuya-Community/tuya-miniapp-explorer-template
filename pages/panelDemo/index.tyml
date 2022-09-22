@@ -6,7 +6,8 @@ var getQuery = function(a,b,c){
       console.log(1001, res)
     }).exec()
   }
-module.exports = { getQuery: getQuery } </sjs>
+module.exports = { getQuery: getQuery }
+</sjs>
 <scrollview class="panel-page-wrp">
   <image class="top-fan" mode="aspectFit" src="/assets/images/panel/fan.png" style="animation-duration: {{spinDuration}}; animation-play-state: {{isOpen ? 'running' : 'paused'}}"></image>
   <view class="fan-config-area">
