@@ -61,7 +61,7 @@
       </view>
     </form>
     <view class="result-wrap">
-      <view ty:for="{{resultData}}" ty:key="{{item.name}}" class="result-item">
+      <view ty:for="{{resultData}}" ty:key="name" class="result-item">
         <text class="result-name">{{item.name}}: </text>
         <text>{{item.value}}</text>
       </view>

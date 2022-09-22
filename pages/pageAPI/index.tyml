@@ -36,7 +36,7 @@
   </view>
   <view class="index-bd">
     <view class="kind-list">
-      <block ty:for="{{list}}" ty:key="{{item.id}}">
+      <block ty:for="{{list}}" ty:key="id">
         <view class="kind-list-item">
           <view data-id="{{item.id}}" class="kind-list-item-hd" bindtap="kindToggle">
             <image class="kind-list-img" src="/assets/images/api/resources/kind/{{item.id}}.png"></image>
@@ -44,7 +44,7 @@
           </view>
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
-              <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="*item">
+              <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="*this">
                 <navigator url="pages/pageAPI/{{page.url}}" class="navigator" ty:if="{{page.url !== '@set-tab-bar'}}">
                   <view class="navigator-text">{{page.zh}}</view>
                   <view class="navigator-arrow"></view>
