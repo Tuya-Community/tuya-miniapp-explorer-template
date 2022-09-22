@@ -1,8 +1,7 @@
 <view class="page-head">
-	<view class="page-head-title">picker</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">picker</view>
+  <view class="page-head-line"></view>
 </view>
-
 <view class="section">
   <text class="page__desc">普通选择器</text>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
@@ -27,10 +26,9 @@
     </view>
   </picker>
 </view>
-
 <view class="section">
   <view class="page__desc">多列ObjectArray选择器</view>
-  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{objectMultiArray}}" range-key="{{'name'}}">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" range="{{objectMultiArray}}" range-key="{{'name'}}">
     <view class="picker">
       当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
     </view>
@@ -44,7 +42,6 @@
     </view>
   </picker>
 </view>
-
 <view class="section">
   <view class="page__desc">日期选择器</view>
   <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">

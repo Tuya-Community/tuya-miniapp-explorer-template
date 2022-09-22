@@ -31,7 +31,7 @@
     <image class="index-logo" src="/assets/images/Grouplogo.png"></image>
     <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见
       <navigator url="pages/doc-web-view/doc-web-view"
-        class="tyui-agree__link">小程序开发文档</navigator>
+        class="plus-agree__link">小程序开发文档</navigator>
     </view>
   </view>
   <view class="index-bd">
@@ -39,8 +39,8 @@
       <block ty:for="{{list}}" ty:key="{{item.id}}">
         <view class="kind-list-item">
           <view data-id="{{item.id}}" class="kind-list-item-hd" bindtap="kindToggle">
-            <view class="kind-list-text">{{item.name}}</view>
             <image class="kind-list-img" src="/assets/images/api/resources/kind/{{item.id}}.png"></image>
+            <view class="kind-list-text">{{item.name}}</view>
           </view>
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">

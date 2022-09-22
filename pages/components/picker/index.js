@@ -103,7 +103,6 @@ Page({
     })
   },
   bindMultiPickerColumnChange: function (e) {
-    console.log('修改的列为', e.detail.column, '，值为', e.detail.value)
     var data = {
       multiArray: this.data.multiArray,
       objectMultiArray: this.data.objectMultiArray,
@@ -189,6 +188,8 @@ Page({
         data.multiIndex[2] = 0
         break
     }
+    console.log('修改的列为', e.detail.column, '，值为', e.detail.value, '最终的data为', data)
+
     this.setData(data)
   },
   bindDateChange: function (e) {

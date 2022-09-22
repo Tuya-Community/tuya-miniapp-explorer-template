@@ -5,7 +5,7 @@ Page({
     typeT: false,
     buttons: [
       {
-        type: 'default',
+        type: 'primary',
         className: '',
         text: '操作一',
         value: 0,
