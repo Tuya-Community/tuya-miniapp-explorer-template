@@ -31,7 +31,7 @@
   justify-content: center;
   height: 50px;
   width: 50px;
-  background: var(--ty-native-primary-color);
+  background: var(--app-native-primary-color);
   color: #fff;
 }
 
