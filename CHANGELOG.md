@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2022-11-08)
+
+
+### Features
+
+* 匿名化版本适配 ([8e14972](./commit/8e1497207f9c5f0de9059071745e41f144636877))
+
 ### 1.0.12 (2022-09-22)
 
 ### 1.0.11 (2022-08-08)
