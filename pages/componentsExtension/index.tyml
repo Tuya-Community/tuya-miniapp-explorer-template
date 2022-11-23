@@ -1,7 +1,8 @@
+<!-- 此页面已废弃 -->
 <view class="index">
   <view class="index-hd">
     <image class="index-logo" src="/assets/images/tab/kuozhan_selected.png"></image>
-    <view class="index-desc">以下是对小程序扩展能力的补充，包括 tyui 组件库和一些常见的功能组件，具体属性参数详见小程序开发文档</view>
+    <view class="index-desc">以下是对小程序扩展能力的补充，包括组件库和一些常见的功能组件，具体属性参数详见小程序开发文档</view>
   </view>
   <view class="index-bd">
     <view class="kind-list">

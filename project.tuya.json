@@ -1,6 +1,6 @@
 {
   "projectname": "官方demo",
-  "i18n": false,
+  "i18n": true,
   "description": "西湖区最好的小程序Demo",
   "baseversion": "2.10.3",
   "dependencies": {

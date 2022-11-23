@@ -17,7 +17,8 @@
     "pofeng_test": "",
     "titled": "fff",
     "TUYA_MINI_PLATFORM_CANCEL": "Cancel",
-    "Aaaa": "Aaaaaaaaaa"
+    "Aaaa": "Aaaaaaaaaa",
+    "home_desc": "The following samples show the component capabilities. The component styles are for reference only. You can customize these styles as needed."
   },
   "zh": {
     "op": "欧赔",
@@ -30,10 +31,36 @@
     "miniAppName": "你哈哈哈",
     "TUYA_MINI_PLATFORM_SITE_DESCRIPTION": "小程序未使用你的任何信息",
     "pofeng_test": "破风测试",
-    "TUYA_MINI_PLATFORM_NAME": "涂鸦小程序官方Demo",
+    "TUYA_MINI_PLATFORM_NAME": "智能小程序官方Demo",
     "titled": "aaasaaaaaaaaaavv",
     "TUYA_MINI_PLATFORM_CANCEL": "取消",
-    "Aaaa": "Aaaaaaaaa"
+    "Aaaa": "Aaaaaaaaa",
+    "tuesday": "周二",
+    "TUYA_MINI_ENTRANCE_DESCRIPTION": "麦可测试版本限制",
+    "home_desc": "以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求自定义组件样式。",
+    "extend_component": "扩展组件",
+    "base_component": "基础组件",
+    "view_content": "视图容器",
+    "base_content": "基础内容",
+    "pic_content": "画布",
+    "form_content": "表单组件",
+    "media_content": "媒体组件",
+    "nav_content": "导航",
+    "map_content": "地图",
+    "gesture_content": "手势库",
+    "option_content": "操作反馈",
+    "spin": "旋转",
+    "amin_move": "移动",
+    "anim_spin_then_zoom": "旋转后缩放",
+    "amin_zoom": "缩放",
+    "amin_tilt": "倾斜",
+    "anim_spin_zoom": "旋转并缩放",
+    "anim_reset": "还原",
+    "amin_spin": "旋转",
+    "amin_all": "同时展示全部",
+    "anim_then_all": "顺序展示全部",
+    "button_disable_touch": "按钮虽然设置了disabled，但是仍触发了touchstart事件",
+    "button_disable_tap": "按钮虽然设置了disabled，但是仍触发了tap事件"
   },
   "zh_tw": {
     "test10": "从小就阿斯顿发送到fdsfds",
@@ -50,7 +77,8 @@
   },
   "de": {
     "test6": "asdfa asdf asd",
-    "titled": "ggg"
+    "titled": "ggg",
+    "tuesday": "Dienstag"
   },
   "he": {
     "pofeng_test": "希伯来"
@@ -69,6 +97,10 @@
     "TUYA_MINI_PLATFORM_SITE_DESCRIPTION": "Mini Program n'a utilisé aucune de vos informations.",
     "TUYA_MINI_PLATFORM_FEEDBACK": "Aider",
     "TUYA_MINI_PLATFORM_RELOAD": "Recharger",
-    "TUYA_MINI_PLATFORM_CANCEL": "Annuler"
+    "TUYA_MINI_PLATFORM_CANCEL": "Annuler",
+    "tuesday": "Mardi"
+  },
+  "ja": {
+    "tuesday": "火曜日"
   }
 }
