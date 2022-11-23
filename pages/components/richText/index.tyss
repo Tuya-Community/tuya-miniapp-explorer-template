@@ -5,7 +5,7 @@
 
 .snip-wrap {
   height: 325px;
-  border: 1px solid var(--ty-native-primary-color);
+  border: 1px solid var(--app-native-primary-color);
   white-space: pre;
   padding: 5px;
   box-sizing: border-box;
