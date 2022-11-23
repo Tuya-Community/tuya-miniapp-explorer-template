@@ -6,7 +6,7 @@ Page({
   onReady() {
     this._observer = ty.createIntersectionObserver()
     this._observer.relativeTo('.scroll-view').observe('.ball', (res) => {
-      console.log('这里是ioPage的 ball observer的大型触发现场', res, res.intersectionRatio > 0)
+      console.log('ioPage ball ovserver', res, res.intersectionRatio > 0)
       this.setData({
         appear: res.intersectionRatio > 0,
       })
