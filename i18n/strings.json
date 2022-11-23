@@ -60,7 +60,20 @@
     "amin_all": "同时展示全部",
     "anim_then_all": "顺序展示全部",
     "button_disable_touch": "按钮虽然设置了disabled，但是仍触发了touchstart事件",
-    "button_disable_tap": "按钮虽然设置了disabled，但是仍触发了tap事件"
+    "button_disable_tap": "按钮虽然设置了disabled，但是仍触发了tap事件",
+    "camera_props": "属性",
+    "camera_view_pic": "预览照片",
+    "canvas_page_anim": "页面动画",
+    "canvas_com_anim": "组件内动画",
+    "checkbox_default_style": "默认样式",
+    "eventchannel_text2": "      1. url上携带参数，页面二可以从onLoad生命周期的option 参数上获取\n",
+    "eventchannel_text1": " 路由从页面一跳转到页面二",
+    "eventchannel_text4": "3.页面二在onLoad中 向页面一传递信息",
+    "eventchannel_text3": "      2.页面一在路由success回调中向页面二传递信息\n",
+    "eventchannel_text6": "这里是page2 的页面",
+    "eventchannel_text5": "跳转page2",
+    "form_option1": "选项一",
+    "form_option2": "选项二"
   },
   "zh_tw": {
     "test10": "从小就阿斯顿发送到fdsfds",
