@@ -16,7 +16,7 @@ video {
   z-index: 0;
 }
 
-.tyui-cells {
+.plus-cells {
   margin-top: 40px;
   text-align: left;
   position: relative;
@@ -25,7 +25,7 @@ video {
   font-size: 17px;
 }
 
-.tyui-cells::before {
+.plus-cells::before {
   content: '';
   position: absolute;
   left: 0;
@@ -39,7 +39,7 @@ video {
   border-top-color: rgb(217, 217, 217);
 }
 
-.tyui-cell {
+.plus-cell {
   padding: 10px 15px;
   position: relative;
   display: -webkit-box;
@@ -50,16 +50,16 @@ video {
   align-items: center;
 }
 
-.tyui-cell_input {
+.plus-cell_input {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.tyui-cell_bd {
+.plus-cell_bd {
   flex: 1;
 }
 
-.tyui-input {
+.plus-input {
   height: 2.58823529em;
   line-height: 2.58823529em;
   min-height: 2.58823529em;
@@ -67,7 +67,7 @@ video {
   align-items: center;
 }
 
-.tyui-label {
+.plus-label {
   width: 5em;
   word-wrap: break-word;
   word-break: break-all;

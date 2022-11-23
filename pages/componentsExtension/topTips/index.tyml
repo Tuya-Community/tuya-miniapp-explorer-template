@@ -1,4 +1,4 @@
-<view class="page" data-tyui-theme="{{theme}}">
+<view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Toptips</view>
   </view>

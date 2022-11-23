@@ -1,4 +1,4 @@
-.tyui-agree__link {
+.plus-agree__link {
   display: inline;
   color: #7d90a9;
 }
@@ -31,7 +31,7 @@
 .navigator-box {
   opacity: 0;
   position: relative;
-  background-color: var(--tyui-BG-2);
+  background-color: var(--plus-BG-2);
   line-height: 1.41176471;
   /* font-size: 32px; */
   font-size: 17px;
@@ -62,7 +62,7 @@
   /* right: 15px; */
   right: 15px;
   height: 1px;
-  /* border-top: 1px solid var(--tyui-FG-3); */
+  /* border-top: 1px solid var(--plus-FG-3); */
   border-top: 1px solid var(--main-border-color);
   color: var(--main-border-color);
 }

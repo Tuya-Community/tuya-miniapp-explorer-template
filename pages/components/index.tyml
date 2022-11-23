@@ -5,7 +5,7 @@
   </view>
   <mptabs
   tabs="{{tabs}}"
-  swiperClass="tyui-tabs-swiper"
+  swiperClass="plus-tabs-swiper"
   activeClass="tab-bar-title__selected">
     <view class="index-bd" slot="tab-content-0">
       <view class="kind-list">

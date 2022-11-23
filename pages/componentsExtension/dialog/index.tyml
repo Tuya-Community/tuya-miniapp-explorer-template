@@ -1,10 +1,10 @@
-<view class="page" data-tyui-theme="{{theme}}">
+<view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Dialog</view>
     <view class="page__desc">对话框</view>
   </view>
   <view class="page__bd">
-    <view class="tyui-btn-area l-r-padding">
+    <view class="plus-btn-area l-r-padding">
       <button class="base-btn" type="primary" bindtap="openConfirm">确认取消按钮</button>
       <button class="base-btn" type="primary" bindtap="tapOneDialogButton">只有确认按钮</button>
     </view>
