@@ -22,7 +22,6 @@
     "pages/components/swiper/index",
     "pages/components/image/index",
     "pages/components/pagecontainer/index",
-    "pages/components/pageMeta/index",
     "pages/components/icon/index",
     "pages/components/richText/index",
     "pages/components/textarea/index",

@@ -3,26 +3,26 @@
 	<view class="page-head-line"></view>
 </view>
 
-<view class="title">弹出位置</view>
+<view class="title">{{i18n.t('pc_position')}}</view>
 <view class="box">
-  <button class="btn" bindtap="popup" data-position="right">右侧弹出</button>
-  <button class="btn" bindtap="popup" data-position="top">顶部弹出</button>
-  <button class="btn" bindtap="popup" data-position="bottom">底部弹出</button>
-  <button class="btn" bindtap="popup" data-position="center">中央弹出</button>
+  <button class="btn" bindtap="popup" data-position="right">{{i18n.t('pc_right')}}</button>
+  <button class="btn" bindtap="popup" data-position="top">{{i18n.t('pc_top')}}</button>
+  <button class="btn" bindtap="popup" data-position="bottom">{{i18n.t('pc_bottom')}}</button>
+  <button class="btn" bindtap="popup" data-position="center">{{i18n.t('pc_center')}}</button>
 </view>
 
 
-<view class="title">弹窗圆角</view>
+<view class="title">{{i18n.t('pc_round')}}</view>
 <view class="box">
-  <button class="btn" bindtap="changeRound">设置{{round ? '直角' : '圆角'}}</button>
+  <button class="btn" bindtap="changeRound">{{round ? i18n.t('pc_set_angle') : i18n.t('pc_set_round')}}</button>
 </view>
 
-<view class="title">遮罩层</view>
+<view class="title">{{i18n.t('pc_mask')}}</view>
 <view class="box">
-  <button class="btn" bindtap="changeOverlay">设置{{overlay ? '无' : '有'}}遮罩</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="black">黑色半透明遮罩</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="white">白色半透明遮罩</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="blur">模糊遮罩</button>
+  <button class="btn" bindtap="changeOverlay">{{overlay ? i18n.t('pc_no_mask') : i18n.t('pc_has_mask')}}</button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="black">{{i18n.t('pc_black_mask')}}</button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="white">{{i18n.t('pc_white_mask')}}</button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="blur">{{i18n.t('pc_blur_mask')}}</button>
 
 </view>
 
@@ -47,7 +47,7 @@
 >
   <view class="detail-page">
     <button type="primary" bindtap="exit">
-    推出
+    exit
     </button>
   </view>
 </page-container>

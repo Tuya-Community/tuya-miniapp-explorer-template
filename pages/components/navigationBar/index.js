@@ -7,7 +7,7 @@ Page({
   },
   setTitle() {
     this.setData({
-      nbTitle: '新标题',
+      nbTitle: 'new title',
     })
   },
   showLoading() {
