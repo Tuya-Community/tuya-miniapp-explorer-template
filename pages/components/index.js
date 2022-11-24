@@ -96,7 +96,7 @@ Page({
                 pages: [
                     { path: 'animation', title: 'animation' },
                     { path: 'io', title: 'intersectionObserver' },
-                    { path: 'redux1', title: 'redux & selectComponent' },
+                    // { path: 'redux1', title: 'redux & selectComponent' },
                     // { path: 'eventChannel1', title: 'eventChannel' },
                 ],
             },

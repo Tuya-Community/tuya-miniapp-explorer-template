@@ -1,16 +1,14 @@
 const texts = [
-  '涂鸦智能（NYSE: TUYA）',
-  '是全球领先的 IoT 云平台, ',
-  '连接品牌、OEM 厂商、开发者',
-  '和连锁零售商的智能化需求, ',
-  '提供一站式人工智能物联网的 PaaS 级解决方案。',
-  '并且涵盖了硬件开发工具、',
-  '全球云、智慧商业平台开发三方面, ',
-  '提供从技术到营销渠道的全面生态赋能, ',
-  '打造世界领先的 IoT 云平台。',
-  '涂鸦 IoT 开发平台累计有超过32.4万注册开发者, ',
-  '日语音 AI 交互超1.22亿次, ',
-  '每日设备请求次数840亿次',
+  'here is the 1 line',
+  'here is the 2 line, ',
+  'here is the 3 line,',
+  'here is the 4 line,',
+  'here is the 5 line,',
+  'here is the 6 line,',
+  'here is the 7 line,',
+  'here is the 8 line,',
+  'here is the 9 line,',
+  'here is the 10 line,',
   '......',
 ]
 
@@ -49,26 +47,3 @@ Page({
     }
   },
 })
-
-/* Page({
-  data: {
-    insertContent: '测试text标签插入变量',
-    userSelect: true,
-    testSpaceContent: '测试space'
-  },
-  onShow: function () {
-      console.log('show', this.data.userSelect)
-      setTimeout(() => {
-        this.setData({
-          userSelect: false
-        })
-        console.log('setData', this.data.userSelect)
-      }, 2000)
-  },
-  handleTap () {
-    console.log('tap')
-  },
-  handleTouchStart () {
-    console.log('touch start')
-  }
-}) */

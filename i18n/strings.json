@@ -185,7 +185,20 @@
     "picker_13": "鲫鱼",
     "picker_12": "爬行动物",
     "picker_11": "两栖动物",
-    "picker_10": "鱼"
+    "picker_10": "鱼",
+    "pickerview_month": "月",
+    "pickerview_day": "日",
+    "pickerview_year": "年",
+    "swiper_autoplay": "自动播放",
+    "swiper_time1": "幻灯片切换时长(ms)",
+    "swiper_time2": "自动播放间隔时长(ms)",
+    "radio_recommend": "推荐展示样式",
+    "swiper_vertical": "竖向",
+    "radio_default": "默认样式",
+    "swiper_dot": "指示点",
+    "swiper_circular": "衔接滑动",
+    "radio_unchecked": "未选中",
+    "radio_checked": "选中"
   },
   "zh_tw": {
     "test10": "从小就阿斯顿发送到fdsfds",

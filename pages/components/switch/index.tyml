@@ -5,7 +5,7 @@
 <view class="page">
   <view class="page__bd">
     <view class="section section_gap">
-      <text class="page__desc pdl0">默认样式 type="switch"</text>
+      <text class="page__desc pdl0">default type="switch"</text>
       <view class="body-view">
         <switch disabled checked="{{switch1Checked}}" bindchange="switch1Change"/>
         <switch bindchange="switch1Change"/>
@@ -13,7 +13,7 @@
       </view>
     </view>
     <view class="section section_gap">
-      <view class="page__desc pdl0">默认样式 type="checkbox"</view>
+      <view class="page__desc pdl0">default type="checkbox"</view>
       <view class="body-view">
         <switch bindtouchstart="switch1Change" type="checkbox" checked="{{switch2Checked}}" />
         <switch bindtouchstart="switch1Change" type="checkbox" checked="true" />

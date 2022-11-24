@@ -3,20 +3,20 @@
   <view class="page-head-line"></view>
 </view>
 <view class="mb50">
-  <view class="page__desc pickerview-title">{{year}}年{{month}}月{{day}}日</view>
+  <view class="page__desc pickerview-title">{{year}}{{i18n.t('pickerview_year')}}{{month}}{{i18n.t('pickerview_month')}}{{day}}{{i18n.t('pickerview_day')}}</view>
   <picker-view style="width: 100%; height: 300px;" value="{{value}}" 
   indicator-style="height: 50px;"
   bindpickstart="pickstart"
   bindpickend="pickend"
   bindchange="bindChange">
     <picker-view-column>
-      <view ty:for="{{years}}" style="line-height: 50px; text-align: center">{{item}}年</view>
+      <view ty:for="{{years}}" style="line-height: 50px; text-align: center">{{item}}{{i18n.t('pickerview_year')}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view ty:for="{{months}}" style="line-height: 50px; text-align: center">{{item}}月</view>
+      <view ty:for="{{months}}" style="line-height: 50px; text-align: center">{{item}}{{i18n.t('pickerview_month')}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view ty:for="{{days}}" style="line-height: 50px; text-align: center">{{item}}日</view>
+      <view ty:for="{{days}}" style="line-height: 50px; text-align: center">{{item}}{{i18n.t('pickerview_day')}}</view>
     </picker-view-column>
   </picker-view>
 </view>

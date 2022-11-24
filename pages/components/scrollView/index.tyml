@@ -6,7 +6,6 @@
 <view class="page-section">
   <view class="page-section-title l-r-padding">
     <text>Vertical Scroll</text>
-    <view>纵向滚动</view>
   </view>
   <view class='page-section-spacing'>
     <scroll-view 
@@ -26,7 +25,6 @@
 <view class="page-section">
   <view class="page-section-title l-r-padding">
     <text>Horizontal Scroll</text>
-    <view>横向滚</view>
   </view>
   <view class="page-section-spacing">
     <scroll-view 

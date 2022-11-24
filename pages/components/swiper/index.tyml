@@ -23,25 +23,25 @@
     <view class="page-section" style="margin-top: 40rpx;margin-bottom: 0;">
       <view class="plus-cells plus-cells_after-title">
         <view class="page-cell plus-cell_switch">
-          <view class="plus-cell__bd">指示点</view>
+          <view class="plus-cell__bd">{{i18n.t('swiper_dot')}}</view>
           <view class="plus-cell__ft">
             <switch checked="{{indicatorDots}}" bindchange="changeProperty" data-property-name="indicatorDots" />
           </view>
         </view>
         <view class="page-cell plus-cell_switch">
-          <view class="plus-cell__bd">自动播放</view>
+          <view class="plus-cell__bd">{{i18n.t('swiper_autoplay')}}</view>
           <view class="plus-cell__ft">
             <switch checked="{{autoplay}}" bindchange="changeProperty" data-property-name="autoplay" />
           </view>
         </view>
         <view class="page-cell plus-cell_switch">
-          <view class="plus-cell__bd">衔接滑动</view>
+          <view class="plus-cell__bd">{{i18n.t('swiper_circular')}}</view>
           <view class="plus-cell__ft">
             <switch checked="{{circular}}" bindchange="changeProperty" data-property-name="circular" />
           </view>
         </view>
         <view class="page-cell plus-cell_switch">
-          <view class="plus-cell__bd">竖向</view>
+          <view class="plus-cell__bd">{{i18n.t('swiper_vertical')}}</view>
           <view class="plus-cell__ft">
             <switch checked="{{vertical}}" bindchange="changeProperty" data-property-name="vertical" />
           </view>
@@ -50,12 +50,12 @@
     </view>
     <view class="page-section page-section-spacing">
       <view class="page-section-title">
-        <text>幻灯片切换时长(ms)</text>
+        <text>{{i18n.t('swiper_time1')}}</text>
         <text class="info">{{duration}}</text>
       </view>
       <slider value="{{duration}}" min="{{500}}" max="{{2000}}" bindchange="changeProperty" data-property-name="duration" />
       <view class="page-section-title">
-        <text>自动播放间隔时长(ms)</text>
+        <text>{{i18n.t('swiper_time2')}}</text>
         <text class="info">{{interval}}</text>
       </view>
       <slider value="{{interval}}" min="{{2000}}" max="{{10000}}" bindchange="changeProperty" data-property-name="interval" />

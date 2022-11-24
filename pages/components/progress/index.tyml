@@ -4,30 +4,30 @@
 </view>
 <view>
   <view class="section l-r-padding">
-    <text class="title">percent showInfo fontSize属性：</text>
+    <text class="title">percent showInfo fontSize：</text>
     <progress percent="{{10}}" />
     <progress percent="{{40}}" showInfo="{{true}}" />
     <progress percent="{{100}}" showInfo="{{true}}" fontSize="{{12}}"/>
   </view>
   <view class="section l-r-padding">
-    <text class="title">border-radius stroke-width 属性：</text>
+    <text class="title">border-radius stroke-width ：</text>
     <progress borderRadius="{{3}}" percent="{{20}}"/>
     <progress borderRadius="{{'8'}}" strokeWidth="{{16}}" percent="{{20}}" />
   </view>
   <view class="section l-r-padding">
-    <text class="title">activeColor backgroundColor 属性：</text>
+    <text class="title">activeColor backgroundColor ：</text>
     <progress activeColor="pink" percent="{{70}}" />
     <progress activeColor="lightgreen" percent="{{70}}" showInfo="{{true}}" />
     <progress backgroundColor="#434345" percent="{{20}}" activeColor="#e9a037" />
   </view>
   <view class="section l-r-padding">
-    <text class="title">active duration属性：</text>
-    <progress active="{{true}}" percent="{{40}}" showInfo="{{true}}" data-info="简简单单完事" bindactiveend="handleActiveEnd" />
+    <text class="title">active duration：</text>
+    <progress active="{{true}}" percent="{{40}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
     <progress active="{{true}}" percent="{{40}}" duration="{{300}}" showInfo="{{true}}" />
   </view>
   <view class="section l-r-padding">
-    <text class="title">active-mode 属性：</text>
-    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="forwards" duration="{{50}}" showInfo="{{true}}" data-info="勇往直前完事" bindactiveend="handleActiveEnd" />
-    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="backwards" duration="{{50}}" showInfo="{{true}}" data-info="反反复复完事" bindactiveend="handleActiveEnd" />
+    <text class="title">active-mode ：</text>
+    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="forwards" duration="{{50}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
+    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="backwards" duration="{{50}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
   </view>
 </view>

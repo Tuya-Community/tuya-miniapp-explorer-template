@@ -6,7 +6,7 @@
 <view class="container">
 
 	<view class="page-section l-r-padding">
-		<view class="page-section-title">通过HTML String渲染</view>
+		<view class="page-section-title">HTML String</view>
 
 		<view class="snip-wrap">
 			<text class="line" decode="true">&lt;div&gt;</text>
@@ -19,7 +19,7 @@
 		</view>
 
 		<view class="btn-wrap">
-			<button type="primary" class="btn" bindtap="showHTMLRender">渲染HTML</button>
+			<button type="primary" class="btn" bindtap="showHTMLRender">HTML</button>
 		</view>
 
 		<view class="rich-text-wrap" ty:if="{{isHTMLRender}}">
@@ -28,7 +28,7 @@
 	</view>
 
 	<view class="page-section l-r-padding">
-		<view class="page-section-title">通过节点渲染</view>
+		<view class="page-section-title">HTML element</view>
 
 		<view class="snip-wrap">
 			<scroll-view scroll-y="true">
@@ -50,7 +50,7 @@
 		</view>
 
 		<view class="btn-wrap">
-			<button type="primary" class="btn" bindtap="showNodeRender">渲染Node</button>
+			<button type="primary" class="btn" bindtap="showNodeRender">Render Node</button>
 		</view>
 
 		<view class="rich-text-wrap" ty:if="{{isNodesRender}}">

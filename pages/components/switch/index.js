@@ -5,6 +5,6 @@ Page({
     disabled: true,
   },
   switch1Change: (e) => {
-    console.log('2333switch change!!!!!!!!!!!!!!', e)
+    console.log('switch change', e)
   },
 })
