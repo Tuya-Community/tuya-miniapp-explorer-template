@@ -1,7 +1,7 @@
 <view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Footer</view>
-    <view class="page__desc">页脚</view>
+    <view class="page__desc">{{i18n.t('footer_title')}}</view>
   </view>
   <view class="page__bd page__bd_spacing">
     <view class="plus-footer">
@@ -9,22 +9,22 @@
     </view>
     <view class="plus-footer">
       <view class="plus-footer__links">
-        <navigator url="" class="plus-footer__link">底部链接</navigator>
+        <navigator url="" class="plus-footer__link">{{i18n.t('footer_link')}}</navigator>
       </view>
       <view class="plus-footer__text">Copyright © 2020-2021 tuya.com</view>
     </view>
     <view class="plus-footer">
       <view class="plus-footer__links">
-        <navigator url="" class="plus-footer__link">底部链接</navigator>
-        <navigator url="" class="plus-footer__link">底部链接</navigator>
+        <navigator url="" class="plus-footer__link">{{i18n.t('footer_link')}}</navigator>
+        <navigator url="" class="plus-footer__link">{{i18n.t('footer_link')}}</navigator>
       </view>
       <view class="plus-footer__text">Copyright © 2020-2021 tuya.com</view>
     </view>
     <view class="plus-footer plus-footer_fixed-bottom">
       <view class="plus-footer__links">
-        <navigator url="" class="plus-footer__link">tuya首页</navigator>
+        <navigator url="" class="plus-footer__link">tuya home</navigator>
       </view>
-      <view class="plus-footer__text">Copyright © 2020-2021 tuya.com</view>
+      <view class="plus-footer__text">Copyright © 2020-2022 tuya.com</view>
     </view>
   </view>
 </view>

@@ -1,77 +1,77 @@
 <view class="page">
   <mptoptips msg="{{error}}" type="error" show="{{error}}"></mptoptips>
-  <mpformpage title="表单结构" subtitle="展示表单页面的信息结构样式, 分别由头部区域/控件区域/提示区域/操作区域和底部信息区域组成。">
+  <mpformpage title="{{i18n.t('form_1')}}" subtitle="{{i18n.t('form_2')}}">
     <mpform id="form" rules="{{rules}}" models="{{formData}}">
-      <mpcells title="单选列表项">
+      <mpcells title="{{i18n.t('form_3')}}">
         <mpcheckboxgroup prop="radio" multi="{{false}}" bindchange="radioChange">
           <mpcheckbox ty:for="{{radioItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
         </mpcheckboxgroup>
       </mpcells>
-      <mpcells title="复选列表项">
+      <mpcells title="{{i18n.t('form_4')}}">
         <mpcheckboxgroup prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
           <mpcheckbox ty:for="{{checkboxItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
         </mpcheckboxgroup>
       </mpcells>
-      <mpcells title="表单" footer="底部说明文字底部说明文字">
-        <mpcell prop="name" title="姓名" ext-class="">
-          <input bindinput="formInputChange" data-field="name" class="plus-input" placeholder="请输入姓名"/>
+      <mpcells title="{{i18n.t('form_5')}}" footer="{{i18n.t('form_6')}}">
+        <mpcell prop="name" title="name" ext-class="">
+          <input bindinput="formInputChange" data-field="name" class="plus-input" placeholder="Please enter name..."/>
         </mpcell>
         <mpcell prop="qq" title="qq" ext-class="">
-          <input bindinput="formInputChange" data-field="qq" class="plus-input" placeholder="请输入qq"/>
+          <input bindinput="formInputChange" data-field="qq" class="plus-input" placeholder="Please enter qq..."/>
         </mpcell>
-        <mpcell prop="mobile" title="手机号" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="mobile" class="plus-input" placeholder="请输入手机号"/>
-          <button slot="footer" type="default" class="plus-vcode-btn">获取验证码</button>
+        <mpcell prop="mobile" title="Phone number" ext-class=" plus-cell_vcode">
+          <input bindinput="formInputChange" data-field="mobile" class="plus-input" placeholder="Please enter phone number..."/>
+          <button slot="footer" type="default" class="plus-vcode-btn">verification code</button>
         </mpcell>
-        <mpcell prop="date" title="日期" ext-class="">
+        <mpcell prop="date" title="Date" ext-class="">
           <picker data-field="date" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
             <view class="plus-input">{{date}}</view>
           </picker>
         </mpcell>
-        <mpcell prop="vcode" title="验证码" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="vcode" class="plus-input" placeholder="请输入验证码"/>
+        <mpcell prop="vcode" title="verification code" ext-class=" plus-cell_vcode">
+          <input bindinput="formInputChange" data-field="vcode" class="plus-input" placeholder="please enter verification code..."/>
           <image slot="footer" class="plus-vcode-img" src="/assets/images/vcode.jpg" style="width: 108px; height: 30px"></image>
         </mpcell>
       </mpcells>
-      <mpcells title="提交后表单项报错">
-        <mpcell show-error prop="idcard" title="卡号" ext-class="">
-          <input bindinput="formInputChange" data-field="idcard" class="plus-input" placeholder="请输入卡号"/>
+      <mpcells title="Error reporting form item after submission">
+        <mpcell show-error prop="idcard" title="card number" ext-class="">
+          <input bindinput="formInputChange" data-field="idcard" class="plus-input" placeholder="Please enter the card number..."/>
         </mpcell>
       </mpcells>
-      <mpcells title="开关">
-        <mpcell title="标题文字" ext-class="">
+      <mpcells title="switch">
+        <mpcell title="title" ext-class="">
           <switch slot="footer" checked />
         </mpcell>
       </mpcells>
-      <mpcells title="文本框">
-        <mpcell title="标题文字" ext-class="">
-          <input class="plus-input" placeholder="请输入文本" />
+      <mpcells title="text box">
+        <mpcell title="title" ext-class="">
+          <input class="plus-input" placeholder="Enter..." />
         </mpcell>
       </mpcells>
-      <mpcells title="文本域">
+      <mpcells title="text field">
         <mpcell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
-          <textarea class="plus-textarea" placeholder="请输入文本" style="height: 3.3em" />
+          <textarea class="plus-textarea" placeholder="Enter..." style="height: 3.3em" />
           <view class="plus-textarea-counter">0/200</view>
         </mpcell>
       </mpcells>
-      <mpcells title="选择">
+      <mpcells title="select">
         <mpcell ext-class="plus-cell_select plus-cell_select-before">
           <view slot="title" style="width: 105px">
             <picker aria-role="listbox"  bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
               <view>{{countryCodes[countryCodeIndex]}}</view>
             </picker>
           </view>
-          <input class="plus-input" placeholder="请输入号码" />
+          <input class="plus-input" placeholder="please enter the number..." />
         </mpcell>
       </mpcells>
-      <mpcells title="选择">
+      <mpcells title="select">
         <mpcell has-header="{{false}}" ext-class="plus-cell_select">
           <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
             <view>{{accounts[accountIndex]}}</view>
           </picker>
         </mpcell>
         <mpcell ext-class="plus-cell_select plus-cell_select-after">
-          <view slot="title" class="plus-label">国家/地区</view>
+          <view slot="title" class="plus-label">country</view>
           <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
             <view>{{countries[countryIndex]}}</view>
           </picker>
@@ -82,13 +82,13 @@
       <label class="plus-agree">
         <checkbox />
         <text class="plus-agree__checkbox"></text>
-        <view class="plus-agree__text">阅读并同意
-          <navigator>《相关条款》</navigator>
+        <view class="plus-agree__text">read and agree
+          <navigator>《Related Terms》</navigator>
         </view>
       </label>
     </checkbox-group>
     <view slot="button">
-      <button class="plus-btn" type="primary" bindtap="submitForm">确定</button>
+      <button class="plus-btn" type="primary" bindtap="submitForm">confirm</button>
     </view>
   </mpformpage>
 </view>

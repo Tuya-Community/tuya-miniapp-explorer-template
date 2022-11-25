@@ -10,7 +10,7 @@ Page({
     ],
   },
   radioChange: function (e) {
-    console.log('radio发生change事件，携带value值为：', e.detail.value)
+    console.log('radio change value：', e.detail.value)
 
     var radioItems = this.data.radioItems
     for (var i = 0, len = radioItems.length; i < len; ++i) {
@@ -23,7 +23,7 @@ Page({
     })
   },
   checkboxChange: function (e) {
-    console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+    console.log('checkbox change value：', e.detail.value)
 
     var checkboxItems = this.data.checkboxItems,
       values = e.detail.value

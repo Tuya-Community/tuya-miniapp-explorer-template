@@ -1,13 +1,12 @@
 <view class="page" data-weui-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">ActionSheet</view>
-    <view class="page__desc" bindtouchmove="touchmove">弹出式菜单</view>
+    <view class="page__desc" bindtouchmove="touchmove">{{i18n.t('actionsheet_title')}}</view>
   </view>
   <view class="page__bd">
     <view class="weui-btn-area l-r-padding" >
-      <!-- <button class="weui-btn" type="default" bindtap="open">原生 ActionSheet</button> -->
-      <button class="base-btn" type="primary" bindtap="openDialog">模拟 ActionSheet</button>
+      <button class="base-btn" type="primary" bindtap="openDialog">mock ActionSheet</button>
     </view>
   </view>
-  <mpactionSheet bindactiontap="btnClick" show="{{showDialog}}" actions="{{groups}}" title="这是一个标题，可以为一行或者两行。" close="{{closeDialog}}"></mpactionSheet>
+  <mpactionSheet bindactiontap="btnClick" show="{{showDialog}}" actions="{{groups}}" title="this is a title, can be one line or two lines" close="{{closeDialog}}"></mpactionSheet>
 </view>

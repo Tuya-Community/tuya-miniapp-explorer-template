@@ -5,11 +5,11 @@
 
 <view class="page-body">
   <view class="page-section">
-    <view class="page-section-title l-r-padding">输入区域高度自适应，不会出现滚动条</view>
+    <view class="page-section-title l-r-padding">{{i18n.t('textare_autoheight')}}</view>
     <view class="textarea-wrp">
       <textarea 
         class="textarea-box" 
-        placeholder="请输入"
+        placeholder="enter..."
         autoHeight="{{true}}"
         bindinput="bindTextAreainput"
         bindfocus="bindTextAreaFocus"
@@ -20,7 +20,7 @@
   </view>
 
   <view class="page-section">
-    <view class="page-section-title l-r-padding">这是一个可以自动聚焦的textarea</view>
+    <view class="page-section-title l-r-padding">{{i18n.t('textarea_focus')}}</view>
     <view class="textarea-wrp">
       <textarea 
         class="textarea-box" 
@@ -31,4 +31,3 @@
   </view>
 
 </view>
-
