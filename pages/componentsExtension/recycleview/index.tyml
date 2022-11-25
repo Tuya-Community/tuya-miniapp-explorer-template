@@ -8,4 +8,4 @@
     </recycleview>
   </block>
 </view>
-<button style="position: fixed; top:0" bindtap="loadMore">加载下一页</button>
+<button style="position: fixed; top:0" bindtap="loadMore">load next page</button>

@@ -1,7 +1,6 @@
 <view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Loading</view>
-    <view class="page__desc">加载中</view>
   </view>
   <view class="page__bd">
     <!-- <button bindtap="close">关闭animateion</button> -->

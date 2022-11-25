@@ -1,14 +1,14 @@
 <view class="page" data-plus-theme="{{theme}}">
-  <mpnavigationbar loading="{{loading}}" show="{{show}}" animated="{{animated}}" color="{{color}}" background="{{background}}" title="UI组件库" back="{{true}}"></mpnavigationbar>
+  <mpnavigationbar loading="{{loading}}" show="{{show}}" animated="{{animated}}" color="{{color}}" background="{{background}}" title="UI component" back="{{true}}"></mpnavigationbar>
   <view class="page__hd">
     <view class="page__title">Navigation</view>
-    <view class="page__desc">小程序自定义导航栏</view>
+    <view class="page__desc">{{i18n.t('nav_1')}}</view>
   </view>
   <view class="page__bd page__bd_spacing">
-    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleLoading">触发loading</button>
-    <button class="base-btn m-l-r-20" type="primary" bindtap="changeColor">修改文字颜色</button>
-    <button class="base-btn m-l-r-20" type="primary" bindtap="changeBgColor">修改背景颜色</button>
-    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleShow">显示 / 隐藏</button>
-    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleAnimated">设置显示 / 隐藏opacity动画</button>
+    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleLoading">{{i18n.t('nav_2')}}</button>
+    <button class="base-btn m-l-r-20" type="primary" bindtap="changeColor">{{i18n.t('nav_3')}}</button>
+    <button class="base-btn m-l-r-20" type="primary" bindtap="changeBgColor">{{i18n.t('nav_4')}}</button>
+    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleShow">{{i18n.t('nav_5')}}</button>
+    <button class="base-btn m-l-r-20" type="primary" bindtap="toggleAnimated">{{i18n.t('nav_6')}}</button>
   </view>
 </view>

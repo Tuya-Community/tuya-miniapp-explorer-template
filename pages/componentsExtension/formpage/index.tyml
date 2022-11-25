@@ -1,25 +1,25 @@
 <view class="plus-form">
   <view class="plus-form__text-area">
-    <view class="plus-form__title">表单标题</view>
-    <view class="plus-form__desc">表单描述示意</view>
+    <view class="plus-form__title">{{i18n.t('formpage_1')}}</view>
+    <view class="plus-form__desc">{{i18n.t('formpage_2')}}</view>
   </view>
   <view class="plus-form__control-area">
     <view class="plus-cells__group plus-cells__group_form">
       <view class="plus-cells plus-cells_form">
         <view class="plus-cell">
           <view class="plus-cell__hd">
-            <label class="plus-label">姓名</label>
+            <label class="plus-label">Name</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入姓名"/>
+            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="Please enter your name"/>
           </view>
         </view>
         <view class="plus-cell">
           <view class="plus-cell__hd">
-            <label class="plus-label">手机号</label>
+            <label class="plus-label">Phone number</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="请输入手机号"/>
+            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="Please enter phone number"/>
           </view>
         </view>
       </view>
@@ -28,26 +28,26 @@
   <view class="plus-form__tips-area">
     <label for="tyuiAgree" class="plus-agree">
       <checkbox></checkbox>
-      <text class="plus-agree__text">阅读并同意
-        <navigator href="javascript:void(0);">《相关条款》</navigator>
+      <text class="plus-agree__text">read and agree
+        <navigator href="javascript:void(0);">《Related Terms》</navigator>
       </text>
     </label>
   </view>
   <view class="plus-form__opr-area">
-    <button type="primary" class="m-l-r-20">确定</button>
+    <button type="primary" class="m-l-r-20">Confirm</button>
   </view>
   <view class="plus-form__tips-area">
     <view class="plus-form__tips">
-      点击下一步即表示
-      <navigator href="javascript:;">同意用户协议</navigator>
+      Click next to indicate
+      <navigator href="javascript:;">Agree to the user agreement</navigator>
     </view>
   </view>
   <view class="plus-form__extra-area">
     <view class="plus-footer">
       <view class="plus-footer__links">
-        <navigator href="javascript:void(0);" class="plus-footer__link">底部链接文本</navigator>
+        <navigator href="javascript:void(0);" class="plus-footer__link">bottom link text</navigator>
       </view>
-      <view class="plus-footer__text">Copyright © 2020-2021 mothra.io</view>
+      <view class="plus-footer__text">Copyright © 2020-2022 mothra.io</view>
     </view>
   </view>
 </view>

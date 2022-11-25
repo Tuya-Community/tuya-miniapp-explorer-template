@@ -2,24 +2,24 @@ Page({
   data: {
     list: [
       {
-        text: '微信',
+        text: i18n.t('tabbar_2'),
         iconPath: '/assets/images/tab/component.png',
         selectedIconPath: '/assets/images/tab/component_selected.png',
         badge: '8',
       },
       {
-        text: '通讯录',
+        text: i18n.t('tabbar_3'),
         iconPath: '/assets/images/tab/component.png',
         selectedIconPath: '/assets/images/tab/component_selected.png',
       },
       {
-        text: '发现',
+        text: i18n.t('tabbar_4'),
         iconPath: '/assets/images/tab/component.png',
         selectedIconPath: '/assets/images/tab/component_selected.png',
         dot: true,
       },
       {
-        text: '我',
+        text: i18n.t('tabbar_5'),
         iconPath: '/assets/images/tab/component.png',
         selectedIconPath: '/assets/images/tab/component_selected.png',
       },

@@ -1,12 +1,11 @@
 <view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Loadmore</view>
-    <view class="page__desc">加载更多</view>
   </view>
   <view class="page__bd">
     <mploading type="circle" show="{{true}}"></mploading>
     <view class="plus-loadmore plus-loadmore_line">
-      <view class="plus-loadmore__tips plus-loadmore__tips_in-line">暂无数据</view>
+      <view class="plus-loadmore__tips plus-loadmore__tips_in-line">Empty</view>
     </view>
     <view class="plus-loadmore plus-loadmore_line plus-loadmore_dot">
       <view class="plus-loadmore__tips plus-loadmore__tips_in-line plus-loadmore__tips_in-dot"></view>

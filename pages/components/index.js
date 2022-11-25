@@ -103,13 +103,13 @@ Page({
         ],
         list2: [{
                 id: 'option',
-                name: i18n.t('map_content'),
+                name: i18n.t('option_content'),
                 open: false,
                 pages: ['actionSheetEx', 'dialog', 'halfScreenDialog', 'msg', 'topTips', 'searchbar'],
             },
             {
                 id: 'base',
-                name: '基础组件',
+                name: i18n.t('base_content'),
                 open: false,
                 pages: [
                     'gallery',

@@ -3,17 +3,17 @@ Page({
     // icon: '',
     slideButtons: [
       {
-        text: '普通',
+        text: 'normal',
         // src: global.isDemo ? '' : '', // icon的路径
       },
       {
-        text: '普通',
+        text: 'normal',
         extClass: 'test',
         // src: global.isDemo ? '' : '', // icon的路径
       },
       {
         type: 'warn',
-        text: '警示',
+        text: 'warn',
         extClass: 'test',
         // src: global.isDemo ? '' : '', // icon的路径
       },
