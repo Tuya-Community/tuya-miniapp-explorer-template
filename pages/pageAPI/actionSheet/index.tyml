@@ -3,11 +3,9 @@
     <view class="page-head-title">action-sheet</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
     <view class="btn-area">
-      <button type="default" bindtap="actionSheetTap">弹出action sheet</button>
+      <button type="default" bindtap="actionSheetTap">show action sheet</button>
     </view>
   </view>
-
 </view>

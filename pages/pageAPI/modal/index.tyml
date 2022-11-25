@@ -1,16 +1,12 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">modal</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
     <view class="btn-area">
-      <button type="default" bindtap="modalTap">有标题的modal</button>
-      <button type="default" bindtap="noTitlemodalTap">无标题的modal</button>
+      <button type="default" bindtap="modalTap">modal + title</button>
+      <button type="default" bindtap="noTitlemodalTap">modal</button>
     </view>
   </view>
-
 </view>

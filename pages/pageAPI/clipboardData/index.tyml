@@ -23,8 +23,8 @@
       </view>
     </view>
     <view class="btn-area">
-      <button type="primary" bind:tap="copy">复制</button>
-      <button bind:tap="paste">粘贴</button>
+      <button type="primary" bind:tap="copy">copy</button>
+      <button bind:tap="paste">paste</button>
     </view>
   </view>
 </view>

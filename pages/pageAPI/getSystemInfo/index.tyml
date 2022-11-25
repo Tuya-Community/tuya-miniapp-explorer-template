@@ -8,7 +8,7 @@
       <view class="plus-cells plus-cells_after-title">
         <view class="plus-cell plus-cell_view">
           <view class="plus-cell__hd">
-            <view class="plus-label">手机品牌</view>
+            <view class="plus-label">{{i18n.t('getSystemInfo_1')}}</view>
           </view>
           <view class="plus-cell__bd">
             <text class="plus-input" >{{systemInfo.brand}}</text>
@@ -16,7 +16,7 @@
         </view>
         <view class="plus-cell plus-cell_view">
           <view class="plus-cell__hd">
-            <view class="plus-label">手机型号</view>
+            <view class="plus-label">{{i18n.t('getSystemInfo_2')}}</view>
           </view>
           <view class="plus-cell__bd">
             <text class="plus-input">{{systemInfo.model}}</text>
@@ -24,7 +24,7 @@
         </view>
         <view class="plus-cell plus-cell_view">
           <view class="plus-cell__hd">
-            <view class="plus-label">涂鸦智能语言</view>
+            <view class="plus-label">{{i18n.t('getSystemInfo_3')}}</view>
           </view>
           <view class="plus-cell__bd">
             <text class="plus-input">{{systemInfo.language}}</text>
@@ -40,7 +40,7 @@
         </view> -->
         <view class="plus-cell plus-cell_view">
           <view class="plus-cell__hd">
-            <view class="plus-label">屏幕宽度</view>
+            <view class="plus-label">{{i18n.t('getSystemInfo_4')}}</view>
           </view>
           <view class="plus-cell__bd">
             <text class="plus-input">{{systemInfo.windowWidth}}</text>
@@ -48,7 +48,7 @@
         </view>
         <view class="plus-cell plus-cell_view">
           <view class="plus-cell__hd">
-            <view class="plus-label">屏幕高度</view>
+            <view class="plus-label">{{i18n.t('getSystemInfo_5')}}</view>
           </view>
           <view class="plus-cell__bd">
             <text class="plus-input">{{systemInfo.windowHeight}}</text>
@@ -64,8 +64,8 @@
         </view>
       </view>
       <view class="btn-area">
-        <button type="primary" bind:tap="getSystemInfo">获取手机系统信息</button>
-        <button type="primary" bind:tap="getSystemInfoSync" style="marginTop: 20rpx">获取手机系统信息/同步方法</button>
+        <button type="primary" bind:tap="getSystemInfo">{{i18n.t('getSystemInfo_6')}}</button>
+        <button type="primary" bind:tap="getSystemInfoSync" style="marginTop: 20rpx">{{i18n.t('getSystemInfo_7')}}</button>
       </view>
     </view>
   </view>
