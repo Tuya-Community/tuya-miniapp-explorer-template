@@ -1,18 +1,20 @@
-<view class="page" data-tyui-theme="{{theme}}">
-    <mpmsg title="操作提示primary text">
-        <view slot="desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<navigator url="" class="tyui-msg__link">文字链接</navigator></view>
-        <view slot="extend">
-            <view>1. 说明1</view>
-            <view>2. 说明2</view>
-        </view>
-        <view slot="handle">
-            <button class="m-l-r-20 base-btn" type="primary">主要操作</button>
-        </view>
-        <view slot="footer">
-            <view class="tyui-footer__links">
-                <navigator url="" class="tyui-footer__link">底部链接文本</navigator>
-            </view>
-            <view class="tyui-footer__text">Copyright © 2008-2016 tyui.io</view>
-        </view>
-    </mpmsg>
+<view class="page" data-plus-theme="{{theme}}">
+  <mpmsg title="操作提示primary text">
+    <view slot="desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现
+      <navigator url="" class="plus-msg__link">文字链接</navigator>
+    </view>
+    <view slot="extend">
+      <view>1. 说明1</view>
+      <view>2. 说明2</view>
+    </view>
+    <view slot="handle">
+      <button class="m-l-r-20 base-btn" type="primary">主要操作</button>
+    </view>
+    <view slot="footer">
+      <view class="plus-footer__links">
+        <navigator url="" class="plus-footer__link">底部链接文本</navigator>
+      </view>
+      <view class="plus-footer__text">Copyright © 2008-2016 tyui.io</view>
+    </view>
+  </mpmsg>
 </view>

@@ -12,6 +12,6 @@ Page({
     console.log('demo scroll', e)
   },
   onPullDownRefresh() {
-    console.log('demo onPullDownRefresh 触发执行')
+    console.log('demo onPullDownRefresh triggered')
   },
 })

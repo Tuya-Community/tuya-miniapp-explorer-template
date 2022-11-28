@@ -18,18 +18,18 @@
     data-map="{{value}}"
     bindregionchange="handleRegionchange"
   >
-    <view class="tag1" bindtap="clickTag">标签一</view>
+    <view class="tag1" bindtap="clickTag">label</view>
   </map>
   <view class="btn-box">
-    <button class="btn" bindtap="changeLngLat" type="primary">设置经纬度</button>
+    <button class="btn" bindtap="changeLngLat" type="primary">{{i18n.t('map_la_lo')}}</button>
     <button class="btn" bindtap="apiMoveToLocation" type="primary">moveToLocation</button>
     <button class="btn" bindtap="apiAddMarkers" type="primary">addMarkers</button>
     <button class="btn" bindtap="apiRemoveMarkers" type="primary">removeMarkers</button>
-    <button class="btn" bindtap="scaleIn" type="primary">scale 放大</button>
-    <button class="btn" bindtap="scaleOut" type="primary">scale 缩小</button>
-    <button class="btn" bindtap="openConfirm" type="primary">显示弹窗</button>
+    <button class="btn" bindtap="scaleIn" type="primary">{{i18n.t('map_enlarge')}}</button>
+    <button class="btn" bindtap="scaleOut" type="primary">{{i18n.t('map_small')}}</button>
+    <button class="btn" bindtap="openConfirm" type="primary">{{i18n.t('map_dialog')}}</button>
     <mpdialog title="标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
-      <view>这里是内容，超过部分会自动换行换行。这里是内容，超过部分会自动换行换行</view>
+      <view>content content content content content content content content...</view>
     </mpdialog>
   </view>
 </view>

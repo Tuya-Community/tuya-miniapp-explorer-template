@@ -3,70 +3,69 @@
     <view class="page-head-title">getSystemInfo</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
     <view class="page-section">
-      <view class="tyui-cells tyui-cells_after-title">
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">手机品牌</view>
+      <view class="plus-cells plus-cells_after-title">
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">{{i18n.t('getSystemInfo_1')}}</view>
           </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input" >{{systemInfo.brand}}</text>
-          </view>
-        </view>
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">手机型号</view>
-          </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input">{{systemInfo.model}}</text>
+          <view class="plus-cell__bd">
+            <text class="plus-input" >{{systemInfo.brand}}</text>
           </view>
         </view>
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">涂鸦智能语言</view>
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">{{i18n.t('getSystemInfo_2')}}</view>
           </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input">{{systemInfo.language}}</text>
+          <view class="plus-cell__bd">
+            <text class="plus-input">{{systemInfo.model}}</text>
           </view>
         </view>
-        <!-- <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">涂鸦智能版本</view>
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">{{i18n.t('getSystemInfo_3')}}</view>
           </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input" >{{systemInfo.version}}</text>
+          <view class="plus-cell__bd">
+            <text class="plus-input">{{systemInfo.language}}</text>
+          </view>
+        </view>
+        <!-- <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">涂鸦智能版本</view>
+          </view>
+          <view class="plus-cell__bd">
+            <text class="plus-input" >{{systemInfo.version}}</text>
           </view>
         </view> -->
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">屏幕宽度</view>
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">{{i18n.t('getSystemInfo_4')}}</view>
           </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input">{{systemInfo.windowWidth}}</text>
-          </view>
-        </view>
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">屏幕高度</view>
-          </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input">{{systemInfo.windowHeight}}</text>
+          <view class="plus-cell__bd">
+            <text class="plus-input">{{systemInfo.windowWidth}}</text>
           </view>
         </view>
-        <view class="tyui-cell tyui-cell_view">
-          <view class="tyui-cell__hd">
-            <view class="tyui-label">DPR</view>
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">{{i18n.t('getSystemInfo_5')}}</view>
           </view>
-          <view class="tyui-cell__bd">
-            <text class="tyui-input" >{{systemInfo.pixelRatio}}</text>
+          <view class="plus-cell__bd">
+            <text class="plus-input">{{systemInfo.windowHeight}}</text>
+          </view>
+        </view>
+        <view class="plus-cell plus-cell_view">
+          <view class="plus-cell__hd">
+            <view class="plus-label">DPR</view>
+          </view>
+          <view class="plus-cell__bd">
+            <text class="plus-input" >{{systemInfo.pixelRatio}}</text>
           </view>
         </view>
       </view>
       <view class="btn-area">
-        <button type="primary" bind:tap="getSystemInfo">获取手机系统信息</button>
-        <button type="primary" bind:tap="getSystemInfoSync" style="marginTop: 20rpx">获取手机系统信息/同步方法</button>
+        <button type="primary" bind:tap="getSystemInfo">{{i18n.t('getSystemInfo_6')}}</button>
+        <button type="primary" bind:tap="getSystemInfoSync" style="marginTop: 20rpx">{{i18n.t('getSystemInfo_7')}}</button>
       </view>
     </view>
   </view>

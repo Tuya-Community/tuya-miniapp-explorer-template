@@ -1,26 +1,22 @@
-
-
 <view class="container">
   <view class="page-head">
     <view class="page-head-title">toast</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
     <view class="btn-area">
       <view class="body-view">
-        <button type="default" bindtap="toast1Tap">点击弹出默认toast</button>
+        <button type="default" bindtap="toast1Tap">default toast</button>
       </view>
       <view class="body-view">
-        <button type="default" bindtap="toast2Tap">点击弹出设置duration的toast</button>
+        <button type="default" bindtap="toast2Tap">duration: 3000</button>
       </view>
       <view class="body-view">
-        <button type="default" bindtap="toast3Tap">点击弹出显示loading的toast</button>
+        <button type="default" bindtap="toast3Tap">toast + loading</button>
       </view>
       <view class="body-view">
-        <button type="default" bindtap="hideToast">点击隐藏toast</button>
+        <button type="default" bindtap="hideToast">hide toast</button>
       </view>
     </view>
   </view>
-
 </view>

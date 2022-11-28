@@ -10,7 +10,7 @@
     background-color="{{nbBackgroundColor}}"
   />
 
-  <button bindtap="setTitle">设置标题</button>
-  <button bindtap="showLoading">显示Loading</button>
-  <button bindtap="setFontColor">设置字体颜色</button>
-  <button bindtap="setBackgroundColor">设置背景色</button>
+  <button bindtap="setTitle">setTitle</button>
+  <button bindtap="showLoading">showLoading</button>
+  <button bindtap="setFontColor">setFontColor</button>
+  <button bindtap="setBackgroundColor">setBackgroundColor</button>

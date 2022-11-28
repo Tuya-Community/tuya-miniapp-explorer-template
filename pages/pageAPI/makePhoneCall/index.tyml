@@ -3,13 +3,12 @@
     <view class="page-head-title">makePhoneCall</view>
     <view class="page-head-line"></view>
   </view>
-
   <view class="page-body">
     <view class="page-section">
-      <view class="desc">请在下方输入电话号码</view>
+      <view class="desc">Enter phone number</view>
       <input class="input" type="number" name="input" bind:input="bindInput" />
       <view class="btn-area">
-        <button type="primary" bind:tap="makePhoneCall">拨打</button>
+        <button type="primary" bind:tap="makePhoneCall">call</button>
       </view>
     </view>
   </view>

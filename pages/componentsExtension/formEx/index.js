@@ -11,12 +11,12 @@ Page({
       { name: 'standard is dealicient for u.', value: '1' },
     ],
     items: [
-      { name: 'USA', value: '美国' },
-      { name: 'CHN', value: '中国', checked: 'true' },
-      { name: 'BRA', value: '巴西' },
-      { name: 'JPN', value: '日本' },
-      { name: 'ENG', value: '英国' },
-      { name: 'TUR', value: '法国' },
+      { name: 'USA', value: 'USA' },
+      { name: 'CHN', value: 'CHN', checked: 'true' },
+      { name: 'BRA', value: 'BRA' },
+      { name: 'JPN', value: 'JPN' },
+      { name: 'ENG', value: 'ENG' },
+      { name: 'TUR', value: 'TUR' },
     ],
 
     date: '2016-09-01',
@@ -25,10 +25,10 @@ Page({
     countryCodes: ['+86', '+80', '+84', '+87'],
     countryCodeIndex: 0,
 
-    countries: ['中国', '美国', '英国'],
+    countries: ['CHN', 'USA', 'ENG'],
     countryIndex: 0,
 
-    accounts: ['微信号', 'QQ', 'Email'],
+    accounts: ['Wechat', 'QQ', 'Email'],
     accountIndex: 0,
 
     isAgree: false,
@@ -36,37 +36,37 @@ Page({
     rules: [
       {
         name: 'radio',
-        rules: { required: false, message: '单选列表是必选项' },
+        rules: { required: false, message: 'Single choice list is required' },
       },
       {
         name: 'checkbox',
-        rules: { required: true, message: '多选列表是必选项' },
+        rules: { required: true, message: 'Multiple choice list is required' },
       },
       {
         name: 'name',
-        rules: { required: true, message: '请输入姓名' },
+        rules: { required: true, message: 'Please type in your name' },
       },
       {
         name: 'qq',
-        rules: { required: true, message: 'qq必填' },
+        rules: { required: true, message: 'qq required' },
       },
       {
         name: 'mobile',
         rules: [
-          { required: true, message: 'mobile必填' },
-          { mobile: true, message: 'mobile格式不对' },
+          { required: true, message: 'mobile required' },
+          { mobile: true, message: 'mobile wrong format' },
         ],
       },
       {
         name: 'vcode',
-        rules: { required: true, message: '验证码必填' },
+        rules: { required: true, message: 'Verification code is required' },
       },
       {
         name: 'idcard',
         rules: {
           validator: function (rule, value, param, modeels) {
             if (!value || value.length !== 18) {
-              return 'idcard格式不正确'
+              return 'idcard wrong format'
             }
           },
         },
@@ -74,7 +74,7 @@ Page({
     ],
   },
   radioChange: function (e) {
-    console.log('radio发生change事件，携带value值为：', e.detail.value)
+    console.log('radio change value：', e.detail.value)
 
     var radioItems = this.data.radioItems
     for (var i = 0, len = radioItems.length; i < len; ++i) {
@@ -87,7 +87,7 @@ Page({
     })
   },
   checkboxChange: function (e) {
-    console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+    console.log('checkbox change value：', e.detail.value)
 
     var checkboxItems = this.data.checkboxItems,
       values = e.detail.value
@@ -125,21 +125,21 @@ Page({
     })
   },
   bindCountryCodeChange: function (e) {
-    console.log('picker country code 发生选择改变，携带值为', e.detail.value)
+    console.log('picker country code changed, value:', e.detail.value)
 
     this.setData({
       countryCodeIndex: e.detail.value,
     })
   },
   bindCountryChange: function (e) {
-    console.log('picker country 发生选择改变，携带值为', e.detail.value)
+    console.log('picker country changed, value:', e.detail.value)
 
     this.setData({
       countryIndex: e.detail.value,
     })
   },
   bindAccountChange: function (e) {
-    console.log('picker account 发生选择改变，携带值为', e.detail.value)
+    console.log('picker account changed, value:', e.detail.value)
 
     this.setData({
       accountIndex: e.detail.value,
@@ -162,7 +162,7 @@ Page({
         }
       } else {
         ty.showToast({
-          title: '校验通过',
+          title: 'Check passed',
         })
       }
     })

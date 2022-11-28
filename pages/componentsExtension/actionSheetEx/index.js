@@ -12,9 +12,9 @@ Page({
   data: {
     showDialog: false,
     groups: [
-      { text: '菜单1', value: 1 },
-      { text: '菜单12', value: 2 },
-      { text: '菜单123', type: 'warn', value: 3 },
+      { text: 'menu1', value: 1 },
+      { text: 'menu2', value: 2 },
+      { text: 'menu3', type: 'warn', value: 3 },
     ],
   },
   openDialog: function () {

@@ -1,14 +1,14 @@
-<view class="page" data-tyui-theme="{{theme}}">
+<view class="page" data-plus-theme="{{theme}}">
   <view class="page__hd">
     <view class="page__title">Msg</view>
-    <view class="page__desc">提示页</view>
+    <view class="page__desc">{{i18n.t('msg_1')}}</view>
   </view>
   <view class="page__bd">
-    <view class="tyui-btn-area l-r-padding">
-      <button type="primary" class="base-btn" bindtap="openSuccess">成功提示页</button>
-      <button type="primary" class="base-btn" bindtap="openFail">失败提示页</button>
-      <button type="primary" class="base-btn" bindtap="openText">无图标提示页</button>
-      <button type="primary" class="base-btn" bindtap="openTextPrimary">无图标提示页</button>
+    <view class="plus-btn-area l-r-padding">
+      <button type="primary" class="base-btn" bindtap="openSuccess">{{i18n.t('msg_2')}}</button>
+      <button type="primary" class="base-btn" bindtap="openFail">{{i18n.t('msg_3')}}</button>
+      <button type="primary" class="base-btn" bindtap="openText">{{i18n.t('msg_4')}}</button>
+      <button type="primary" class="base-btn" bindtap="openTextPrimary">{{i18n.t('msg_4')}}</button>
     </view>
   </view>
 </view>

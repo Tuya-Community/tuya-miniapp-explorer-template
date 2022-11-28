@@ -49,7 +49,7 @@ Page({
     return ('' + val).padStart(2, '0')
   },
   bindChange: function (e) {
-    console.log('pickerview 触发了onchange事件', e.detail.value)
+    console.log('pickerview onchange value:', e.detail.value)
     const val = e.detail.value
     this.setData({
       year: this.data.years[val[0]],

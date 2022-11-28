@@ -1,6 +1,6 @@
 <view class="container px-20">
-  <button class="btn" type="primary" bindtap="basic">基本使用</button>
-  <button class="btn" type="primary" bindtap="propagation">冒泡处理</button>
+  <button class="btn" type="primary" bindtap="basic">{{i18n.t('gesture_1')}}</button>
+  <button class="btn" type="primary" bindtap="propagation">{{i18n.t('gesture_2')}}</button>
   <button class="btn" type="primary" bindtap="requireFailure">requireFailure</button>
-  <button class="btn" type="primary" bindtap="photo">仿朋友圈照片</button>
+  <button class="btn" type="primary" bindtap="photo">{{i18n.t('gesture_3')}}</button>
 </view>

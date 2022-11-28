@@ -2,22 +2,22 @@
   <view class="page-head-title">checkbox</view>
   <view class="page-head-line"></view>
 </view>
-<view class="l-r-padding mb-20">默认样式</view>
+<view class="l-r-padding mb-20">{{i18n.t('checkbox_default_style')}}:</view>
 <block>
   <view class="check-wrp">
     <checkbox checked="{{true}}"></checkbox>
-    <text class="check-text text-left">选中</text>
+    <text class="check-text text-left">checked</text>
   </view>
   <view class="check-wrp">
     <checkbox></checkbox>
-    <text class="check-text">未选中</text>
+    <text class="check-text">unchecked</text>
   </view>
   <view class="check-wrp">
     <checkbox checked="{{true}}" disabled="true"></checkbox>
-    <text class="check-text">选中disabled</text>
+    <text class="check-text">checked + disabled</text>
   </view>
   <view class="check-wrp">
     <checkbox disabled="true"></checkbox>
-    <text class="check-text">未选中disabled</text>
+    <text class="check-text">unchecked + disabled</text>
   </view>
 </block>

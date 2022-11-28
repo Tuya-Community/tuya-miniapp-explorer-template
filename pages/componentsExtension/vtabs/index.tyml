@@ -7,7 +7,7 @@
   <block ty:for="{{vtabs}}" ty:key="title" >
     <mpvtabscontent tabIndex="{{index}}">
       <view class="vtabs-content-item">
-        <text>我是第{{index + 1}}项： {{item.title}}</text>
+        <text>{{index + 1}}： {{item.title}}</text>
         <image class="vtab-image" src="/assets/images/godzilla.png" ></image>
       </view>
     </mpvtabscontent>

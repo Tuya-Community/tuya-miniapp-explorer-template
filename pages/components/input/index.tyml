@@ -3,17 +3,17 @@
   <view class="page-head-line"></view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">可以自动聚焦的input</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_focus')}}</view>
   <view class="page-cell">
     <input 
       class="page-input" 
-      placeholder="将会获取焦点"
+      placeholder="auto focus..."
       focus="{{focus}}"
       />
   </view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">控制最大输入长度的input</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_maxlength')}}</view>
   <view class="page-cell">
     <input 
       class="page-input" 
@@ -23,32 +23,32 @@
   </view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">实时获取输入值：{{inputValue}}</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_immediate')}}{{inputValue}}</view>
   <view class="page-cell">
-    <input class="page-input"  bindinput="bindKeyInput" bindblur="bindKeyBlur" bindfocus="bindKeyFocus" placeholder="输入同步到view中"/>
+    <input class="page-input"  bindinput="bindKeyInput" bindblur="bindKeyBlur" bindfocus="bindKeyFocus" placeholder="synchronized view..."/>
   </view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">数字输入的input</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_number')}}</view>
   <view class="page-cell">
-    <input class="page-input" type="number" placeholder="这是一个数字输入框" />
+    <input class="page-input" type="number" placeholder="number..." />
   </view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">密码输入的input</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_password')}}</view>
   <view class="page-cell">
-    <input class="page-input" password="{{true}}" type="text" placeholder="这是一个密码输入框" />
+    <input class="page-input" password="{{true}}" type="text" placeholder="password..." />
   </view>
 </view>
 <view class="page-section">
-  <view class="page-section-title l-r-padding">带小数点的input</view>
+  <view class="page-section-title l-r-padding">{{i18n.t('input_digit')}}</view>
   <view class="page-cell">
-    <input class="page-input" type="digit" placeholder="带小数点的数字键盘"/>
+    <input class="page-input" type="digit" placeholder="digit..."/>
   </view>
 </view>
-<view class="page-section">
+<!-- <view class="page-section">
   <view class="page-section-title l-r-padding">身份证输入的input</view>
   <view class="page-cell">
     <input class="page-input" type="idcard" placeholder="身份证输入键盘" />
   </view>
-</view>
+</view> -->

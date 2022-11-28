@@ -13,7 +13,7 @@
 
 button {
   display: block;
-  width: 184px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;

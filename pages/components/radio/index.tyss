@@ -45,7 +45,7 @@ image {
   animation: b 0.3s forwards;
 }
 
-.tyui-msg__extra-area {
+.plus-msg__extra-area {
   position: static;
 }
 
@@ -68,7 +68,7 @@ image {
   font-weight: 400;
 }
 
-.tyui-cell_example:before {
+.plus-cell_example:before {
   left: 52px;
 }
 

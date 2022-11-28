@@ -4,7 +4,7 @@
 </view>
 
 <view class="section section_gap">
-    <view class="section__title">表单组件在label内</view>
+    <view class="section__title">{{i18n.t('label_1')}}</view>
     <checkbox-group class="group" bindchange="checkboxChange">
       <view class="label-1" ty:for="{{checkboxItems}}">
         <label class="flex-algin-center">
@@ -16,7 +16,7 @@
     </view>
 
     <view class="section section_gap">
-    <view class="section__title">label用for标识表单组件</view>
+    <view class="section__title">{{i18n.t('label_2')}}</view>
     <radio-group class="group" bindchange="radioChange">
       <view class="label-2 flex-algin-center" ty:for="{{radioItems}}">
         <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}"></radio>

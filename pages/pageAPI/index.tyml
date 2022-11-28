@@ -5,33 +5,33 @@
     <view class="page-body">
       <view class="btn-area">
         <button bindtap="setTabBarBadge">
-          {{ !hasSetTabBarBadge ? '设置tab徽标' : '移除tab徽标' }}
+          {{ !hasSetTabBarBadge ? i18n.t('api_14') : i18n.t('api_15') }}
         </button>
         <button bindtap="showTabBarRedDot">
-          {{ !hasShownTabBarRedDot ? '显示红点' : '移除红点'}}
+          {{ !hasShownTabBarRedDot ? i18n.t('api_16') : i18n.t('api_17')}}
         </button>
         <button bindtap="customStyle">
-          {{ !hasCustomedStyle ? '自定义Tab样式' : '移除自定义样式'}}
+          {{ !hasCustomedStyle ? i18n.t('api_18') : i18n.t('api_19')}}
         </button>
         <button bindtap="customItem">
-          {{ !hasCustomedItem ? '自定义Tab信息' : '移除自定义信息' }}
+          {{ !hasCustomedItem ? i18n.t('api_20') : i18n.t('api_21') }}
         </button>
         <button bindtap="hideTabBar">
-          {{ !hasHiddenTabBar ? '隐藏TabBar' : '显示TabBar' }}
+          {{ !hasHiddenTabBar ? i18n.t('api_22') : i18n.t('api_23') }}
         </button>
       </view>
     </view>
     <view class="btn-area">
-      <button type="primary" bindtap="navigateBack">返回上一级</button>
+      <button type="primary" bindtap="navigateBack">{{i18n.t('api_24')}}</button>
     </view>
   </view>
 </block>
 <view class="index" ty:else>
   <view class="index-hd">
     <image class="index-logo" src="/assets/images/Grouplogo.png"></image>
-    <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见
+    <view class="index-desc">{{i18n.t('api_25')}}
       <navigator url="pages/doc-web-view/doc-web-view"
-        class="tyui-agree__link">小程序开发文档</navigator>
+        class="plus-agree__link">{{i18n.t('api_26')}}</navigator>
     </view>
   </view>
   <view class="index-bd">

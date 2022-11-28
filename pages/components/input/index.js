@@ -2,17 +2,9 @@ Page({
   data: {
     focus: true,
     inputValue: '',
-    placeholder: '最大输入长度为10',
+    placeholder: 'maxlength 10',
     placeholderStyle: 'color:green',
   },
-  // onShow: function(){
-  //   setTimeout(()=>{
-  //     this.setData({
-  //       placeholder: "input最大输入长度为10",
-  //       placeholderStyle: "color:gray;font-size:20px;"
-  //     })
-  //   }, 3000)
-  // },
   bindKeyInput: function (e) {
     console.log('demo bindKeyInput', e.detail.value, e.detail)
     this.setData({
