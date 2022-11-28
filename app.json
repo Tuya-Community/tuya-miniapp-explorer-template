@@ -124,19 +124,19 @@
         "borderStyle": "@tabBorderStyle",
         "list": [{
                 "pagePath": "pages/components/index",
-                "text": "组件",
+                "text": "components",
                 "iconPath": "@iconPath1",
                 "selectedIconPath": "@selectedIconPath1"
             },
             {
                 "pagePath": "pages/pageAPI/index",
-                "text": "接口",
+                "text": "api",
                 "iconPath": "@iconPath3",
                 "selectedIconPath": "@selectedIconPath3"
             },
             {
                 "pagePath": "pages/panelDemo/index",
-                "text": "面板",
+                "text": "panel",
                 "iconPath": "@iconPath4",
                 "selectedIconPath": "@selectedIconPath4"
             }
