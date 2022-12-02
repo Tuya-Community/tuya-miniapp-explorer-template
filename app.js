@@ -3,7 +3,7 @@ App({
     console.log('tuya miniapp onLaunch', options)
   },
   onShow(options) {
-    console.log('app.js中的 onShow 生命周期被触发', options)
+    console.log('app.js onShow triggered', options)
   },
   onHide(options) {
     console.log('tuya miniapp onHide', options)
@@ -15,10 +15,10 @@ App({
     console.log('tuya miniapp onThemeChange', options)
   },
   onError(error) {
-    console.log('app.js中的 onError 生命周期被触发', error)
+    console.log('app.js onError triggered', error)
   },
   onPageNotFound(res) {
-    console.log('app.js中的 onPageNotFound 生命周期被触发')
+    console.log('app.js onPageNotFound triggered')
   },
   globalData: {
     name: 'tuya api',
