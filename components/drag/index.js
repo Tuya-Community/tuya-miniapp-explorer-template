@@ -114,7 +114,6 @@ Component({
      * column 改变时候需要清空 list, 以防页面溢出
      */
     columnChange() {
-
       this.setData({
         list: [],
       })

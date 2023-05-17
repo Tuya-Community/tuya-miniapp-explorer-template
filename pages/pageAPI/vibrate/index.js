@@ -1,7 +1,5 @@
 Page({
-  data: {
-
-  },
+  data: {},
   vibrateShort() {
     ty.vibrateShort({
       success(res) {
@@ -12,7 +10,7 @@ Page({
       },
       complete() {
         console.log('completed')
-      }
+      },
     })
   },
 
@@ -26,7 +24,7 @@ Page({
       },
       complete() {
         console.log('completed')
-      }
+      },
     })
-  }
+  },
 })

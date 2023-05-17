@@ -4,15 +4,15 @@ Page({
   },
   onShow: function () {
     ty.startPullDownRefresh({
-      success: function() {
+      success: function () {
         console.log('demo startPullDownRefresh success')
       },
-      fail: function() {
+      fail: function () {
         console.log('demo startPullDownRefresh fail')
       },
-      complete: function() {
+      complete: function () {
         console.log('demo startPullDownRefresh complete')
-      }
+      },
     })
   },
   stopPullDownRefresh: function () {
@@ -23,5 +23,5 @@ Page({
     console.log('demo onPullDownRefresh', new Date())
     const count = this.data.count + 1
     this.setData({ count })
-  }
+  },
 })

@@ -13,5 +13,5 @@ Page({
   },
   slider4change: function (e) {
     console.log(`slider4 change value:`, e.detail.value)
-  }
+  },
 })
