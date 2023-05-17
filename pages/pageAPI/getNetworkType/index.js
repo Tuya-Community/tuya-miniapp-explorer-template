@@ -19,7 +19,7 @@ Page({
           })
         },
       })
-    } catch(err) {
+    } catch (err) {
       console.log(`object`, err.toString())
     }
   },

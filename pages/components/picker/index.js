@@ -1,14 +1,6 @@
 Page({
   data: {
-    array: [
-      'U.S.',
-      'China',
-      'Brazil',
-      'Japan',
-      'India',
-      'U.K.',
-      'Australia'
-    ],
+    array: ['U.S.', 'China', 'Brazil', 'Japan', 'India', 'U.K.', 'Australia'],
     objectArray: [
       {
         id: 0,
@@ -30,7 +22,13 @@ Page({
     index: 0,
     multiArray: [
       [i18n.t('picker_1'), i18n.t('picker_2')],
-      [i18n.t('picker_3'), i18n.t('picker_4'), i18n.t('picker_5'), i18n.t('picker_6'), i18n.t('picker_7')],
+      [
+        i18n.t('picker_3'),
+        i18n.t('picker_4'),
+        i18n.t('picker_5'),
+        i18n.t('picker_6'),
+        i18n.t('picker_7'),
+      ],
       [i18n.t('picker_8'), i18n.t('picker_9')],
     ],
     objectMultiArray: [
@@ -106,7 +104,13 @@ Page({
       case 0:
         switch (data.multiIndex[0]) {
           case 0:
-            data.multiArray[1] = [i18n.t('picker_3'), i18n.t('picker_4'), i18n.t('picker_5'), i18n.t('picker_6'), i18n.t('picker_7')]
+            data.multiArray[1] = [
+              i18n.t('picker_3'),
+              i18n.t('picker_4'),
+              i18n.t('picker_5'),
+              i18n.t('picker_6'),
+              i18n.t('picker_7'),
+            ]
             data.multiArray[2] = [i18n.t('picker_8'), i18n.t('picker_9')]
 
             data.objectMultiArray[1] = [
@@ -160,7 +164,12 @@ Page({
                 data.multiArray[2] = [i18n.t('picker_18'), i18n.t('picker_19'), i18n.t('picker_20')]
                 break
               case 4:
-                data.multiArray[2] = [i18n.t('picker_21'), i18n.t('picker_22'), i18n.t('picker_23'), i18n.t('picker_24')]
+                data.multiArray[2] = [
+                  i18n.t('picker_21'),
+                  i18n.t('picker_22'),
+                  i18n.t('picker_23'),
+                  i18n.t('picker_24'),
+                ]
                 break
             }
             break
@@ -194,5 +203,5 @@ Page({
     this.setData({
       time: e.detail.value,
     })
-  }
+  },
 })

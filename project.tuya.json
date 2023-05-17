@@ -2,7 +2,7 @@
   "projectname": "官方demo",
   "i18n": true,
   "description": "西湖区最好的小程序Demo",
-  "baseversion": "2.10.3",
+  "baseversion": "2.11.6",
   "dependencies": {
     "BaseKit": "3.0.0",
     "MiniKit": "3.0.0",

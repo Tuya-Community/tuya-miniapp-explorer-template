@@ -6,7 +6,7 @@ Page({
 
   valueChanged(e) {
     this.setData({
-      value: e.detail.value
+      value: e.detail.value,
     })
   },
 
@@ -23,7 +23,7 @@ Page({
       },
       fail(res) {
         console.log(`setClipboardData ========= fail `, res)
-      }
+      },
     })
   },
 
@@ -33,7 +33,7 @@ Page({
       success(res) {
         console.log(`getClipboardData ========= success `, res)
         self.setData({
-          pasted: res.data
+          pasted: res.data,
         })
         // wx.showToast({
         //   title: '粘贴成功',
@@ -43,7 +43,7 @@ Page({
       },
       fail(res) {
         console.log(`getClipboardData ========= fail `, res)
-      }
+      },
     })
-  }
+  },
 })

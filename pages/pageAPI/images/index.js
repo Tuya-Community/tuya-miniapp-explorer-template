@@ -13,21 +13,21 @@ Page({
     sizeType: ['压缩', '原图', '压缩或原图'],
 
     countIndex: 8,
-    count: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    count: [1, 2, 3, 4, 5, 6, 7, 8, 9],
   },
   sourceTypeChange(e) {
     this.setData({
-      sourceTypeIndex: e.detail.value
+      sourceTypeIndex: e.detail.value,
     })
   },
   sizeTypeChange(e) {
     this.setData({
-      sizeTypeIndex: e.detail.value
+      sizeTypeIndex: e.detail.value,
     })
   },
   countChange(e) {
     this.setData({
-      countIndex: e.detail.value
+      countIndex: e.detail.value,
     })
   },
   chooseImage() {
@@ -39,12 +39,12 @@ Page({
       success(res) {
         console.log('chooseImage ====== success', res)
         that.setData({
-          imageList: res.tempFilePaths
+          imageList: res.tempFilePaths,
         })
       },
       fail(res) {
-        console.log('chooseImage ====== fail',res)
-      }
+        console.log('chooseImage ====== fail', res)
+      },
     })
   },
   previewImage(e) {
@@ -55,11 +55,11 @@ Page({
       current,
       urls: this.data.imageList,
       fail(res) {
-        console.log('previewImage ====== fail',res)
+        console.log('previewImage ====== fail', res)
       },
       success(res) {
-        console.log('previewImage ====== success',res)
+        console.log('previewImage ====== success', res)
       },
     })
-  }
+  },
 })

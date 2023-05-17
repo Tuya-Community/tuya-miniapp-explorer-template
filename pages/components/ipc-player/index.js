@@ -4,14 +4,14 @@ Page({
     tempImagePath: '',
     isShow: true,
     orientation: 'vertical',
-    objectFit: 'contain'
+    objectFit: 'contain',
   },
   onReady() {
     this.ctx = ty.createIpcPlayerContext(this.data.deviceId)
   },
   onUnload() {
     this.ctx.disconnect({
-      success: res => {
+      success: (res) => {
         console.log('demo disconnect success')
       },
     })
@@ -19,19 +19,19 @@ Page({
   initIpc() {
     this.ctx = ty.createIpcPlayerContext(this.data.deviceId)
     this.ctx.connect({
-      success: res => {
+      success: (res) => {
         this.ctx.startPreview({
-          success: res => {
+          success: (res) => {
             console.log('demo 开启预览成功')
           },
-          fail: res => {
+          fail: (res) => {
             console.log('demo 开启预览失败')
-          }
+          },
         })
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo 建立通道连接失败')
-      }
+      },
     })
   },
   onConnectChange(e) {
@@ -42,93 +42,91 @@ Page({
   },
   snapshot() {
     this.ctx.snapshot({
-      success: res => {
+      success: (res) => {
         console.log('demo snapshot API 调用成功', res)
         this.setData({
-          tempImagePath: res.tempImagePath
+          tempImagePath: res.tempImagePath,
         })
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo snapshot API 调用失败', res)
-      }
+      },
     })
   },
   setMuted1() {
     this.ctx.setMuted({
       mute: true,
-      success: res => {
+      success: (res) => {
         console.log('demo setMuted API 开启成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setMuted API 开启失败', res)
-      }
+      },
     })
   },
   setMuted2() {
     this.ctx.setMuted({
       mute: false,
-      success: res => {
+      success: (res) => {
         console.log('demo setMuted API 关闭成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setMuted API 关闭失败', res)
-      }
+      },
     })
   },
   setSoundMode1() {
     this.ctx.setSoundMode({
       mode: 'speaker',
-      success: res => {
+      success: (res) => {
         console.log('demo setSoundMode API 扬声器播放成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setSoundMode API 扬声器播放失败', res)
-
-      }
+      },
     })
   },
   setSoundMode2() {
     this.ctx.setSoundMode({
       mode: 'ear',
-      success: res => {
+      success: (res) => {
         console.log('demo setSoundMode API 听筒播放成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setSoundMode API 听筒播放失败', res)
-
-      }
+      },
     })
   },
   setClarity1() {
     this.ctx.setClarity({
       clarity: 'normal',
-      success: res => {
+      success: (res) => {
         console.log('demo setClarity API 标清成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setClarity API 标清失败', res)
-      }
+      },
     })
   },
   setClarity2() {
     this.ctx.setClarity({
       clarity: 'hd',
-      success: res => {
+      success: (res) => {
         console.log('demo setClarity API 高清成功', res)
       },
-      fail: res => {
+      fail: (res) => {
         console.log('demo setClarity API 高清失败', res)
-      }
+      },
     })
   },
   orientationChange() {
     this.setData({
-        orientation: this.data.orientation == 'vertical' ? 'horizontal' :  'vertical',
-    });
+      orientation: this.data.orientation == 'vertical' ? 'horizontal' : 'vertical',
+    })
   },
   objectFitChange() {
     this.setData({
-      objectFit: this.data.objectFit == 'contain' ? 'fillCrop' :  'contain',
-  });
-  }
+      objectFit: this.data.objectFit == 'contain' ? 'fillCrop' : 'contain',
+    })
+  },
 })

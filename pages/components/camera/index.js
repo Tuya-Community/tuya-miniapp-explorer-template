@@ -4,17 +4,17 @@ Page({
     flash: 'off',
     src: '',
   },
-  onReady(){
+  onReady() {
     this.ctx = ty.createCameraContext()
   },
   devicePositionCHnage() {
     this.setData({
-      devicePosition: this.data.devicePosition === 'back' ? 'front' : 'back'
+      devicePosition: this.data.devicePosition === 'back' ? 'front' : 'back',
     })
   },
   flashChange() {
     this.setData({
-      flash: this.data.flash === 'off' ? 'on' : 'off'
+      flash: this.data.flash === 'off' ? 'on' : 'off',
     })
   },
   stop(e) {
@@ -31,15 +31,15 @@ Page({
       quality: 'high',
       success: (res) => {
         this.setData({
-          src: res.tempImagePath
+          src: res.tempImagePath,
         })
       },
       fail: (res) => {
         console.log('demo takePhoto fail', res)
-      }
+      },
     })
   },
-  setZoom(){
+  setZoom() {
     this.ctx.setZoom({
       zoom: 5,
       success: (res) => {
@@ -47,7 +47,7 @@ Page({
       },
       fail: (res) => {
         console.log('demo setZoom fail', res)
-      }
+      },
     })
   },
 })

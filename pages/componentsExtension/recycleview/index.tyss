@@ -1,4 +1,4 @@
-#recycleWrapper{
+#recycleWrapper {
   height: 100vh;
   overflow: auto;
 }

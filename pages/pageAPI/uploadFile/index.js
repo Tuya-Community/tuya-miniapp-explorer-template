@@ -1,7 +1,7 @@
 Page({
-  data:{
+  data: {
     text: '选择图片',
-    imageSrc: ''
+    imageSrc: '',
   },
   chooseImage() {
     const self = this
@@ -19,7 +19,7 @@ Page({
           url: 'https://weap-panel-h5.ismartlife.me', // 上传至云端的路径
           filePath: imageSrc, // 小程序临时文件路径
           name: 'test',
-          success: res => {
+          success: (res) => {
             // 返回文件 ID
             console.log('uploadImage success, res is:', JSON.stringify(res))
 
@@ -27,15 +27,15 @@ Page({
               imageSrc,
             })
           },
-          fail({errMsg}) {
+          fail({ errMsg }) {
             console.log('uploadImage fail, errMsg is', errMsg)
-          }
+          },
         })
       },
 
-      fail: res => {
+      fail: (res) => {
         console.log('uploadImage fail, errMsg is', res.errMsg)
-      }
+      },
     })
-  }
+  },
 })
