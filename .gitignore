@@ -5,3 +5,4 @@ node_modules/
 dist/
 *.lock
 .idea
+dist-next/

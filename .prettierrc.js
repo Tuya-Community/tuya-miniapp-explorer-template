@@ -8,4 +8,12 @@ module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
   arrowParens: 'always',
+  overrides: [
+    {
+      files: '*.tyss',
+      options: {
+        parser: 'css',
+      },
+    },
+  ],
 }
