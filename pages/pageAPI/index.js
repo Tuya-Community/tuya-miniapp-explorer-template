@@ -144,7 +144,7 @@ Page({
       if (list[i].id === id) {
         if (list[i].url) {
           ty.navigateTo({
-            url: 'pages/pageAPI/' + list[i].url,
+            url: '/pages/pageAPI/' + list[i].url,
           })
           return
         }

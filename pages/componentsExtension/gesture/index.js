@@ -2,22 +2,22 @@ Page({
   data: {},
   basic() {
     ty.navigateTo({
-      url: 'pages/componentsExtension/basic/index',
+      url: '/pages/componentsExtension/basic/index',
     })
   },
   propagation() {
     ty.navigateTo({
-      url: 'pages/componentsExtension/propagation/index',
+      url: '/pages/componentsExtension/propagation/index',
     })
   },
   requireFailure() {
     ty.navigateTo({
-      url: 'pages/componentsExtension/requireFailure/index',
+      url: '/pages/componentsExtension/requireFailure/index',
     })
   },
   photo() {
     ty.navigateTo({
-      url: 'pages/componentsExtension/photo/index',
+      url: '/pages/componentsExtension/photo/index',
     })
   },
 })

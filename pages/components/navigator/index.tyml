@@ -1,22 +1,21 @@
 <view class="page-head">
-	<view class="page-head-title">navigator</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">navigator</view>
+  <view class="page-head-line"></view>
 </view>
-
 <view class="btn-area l-r-padding">
   <button class="navigator-btn">
-    <navigator url="pages/components/button/index" class="link" hover-class="navigator-hover">navigate</navigator>
+    <navigator url="/pages/components/button/index" class="link" hover-class="navigator-hover">navigate</navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/view/index" class="link" open-type="redirect" hover-class="other-navigator-hover">redirect</navigator>
+    <navigator url="/pages/components/view/index" class="link" open-type="redirect" hover-class="other-navigator-hover">redirect</navigator>
   </button>
   <button class="navigator-btn">
     <navigator  class="link" open-type="navigateBack" hover-class="other-navigator-hover">navigateBack</navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/index" class="link" open-type="switchTab" hover-class="other-navigator-hover">switchTab</navigator>
+    <navigator url="/pages/components/index" class="link" open-type="switchTab" hover-class="other-navigator-hover">switchTab</navigator>
   </button>
   <button class="navigator-btn">
-    <navigator url="pages/components/input/index" class="link" open-type="reLaunch" hover-class="other-navigator-hover">reLaunch</navigator>
+    <navigator url="/pages/components/input/index" class="link" open-type="reLaunch" hover-class="other-navigator-hover">reLaunch</navigator>
   </button>
 </view>
