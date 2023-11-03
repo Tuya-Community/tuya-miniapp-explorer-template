@@ -18,7 +18,7 @@
             <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
               <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
                 <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="path">
-                  <navigator url="pages/components/{{page.path}}/index" class="navigator">
+                  <navigator url="/pages/components/{{page.path}}/index" class="navigator">
                     <view class="navigator-text">{{page.title}}</view>
                     <view class="navigator-arrow"></view>
                   </navigator>
@@ -40,7 +40,7 @@
             <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
               <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
                 <block ty:for="{{item.pages}}" ty:for-item="page" ty:key="path">
-                  <navigator url="pages/componentsExtension/{{page}}/index" class="navigator">
+                  <navigator url="/pages/componentsExtension/{{page}}/index" class="navigator">
                     <view class="navigator-text">{{page}}</view>
                     <view class="navigator-arrow"></view>
                   </navigator>

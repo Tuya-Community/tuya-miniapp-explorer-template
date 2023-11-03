@@ -2,7 +2,7 @@ Page({
   data: {},
   click(e) {
     ty.navigateTo({
-      url: 'pages/components/eventChannel2/index?name=xiangling&age=18&grade=6',
+      url: '/pages/components/eventChannel2/index?name=xiangling&age=18&grade=6',
       events: {
         // 为指定事件添加一个监听器，获取被打开页面传送到当前页面的数据
         acceptDataFromOpenedPage: function (data) {
