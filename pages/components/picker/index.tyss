@@ -1115,7 +1115,9 @@ icon {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
 }
 
 .plus-navbar__title {
@@ -1297,7 +1299,11 @@ radio {
   flex: 1;
   background-color: #fbf9fe;
   font-size: 16px;
-  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  font-family:
+    -apple-system-font,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
   overflow: hidden;
 }
 

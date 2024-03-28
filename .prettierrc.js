@@ -7,9 +7,9 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  singleAttributePerLine: true,
-  insertFinalNewline: false,
+  singleAttributePerLine: false,
   arrowParens: 'always',
+  htmlWhitespaceSensitivity: 'css',
   overrides: [
     {
       files: '*.rjs',

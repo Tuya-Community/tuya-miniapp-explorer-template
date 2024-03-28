@@ -4,7 +4,11 @@
   min-height: 100%;
   justify-content: flex-start;
   font-size: 16px;
-  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  font-family:
+    -apple-system-font,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
 }
 
 .page-section {
@@ -126,7 +130,10 @@ page {
 
 page {
   line-height: 1.6;
-  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system-font,
+    Helvetica Neue,
+    sans-serif;
 }
 
 icon {
@@ -1441,8 +1448,12 @@ button.weui-vcode-btn {
   outline: 0;
   border-radius: 16px;
   box-sizing: border-box;
-  -webkit-transition: background-color 0.1s, border 0.1s;
-  transition: background-color 0.1s, border 0.1s;
+  -webkit-transition:
+    background-color 0.1s,
+    border 0.1s;
+  transition:
+    background-color 0.1s,
+    border 0.1s;
 }
 
 .weui-switch-cp__box:before,
@@ -1458,7 +1469,8 @@ button.weui-vcode-btn {
   -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
   transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
   transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
-  transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1),
+  transition:
+    transform 0.35s cubic-bezier(0.45, 1, 0.4, 1),
     -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
 }
 
@@ -1476,7 +1488,8 @@ button.weui-vcode-btn {
   -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
   transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
   transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
-  transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35),
+  transition:
+    transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35),
     -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
 }
 
@@ -3035,7 +3048,9 @@ a.weui-media-box:active {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   overflow: hidden;
@@ -3147,7 +3162,9 @@ a.weui-media-box:active {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -3417,7 +3434,9 @@ input[type='search']::-webkit-search-results-decoration {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  transition:
+    transform 0.3s,
+    -webkit-transform 0.3s;
 }
 
 .weui-picker__hd {
@@ -3485,7 +3504,8 @@ input[type='search']::-webkit-search-results-decoration {
   height: 100%;
   margin: 0 auto;
   z-index: 3;
-  background-image: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6)),
+  background-image:
+    -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6)),
     -webkit-linear-gradient(bottom, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6));
   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6)),
     linear-gradient(0deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.6));
@@ -3498,7 +3518,8 @@ input[type='search']::-webkit-search-results-decoration {
 
 @media (prefers-color-scheme: dark) {
   .weui-picker__mask {
-    background-image: -webkit-linear-gradient(top, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6)),
+    background-image:
+      -webkit-linear-gradient(top, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6)),
       -webkit-linear-gradient(bottom, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
     background-image: linear-gradient(180deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6)),
       linear-gradient(0deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));

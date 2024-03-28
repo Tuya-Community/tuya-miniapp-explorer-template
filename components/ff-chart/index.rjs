@@ -1,6 +1,6 @@
 // index.rjs
 import F2 from '@antv/f2'
-import {documentAdapter } from '@tuya-miniapp/rjs-adapter'
+import { documentAdapter } from '@tuya-miniapp/rjs-adapter'
 documentAdapter()
 let chart
 export default Render({

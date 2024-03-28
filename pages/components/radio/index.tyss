@@ -21,7 +21,11 @@
   background-color: var(--main-bg-color);
   color: rgba(0, 0, 0, 0.9);
   font-size: 16px;
-  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  font-family:
+    -apple-system-font,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
   max-width: 600px;
 }
 
