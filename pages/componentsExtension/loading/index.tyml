@@ -6,7 +6,13 @@
     <!-- <button bindtap="close">关闭animateion</button> -->
     <mploading type="circle"></mploading>
     <!-- <mploading type="circle" tips="{{tips}}"></mploading> -->
-    <mploading duration="{{900}}" ext-class="demo0" type="dot-gray" show="{{show}}" animated="{{animated}}"></mploading>
+    <mploading
+      duration="{{900}}"
+      ext-class="demo0"
+      type="dot-gray"
+      show="{{show}}"
+      animated="{{animated}}"
+    ></mploading>
     <mploading type="dot-white" ext-class="demo1"></mploading>
   </view>
 </view>

@@ -1,6 +1,6 @@
 <view class="page-head">
-	<view class="page-head-title">page-container</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">page-container</view>
+  <view class="page-head-line"></view>
 </view>
 
 <view class="title">{{i18n.t('pc_position')}}</view>
@@ -11,21 +11,28 @@
   <button class="btn" bindtap="popup" data-position="center">{{i18n.t('pc_center')}}</button>
 </view>
 
-
 <view class="title">{{i18n.t('pc_round')}}</view>
 <view class="box">
-  <button class="btn" bindtap="changeRound">{{round ? i18n.t('pc_set_angle') : i18n.t('pc_set_round')}}</button>
+  <button class="btn" bindtap="changeRound">
+    {{round ? i18n.t('pc_set_angle') : i18n.t('pc_set_round')}}
+  </button>
 </view>
 
 <view class="title">{{i18n.t('pc_mask')}}</view>
 <view class="box">
-  <button class="btn" bindtap="changeOverlay">{{overlay ? i18n.t('pc_no_mask') : i18n.t('pc_has_mask')}}</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="black">{{i18n.t('pc_black_mask')}}</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="white">{{i18n.t('pc_white_mask')}}</button>
-  <button class="btn" bindtap="changeOverlayStyle" data-type="blur">{{i18n.t('pc_blur_mask')}}</button>
-
+  <button class="btn" bindtap="changeOverlay">
+    {{overlay ? i18n.t('pc_no_mask') : i18n.t('pc_has_mask')}}
+  </button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="black">
+    {{i18n.t('pc_black_mask')}}
+  </button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="white">
+    {{i18n.t('pc_white_mask')}}
+  </button>
+  <button class="btn" bindtap="changeOverlayStyle" data-type="blur">
+    {{i18n.t('pc_blur_mask')}}
+  </button>
 </view>
-
 
 <page-container
   style="height: 500px"
@@ -46,8 +53,6 @@
   overlay-style="{{overlayStyle}}"
 >
   <view class="detail-page">
-    <button type="primary" bindtap="exit">
-    exit
-    </button>
+    <button type="primary" bindtap="exit">exit</button>
   </view>
 </page-container>

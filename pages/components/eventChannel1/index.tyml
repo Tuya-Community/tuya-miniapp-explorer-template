@@ -1,15 +1,9 @@
 <view class="pd-20">
   <view class="title mb-20">
     {{i18n.t('eventchannel_text1')}}
-    <view>
-      {{i18n.t('eventchannel_text2')}}
-    </view>
-    <view>
-      {{i18n.t('eventchannel_text3')}}
-    </view>
-    <view>
-      {{i18n.t('eventchannel_text4')}}
-    </view>
+    <view> {{i18n.t('eventchannel_text2')}} </view>
+    <view> {{i18n.t('eventchannel_text3')}} </view>
+    <view> {{i18n.t('eventchannel_text4')}} </view>
   </view>
   <button bindtap="click" type="primary">{{i18n.t('eventchannel_text5')}}</button>
 </view>

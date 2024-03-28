@@ -5,27 +5,25 @@
 <view class="page-section">
   <view class="page-section-title l-r-padding">{{i18n.t('input_focus')}}</view>
   <view class="page-cell">
-    <input 
-      class="page-input" 
-      placeholder="auto focus..."
-      focus="{{focus}}"
-      />
+    <input class="page-input" placeholder="auto focus..." focus="{{focus}}" />
   </view>
 </view>
 <view class="page-section">
   <view class="page-section-title l-r-padding">{{i18n.t('input_maxlength')}}</view>
   <view class="page-cell">
-    <input 
-      class="page-input" 
-      maxlength="{{10}}" 
-      placeholder="{{placeholder}}"
-      />
+    <input class="page-input" maxlength="{{10}}" placeholder="{{placeholder}}" />
   </view>
 </view>
 <view class="page-section">
   <view class="page-section-title l-r-padding">{{i18n.t('input_immediate')}}{{inputValue}}</view>
   <view class="page-cell">
-    <input class="page-input"  bindinput="bindKeyInput" bindblur="bindKeyBlur" bindfocus="bindKeyFocus" placeholder="synchronized view..."/>
+    <input
+      class="page-input"
+      bindinput="bindKeyInput"
+      bindblur="bindKeyBlur"
+      bindfocus="bindKeyFocus"
+      placeholder="synchronized view..."
+    />
   </view>
 </view>
 <view class="page-section">
@@ -43,7 +41,7 @@
 <view class="page-section">
   <view class="page-section-title l-r-padding">{{i18n.t('input_digit')}}</view>
   <view class="page-cell">
-    <input class="page-input" type="digit" placeholder="digit..."/>
+    <input class="page-input" type="digit" placeholder="digit..." />
   </view>
 </view>
 <!-- <view class="page-section">

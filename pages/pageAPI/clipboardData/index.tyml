@@ -10,7 +10,13 @@
           <view class="plus-label">Copy</view>
         </view>
         <view class="plus-cell__bd">
-          <input class="plus-input" type="text" name="key" value="{{value}}" bind:input="valueChanged"></input>
+          <input
+            class="plus-input"
+            type="text"
+            name="key"
+            value="{{value}}"
+            bind:input="valueChanged"
+          />
         </view>
       </view>
       <view class="plus-cell plus-cell_input">

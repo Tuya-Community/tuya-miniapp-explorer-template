@@ -9,11 +9,17 @@
         <button class="animation-button" bindtap="scale">{{i18n.t('amin_zoom')}}</button>
         <button class="animation-button" bindtap="translate">{{i18n.t('amin_move')}}</button>
         <button class="animation-button" bindtap="skew">{{i18n.t('amin_tilt')}}</button>
-        <button class="animation-button" bindtap="rotateAndScale">{{i18n.t('anim_spin_zoom')}}</button>
-        <button class="animation-button" bindtap="rotateThenScale">{{i18n.t('anim_spin_then_zoom')}}</button>
+        <button class="animation-button" bindtap="rotateAndScale">
+          {{i18n.t('anim_spin_zoom')}}
+        </button>
+        <button class="animation-button" bindtap="rotateThenScale">
+          {{i18n.t('anim_spin_then_zoom')}}
+        </button>
         <button class="animation-button" bindtap="all">{{i18n.t('amin_all')}}</button>
         <button class="animation-button" bindtap="allInQueue">{{i18n.t('anim_then_all')}}</button>
-        <button class="animation-button animation-button-reset" bindtap="reset">{{i18n.t('anim_reset')}}</button>
+        <button class="animation-button animation-button-reset" bindtap="reset">
+          {{i18n.t('anim_reset')}}
+        </button>
       </view>
     </view>
   </view>

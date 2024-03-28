@@ -6,7 +6,7 @@
   bindchange="onChange"
   activeClass="tab-bar-title__selected"
 >
-  <view ty:for="{{tabs}}" ty:key="title" slot="tab-content-{{index}}" >
+  <view ty:for="{{tabs}}" ty:key="title" slot="tab-content-{{index}}">
     <tyList></tyList>
   </view>
 </mptabs>

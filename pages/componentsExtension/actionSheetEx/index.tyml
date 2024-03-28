@@ -4,9 +4,15 @@
     <view class="page__desc" bindtouchmove="touchmove">{{i18n.t('actionsheet_title')}}</view>
   </view>
   <view class="page__bd">
-    <view class="weui-btn-area l-r-padding" >
+    <view class="weui-btn-area l-r-padding">
       <button class="base-btn" type="primary" bindtap="openDialog">mock ActionSheet</button>
     </view>
   </view>
-  <mpactionSheet bindactiontap="btnClick" show="{{showDialog}}" actions="{{groups}}" title="this is a title, can be one line or two lines" close="{{closeDialog}}"></mpactionSheet>
+  <mpactionSheet
+    bindactiontap="btnClick"
+    show="{{showDialog}}"
+    actions="{{groups}}"
+    title="this is a title, can be one line or two lines"
+    close="{{closeDialog}}"
+  ></mpactionSheet>
 </view>

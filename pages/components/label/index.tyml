@@ -1,26 +1,26 @@
 <view class="page-head">
-	<view class="page-head-title">label</view>
-	<view class="page-head-line"></view>
+  <view class="page-head-title">label</view>
+  <view class="page-head-line"></view>
 </view>
 
 <view class="section section_gap">
-    <view class="section__title">{{i18n.t('label_1')}}</view>
-    <checkbox-group class="group" bindchange="checkboxChange">
-      <view class="label-1" ty:for="{{checkboxItems}}">
-        <label class="flex-algin-center">
-          <checkbox value="{{item.name}}" checked="{{item.checked}}"></checkbox>
-          <text class="label-1__text">{{item.value}}</text>
-        </label>
-      </view>
-    </checkbox-group>
+  <view class="section__title">{{i18n.t('label_1')}}</view>
+  <checkbox-group class="group" bindchange="checkboxChange">
+    <view class="label-1" ty:for="{{checkboxItems}}">
+      <label class="flex-algin-center">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+        <text class="label-1__text">{{item.value}}</text>
+      </label>
     </view>
+  </checkbox-group>
+</view>
 
-    <view class="section section_gap">
-    <view class="section__title">{{i18n.t('label_2')}}</view>
-    <radio-group class="group" bindchange="radioChange">
-      <view class="label-2 flex-algin-center" ty:for="{{radioItems}}">
-        <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}"></radio>
-        <text>{{item.name}}</text>
-      </view>
-    </radio-group>
+<view class="section section_gap">
+  <view class="section__title">{{i18n.t('label_2')}}</view>
+  <radio-group class="group" bindchange="radioChange">
+    <view class="label-2 flex-algin-center" ty:for="{{radioItems}}">
+      <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}"></radio>
+      <text>{{item.name}}</text>
     </view>
+  </radio-group>
+</view>

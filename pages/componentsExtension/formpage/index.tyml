@@ -11,7 +11,12 @@
             <label class="plus-label">Name</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="Please enter your name"/>
+            <input
+              class="plus-input"
+              type="number"
+              pattern="[0-9]*"
+              placeholder="Please enter your name"
+            />
           </view>
         </view>
         <view class="plus-cell">
@@ -19,7 +24,12 @@
             <label class="plus-label">Phone number</label>
           </view>
           <view class="plus-cell__bd">
-            <input class="plus-input" type="number" pattern="[0-9]*" placeholder="Please enter phone number"/>
+            <input
+              class="plus-input"
+              type="number"
+              pattern="[0-9]*"
+              placeholder="Please enter phone number"
+            />
           </view>
         </view>
       </view>
@@ -28,7 +38,8 @@
   <view class="plus-form__tips-area">
     <label for="tyuiAgree" class="plus-agree">
       <checkbox></checkbox>
-      <text class="plus-agree__text">read and agree
+      <text class="plus-agree__text"
+        >read and agree
         <navigator href="javascript:void(0);">《Related Terms》</navigator>
       </text>
     </label>

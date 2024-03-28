@@ -1,10 +1,8 @@
 <view>
-	<button bindtap="handletap">requireFailure = {{requireFailure ? 'ON' : 'OFF'}}</button>
-	<gesture bindsingleTap="singleTap" binddoubleTap="doubleTap" requireFailure="{{requireFailure}}">
-		<view class="test" id="test">Single / Double Tap</view>
-	</gesture>
+  <button bindtap="handletap">requireFailure = {{requireFailure ? 'ON' : 'OFF'}}</button>
+  <gesture bindsingleTap="singleTap" binddoubleTap="doubleTap" requireFailure="{{requireFailure}}">
+    <view class="test" id="test">Single / Double Tap</view>
+  </gesture>
 
-	<view ty:for="{{log}}" ty:key="{{index}}" class="log">
-		{{item}}
-	</view>
+  <view ty:for="{{log}}" ty:key="{{index}}" class="log"> {{item}} </view>
 </view>

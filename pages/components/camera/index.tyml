@@ -1,6 +1,6 @@
 <view class="page-body">
   <camera
-    style="width: 100%; height:300px;"
+    style="width: 100%; height: 300px"
     resolution="high"
     device-position="{{devicePosition}}"
     flash="{{flash}}"
@@ -12,8 +12,12 @@
   <view class="btn-area">
     <button class="page-body-button" type="primary" bindtap="takePhoto">takePhoto API</button>
     <button class="page-body-button" type="primary" bindtap="setZoom">setZoom API</button>
-    <button class="page-body-button" type="primary" bindtap="devicePositionCHnage">device-position {{i18n.t('camera_props')}}</button>
-    <button class="page-body-button" type="primary" bindtap="flashChange">flash {{i18n.t('camera_props')}}</button>
+    <button class="page-body-button" type="primary" bindtap="devicePositionCHnage">
+      device-position {{i18n.t('camera_props')}}
+    </button>
+    <button class="page-body-button" type="primary" bindtap="flashChange">
+      flash {{i18n.t('camera_props')}}
+    </button>
     <view>{{i18n.t('camera_view_pic')}}:</view>
     <image ty:if="{{src}}" mode="widthFix" src="{{src}}"></image>
   </view>
