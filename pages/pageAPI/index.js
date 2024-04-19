@@ -76,55 +76,36 @@ Page({
           // },
         ],
       },
-      // {
-      //   id: 'network',
-      //   name: '网络',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '发起一个请求',
-      //       url: 'networkRequest/index',
-      //     },
-      //     {
-      //       zh: '上传文件',
-      //       url: 'uploadFile/index',
-      //     },
-      //     {
-      //       zh: '下载文件',
-      //       url: 'downloadFile/index',
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 'media',
-      //   name: '媒体',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '图片',
-      //       url: 'images/index',
-      //     },
-      //     {
-      //       zh: '音频',
-      //       url: 'audio/index',
-      //     },
-      //     {
-      //       zh: '录音',
-      //       url: 'voice/index',
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 'location',
-      //   name: '位置',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '获取当前位置',
-      //       url: 'getLocation/index',
-      //     },
-      //   ],
-      // },
+      {
+        id: 'network',
+        name: '网络',
+        open: false,
+        pages: [
+          {
+            zh: '发起一个请求',
+            url: 'networkRequest/index',
+          },
+          {
+            zh: '上传文件',
+            url: 'uploadFile/index',
+          },
+          {
+            zh: '下载文件',
+            url: 'downloadFile/index',
+          },
+        ],
+      },
+      {
+        id: 'location',
+        name: '位置',
+        open: false,
+        pages: [
+          {
+            zh: '获取当前位置',
+            url: 'getLocation/index',
+          },
+        ],
+      },
       {
         id: i18n.t('api_12'),
         name: i18n.t('api_13'),

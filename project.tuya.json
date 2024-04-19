@@ -6,7 +6,8 @@
   "dependencies": {
     "BaseKit": "3.0.0",
     "MiniKit": "3.0.0",
-    "BizKit": "3.0.1"
+    "BizKit": "3.0.1",
+    "MapKit": "3.4.16"
   },
   "compileType": "miniprogram"
 }

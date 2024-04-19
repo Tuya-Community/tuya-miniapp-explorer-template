@@ -128,15 +128,12 @@ Page({
         })
       },
     })
+  },
 
-    // ty.clearStorage({
-    //   success: function (clearStorage) {
-    //     console.log(`clearStorage =======`, clearStorage)
-    //     that.setData({
-    //       key: '',
-    //       data: '',
-    //     })
-    //   },
-    // })
+  clearStorageSync() {
+    ty.clearStorageSync()
+    ty.showToast({
+      title: 'success',
+    })
   },
 })

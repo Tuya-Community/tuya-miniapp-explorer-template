@@ -41,6 +41,7 @@
         <button type="primary" bind:tap="setStorage">{{i18n.t('storage_1')}}</button>
         <button bind:tap="getStorage">{{i18n.t('storage_2')}}</button>
         <button bind:tap="clearStorage">{{i18n.t('storage_3')}}</button>
+        <button bind:tap="clearStorageSync">同步清理数据</button>
       </view>
     </view>
   </view>

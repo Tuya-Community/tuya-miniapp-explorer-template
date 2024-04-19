@@ -5,11 +5,11 @@
   </view>
   <view class="page-body">
     <view class="btn-area">
-      <button bindtap="navigateTo">navigateTo</button>
-      <button bindtap="navigateBack">navigateBack</button>
-      <button bindtap="redirectTo">redirectTo</button>
-      <button bindtap="switchTab">switchTab</button>
-      <button bindtap="reLaunch">reLaunch</button>
+      <button type="primary" bindtap="navigateTo">navigateTo</button>
+      <button type="primary" bindtap="navigateBack">navigateBack</button>
+      <button type="primary" bindtap="redirectTo">redirectTo</button>
+      <button type="primary" bindtap="switchTab">switchTab</button>
+      <button type="primary" bindtap="reLaunch">reLaunch</button>
     </view>
   </view>
 </view>

@@ -8,7 +8,7 @@
     <image ty:if="{{imageSrc}}" src="{{imageSrc}}" />
     <block ty:else>
       <view class="page-body-wording">
-        <text class="page-body-text"> 点击按钮下载服务端示例图片 </text>
+        <text class="page-body-text"> 点击按钮下载服务端示例图，iOS 5.12.0 支持图片显示 </text>
       </view>
       <view class="btn-area">
         <button bind:tap="downloadImage" type="primary">下载</button>
