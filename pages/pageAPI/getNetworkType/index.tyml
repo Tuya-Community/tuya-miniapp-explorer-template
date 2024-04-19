@@ -11,9 +11,6 @@
           网络状态
           <view class="page-body-text-network-type">{{networkType}}</view>
         </view>
-        <block ty:if="{{hasNetworkType === false}}">
-          <text class="page-body-text">点击绿色按钮可获取网络状态</text>
-        </block>
       </view>
       <view class="btn-area">
         <button type="primary" bind:tap="getNetworkType">获取手机网络状态</button>

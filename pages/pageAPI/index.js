@@ -38,42 +38,46 @@ Page({
         name: i18n.t('api_8'),
         open: false,
         pages: [
-          // {
-          //   zh: '获取手机网络状态',
-          //   url: 'getNetworkType/index',
-          // },
+          {
+            zh: '获取手机网络状态',
+            url: 'getNetworkType/index',
+          },
           {
             zh: i18n.t('api_9'),
             url: 'getSystemInfo/index',
           },
-          // {
-          //   zh: '获取手机设备电量',
-          //   url: 'getBatteryInfo/index',
-          // },
           {
             zh: i18n.t('api_10'),
             url: 'makePhoneCall/index',
           },
-          // {
-          //   zh: '扫码',
-          //   url: 'scanCode/index',
-          // },
+          {
+            zh: '扫码',
+            url: 'scanCode/index',
+          },
           {
             zh: i18n.t('api_11'),
             url: 'clipboardData/index',
           },
-          // {
-          //   zh: '屏幕亮度',
-          //   url: 'screenBrightness/index',
-          // },
-          // {
-          //   zh: '振动',
-          //   url: 'vibrate/index',
-          // },
-          // {
-          //   zh: '手机联系人',
-          //   url: 'addContact/index',
-          // },
+          {
+            zh: '屏幕亮度',
+            url: 'screenBrightness/index',
+          },
+          {
+            zh: '振动',
+            url: 'vibrate/index',
+          },
+          {
+            zh: '用户信息',
+            url: 'getUserInfo/index',
+          },
+          {
+            zh: 'Wifi列表',
+            url: 'getWifiList/index',
+          },
+          {
+            zh: '获取设备设置',
+            url: 'getSystemSetting/index',
+          },
         ],
       },
       {

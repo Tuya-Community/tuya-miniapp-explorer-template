@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">getSystemSetting</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="getSystemSetting">获取设备设置</button>
+      </view>
+      <rich-text nodes="{{json}}"> </rich-text>
+    </view>
+  </view>
+</view>
