@@ -71,12 +71,16 @@ Page({
             url: 'getUserInfo/index',
           },
           {
-            zh: 'Wifi列表',
-            url: 'getWifiList/index',
-          },
-          {
             zh: '获取设备设置',
             url: 'getSystemSetting/index',
+          },
+          {
+            zh: '获取小程序账号信息',
+            url: 'getAccountInfo/index',
+          },
+          {
+            zh: '获取 App 业务信息',
+            url: 'getAppInfo/index',
           },
         ],
       },
@@ -96,6 +100,14 @@ Page({
           {
             zh: '下载文件',
             url: 'downloadFile/index',
+          },
+          {
+            zh: 'wifi 列表',
+            url: 'getWifiList/index',
+          },
+          {
+            zh: '获取当前连接的 wifi 信息',
+            url: 'getConnectedWifi/index',
           },
         ],
       },
