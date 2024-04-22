@@ -82,6 +82,10 @@ Page({
             zh: '获取 App 业务信息',
             url: 'getAppInfo/index',
           },
+          {
+            zh: '获取多语言',
+            url: 'getLangContent/index',
+          },
         ],
       },
       {

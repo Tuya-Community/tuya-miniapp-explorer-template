@@ -59,6 +59,7 @@
     "pages/pageAPI/getAccountInfo/index",
     "pages/pageAPI/getAppInfo/index",
     "pages/pageAPI/getConnectedWifi/index",
+    "pages/pageAPI/getLangContent/index",
     "pages/components/pickerview/index",
     "pages/components/picker/index",
     "pages/panelDemo/index",
