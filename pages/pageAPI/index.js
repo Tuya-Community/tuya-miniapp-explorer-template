@@ -39,10 +39,6 @@ Page({
         open: false,
         pages: [
           {
-            zh: '获取手机网络状态',
-            url: 'getNetworkType/index',
-          },
-          {
             zh: i18n.t('api_9'),
             url: 'getSystemInfo/index',
           },
@@ -86,6 +82,10 @@ Page({
             zh: '获取多语言',
             url: 'getLangContent/index',
           },
+          {
+            zh: '获取菜单按钮的布局位置信息',
+            url: 'getMenuButtonBoundingClientRect/index',
+          },
         ],
       },
       {
@@ -104,6 +104,10 @@ Page({
           {
             zh: '下载文件',
             url: 'downloadFile/index',
+          },
+          {
+            zh: '获取手机网络状态',
+            url: 'getNetworkType/index',
           },
           {
             zh: 'wifi 列表',
