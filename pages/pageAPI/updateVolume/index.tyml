@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">updateVolume</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="updateVolume">随机设置系统音量</button>
+      </view>
+    </view>
+  </view>
+</view>

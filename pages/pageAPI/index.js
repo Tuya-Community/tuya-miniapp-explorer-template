@@ -43,6 +43,10 @@ Page({
             zh: i18n.t('显示 loading 提示框'),
             url: 'showLoading/index',
           },
+          {
+            zh: i18n.t('显示右上角胶囊按钮'),
+            url: 'showMenuButton/index',
+          },
         ],
       },
       {
@@ -69,6 +73,10 @@ Page({
           {
             zh: '屏幕亮度',
             url: 'screenBrightness/index',
+          },
+          {
+            zh: '设置系统音量',
+            url: 'updateVolume/index',
           },
           {
             zh: '振动',
