@@ -7,8 +7,8 @@
   <view class="page-body">
     <view class="page-section">
       <view class="btn-area">
-        <button type="primary" bind:tap="hideMenuButton">隐藏右上角胶囊按钮</button>
-        <button type="primary" bind:tap="showMenuButton">显示右上角胶囊按钮</button>
+        <button type="primary" bind:tap="hideMenuButton">{{i18n.t('hideMenuButton')}}</button>
+        <button type="primary" bind:tap="showMenuButton">{{i18n.t('showMenuButton')}}</button>
       </view>
       <rich-text nodes="{{json}}"> </rich-text>
     </view>

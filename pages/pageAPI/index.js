@@ -32,23 +32,23 @@ Page({
             url: 'toast/index',
           },
           {
-            zh: i18n.t('显示隐藏状态栏'),
+            zh: i18n.t('apiShowStatusBar'),
             url: 'showStatusBar/index',
           },
           {
-            zh: i18n.t('隐藏返回首页按钮'),
+            zh: i18n.t('hideHomeButton'),
             url: 'hideHomeButton/index',
           },
           {
-            zh: i18n.t('显示 loading 提示框'),
+            zh: i18n.t('showLoading'),
             url: 'showLoading/index',
           },
           {
-            zh: i18n.t('显示右上角胶囊按钮'),
+            zh: i18n.t('showMenuButton'),
             url: 'showMenuButton/index',
           },
           {
-            zh: i18n.t('开始下拉刷新'),
+            zh: i18n.t('startPullDownRefresh'),
             url: 'startPullDownRefresh/index',
           },
         ],
@@ -67,7 +67,7 @@ Page({
             url: 'makePhoneCall/index',
           },
           {
-            zh: '扫码',
+            zh: i18n.t('scanCode'),
             url: 'scanCode/index',
           },
           {
@@ -75,7 +75,7 @@ Page({
             url: 'clipboardData/index',
           },
           {
-            zh: '屏幕亮度',
+            zh: i18n.t('screenBrightness'),
             url: 'screenBrightness/index',
           },
           {

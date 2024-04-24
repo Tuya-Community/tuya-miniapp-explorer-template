@@ -7,8 +7,8 @@
   <view class="page-body">
     <view class="page-section">
       <view class="btn-area">
-        <button type="primary" bind:tap="showStatusBar">显示手机状态栏</button>
-        <button type="primary" bind:tap="hideStatusBar">隐藏手机状态栏</button>
+        <button type="primary" bind:tap="showStatusBar">{{i18n.t('showStatusBar')}}</button>
+        <button type="primary" bind:tap="hideStatusBar">{{i18n.t('hideStatusBar')}}</button>
       </view>
     </view>
   </view>

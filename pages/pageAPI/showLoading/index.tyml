@@ -7,9 +7,9 @@
   <view class="page-body">
     <view class="page-section">
       <view class="btn-area">
-        <button type="primary" bind:tap="showLoading">显示Loading提示框 带标题</button>
-        <button type="primary" bind:tap="showLoading2">显示Loading提示框 防穿透</button>
-        <button type="primary" bind:tap="hideLoading">关闭Loading</button>
+        <button type="primary" bind:tap="showLoading">{{i18n.t('showLoading')}}: title</button>
+        <button type="primary" bind:tap="showLoading2">{{i18n.t('showLoading')}}: mask</button>
+        <button type="primary" bind:tap="hideLoading">{{i18n.t('hideLoading')}}</button>
       </view>
     </view>
   </view>
