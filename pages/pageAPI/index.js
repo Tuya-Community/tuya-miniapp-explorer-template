@@ -47,6 +47,10 @@ Page({
             zh: i18n.t('显示右上角胶囊按钮'),
             url: 'showMenuButton/index',
           },
+          {
+            zh: i18n.t('开始下拉刷新'),
+            url: 'startPullDownRefresh/index',
+          },
         ],
       },
       {

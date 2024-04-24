@@ -66,6 +66,7 @@
     "pages/pageAPI/showLoading/index",
     "pages/pageAPI/updateVolume/index",
     "pages/pageAPI/showMenuButton/index",
+    "pages/pageAPI/startPullDownRefresh/index",
     "pages/components/pickerview/index",
     "pages/components/picker/index",
     "pages/panelDemo/index",
