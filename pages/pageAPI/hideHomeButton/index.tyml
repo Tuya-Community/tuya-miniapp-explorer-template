@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">hideHomeButton</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="hideHomeButton">隐藏返回首页按钮</button>
+      </view>
+    </view>
+  </view>
+</view>

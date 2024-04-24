@@ -31,6 +31,18 @@ Page({
             zh: i18n.t('api_7'),
             url: 'toast/index',
           },
+          {
+            zh: i18n.t('显示隐藏状态栏'),
+            url: 'showStatusBar/index',
+          },
+          {
+            zh: i18n.t('隐藏返回首页按钮'),
+            url: 'hideHomeButton/index',
+          },
+          {
+            zh: i18n.t('显示 loading 提示框'),
+            url: 'showLoading/index',
+          },
         ],
       },
       {

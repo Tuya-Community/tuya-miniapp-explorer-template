@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">showLoading</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="showLoading">显示Loading提示框 带标题</button>
+        <button type="primary" bind:tap="showLoading2">显示Loading提示框 防穿透</button>
+        <button type="primary" bind:tap="hideLoading">关闭Loading</button>
+      </view>
+    </view>
+  </view>
+</view>

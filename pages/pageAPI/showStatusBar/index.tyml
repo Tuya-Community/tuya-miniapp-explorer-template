@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">showStatusBar</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="showStatusBar">显示手机状态栏</button>
+        <button type="primary" bind:tap="hideStatusBar">隐藏手机状态栏</button>
+      </view>
+    </view>
+  </view>
+</view>
