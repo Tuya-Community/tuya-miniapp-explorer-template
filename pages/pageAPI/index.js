@@ -79,77 +79,77 @@ Page({
             url: 'screenBrightness/index',
           },
           {
-            zh: '设置系统音量',
+            zh: i18n.t('updateVolume'),
             url: 'updateVolume/index',
           },
           {
-            zh: '振动',
+            zh: i18n.t('vibrate'),
             url: 'vibrate/index',
           },
           {
-            zh: '用户信息',
+            zh: i18n.t('getUserInfo'),
             url: 'getUserInfo/index',
           },
           {
-            zh: '获取设备设置',
+            zh: i18n.t('getSystemSetting'),
             url: 'getSystemSetting/index',
           },
           {
-            zh: '获取小程序账号信息',
+            zh: i18n.t('getAccountInfo'),
             url: 'getAccountInfo/index',
           },
           {
-            zh: '获取 App 业务信息',
+            zh: i18n.t('getAppInfo'),
             url: 'getAppInfo/index',
           },
           {
-            zh: '获取多语言',
+            zh: i18n.t('getLangContent'),
             url: 'getLangContent/index',
           },
           {
-            zh: '获取菜单按钮的布局位置信息',
+            zh: i18n.t('getMenuButtonBoundingClientRect'),
             url: 'getMenuButtonBoundingClientRect/index',
           },
         ],
       },
       {
-        id: 'network',
+        id: i18n.t('network'),
         name: '网络',
         open: false,
         pages: [
           {
-            zh: '发起一个请求',
+            zh: i18n.t('networkRequest'),
             url: 'networkRequest/index',
           },
           {
-            zh: '上传文件',
+            zh: i18n.t('uploadFile'),
             url: 'uploadFile/index',
           },
           {
-            zh: '下载文件',
+            zh: i18n.t('downloadFile'),
             url: 'downloadFile/index',
           },
           {
-            zh: '获取手机网络状态',
+            zh: i18n.t('getNetworkType'),
             url: 'getNetworkType/index',
           },
           {
-            zh: 'wifi 列表',
+            zh: i18n.t('getWifiList'),
             url: 'getWifiList/index',
           },
           {
-            zh: '获取当前连接的 wifi 信息',
+            zh: i18n.t('getConnectedWifi'),
             url: 'getConnectedWifi/index',
           },
         ],
       },
       {
         id: 'location',
-        name: '位置',
+        name: i18n.t('location'),
         open: false,
         pages: [
           {
-            zh: '获取当前位置',
+            zh: i18n.t('getLocation'),
             url: 'getLocation/index',
           },
         ],
