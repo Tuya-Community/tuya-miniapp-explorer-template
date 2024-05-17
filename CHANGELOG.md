@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2024-05-17)
+
+
+### Features
+
+* 新增小程序api的示例代码 ([#24](./issues/24)) ([88ebb23](./commit/88ebb2319cbf80a84f4334be5a9495975ef9d54c))
+
 ### 1.1.6 (2023-11-27)
 
 ### 1.1.5 (2023-11-03)
