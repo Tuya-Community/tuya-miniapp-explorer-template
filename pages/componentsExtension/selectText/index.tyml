@@ -6,7 +6,7 @@
   <view>
     <view class="demo-block">
       <block ty:for="{{arr}}" ty:key="placement">
-        <view class="list-item" >
+        <view class="list-item">
           <mpselecttext
             show-copy-btn="{{true}}"
             placement="{{item.placement}}"
@@ -19,7 +19,7 @@
       </block>
       <view>
         <button type="primary" bindtap="getCopyContent">{{i18n.t('selecttext_2')}}</button>
-        <view style="text-align: center;">{{copyContent}}</view>
+        <view style="text-align: center">{{copyContent}}</view>
       </view>
     </view>
   </view>

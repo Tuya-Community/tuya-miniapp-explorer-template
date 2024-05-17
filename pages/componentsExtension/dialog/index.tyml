@@ -6,13 +6,25 @@
   <view class="page__bd">
     <view class="plus-btn-area l-r-padding">
       <button class="base-btn" type="primary" bindtap="openConfirm">{{i18n.t('dialog_1')}}</button>
-      <button class="base-btn" type="primary" bindtap="tapOneDialogButton">{{i18n.t('dialog_2')}}</button>
+      <button class="base-btn" type="primary" bindtap="tapOneDialogButton">
+        {{i18n.t('dialog_2')}}
+      </button>
     </view>
   </view>
-  <mpdialog title="{{i18n.t('doalog_3')}}" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+  <mpdialog
+    title="{{i18n.t('doalog_3')}}"
+    show="{{showOneButtonDialog}}"
+    bindbuttontap="tapDialogButton"
+    buttons="{{oneButton}}"
+  >
     <view>{{i18n.t('dialog_4')}}</view>
   </mpdialog>
-  <mpdialog title="{{i18n.t('doalog_3')}}" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <mpdialog
+    title="{{i18n.t('doalog_3')}}"
+    show="{{dialogShow}}"
+    bindbuttontap="tapDialogButton"
+    buttons="{{buttons}}"
+  >
     <view>{{i18n.t('dialog_5')}}</view>
   </mpdialog>
 </view>

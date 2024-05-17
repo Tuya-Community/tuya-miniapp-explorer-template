@@ -3,7 +3,9 @@
     <view class="page__title">Toptips</view>
   </view>
   <view class="page__bd">
-    <button class="m-l-r-20" type="primary" disabled="{{disabled}}" bindtap="showToptips">show Toptips</button>
+    <button class="m-l-r-20" type="primary" disabled="{{disabled}}" bindtap="showToptips">
+      show Toptips
+    </button>
     <mptoptips ext-class="top100" msg="100px from top" type="error" show="{{show}}"></mptoptips>
     <mptoptips ext-class="top200" msg="200px from top" type="info" show="{{show}}"></mptoptips>
     <mptoptips ext-class="top300" msg="300px from top" type="success" show="{{show}}"></mptoptips>

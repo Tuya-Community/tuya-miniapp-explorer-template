@@ -1,35 +1,33 @@
 <!--  drag 组件 外层需要适当加一定距离的margin, 防止某些情况精度计算误差导致drag宽度大于屏幕宽度, 从而出现横向滚动条 -->
-<view style="margin: 4rpx;">
-  <drag id="drag"
-	bind:tap="itemClick"
-	bind:change="change"
-	bind:sortend="sortEnd"
-	bind:scroll="scroll"
-	item-wrap-class="drag-item-wrap"
-	extra-nodes="{{extraNodes}}"
-	list-data="{{listData}}"
-	columns="{{1}}"
-	scroll-top="{{scrollTop}}"
-	item-height="{{50}}"
-	top-size="110"
-	bottom-size="{{isIphoneX ? 380 : 300 }}">
-    <view slot="before"  class="cell">
-      <view class="cell__bd" style="height: 160rpx;">
-        <view class="extra">
-					第0个元素之前插入该元素, 该元素不参与排序
-				</view>
+<view style="margin: 4rpx">
+  <drag
+    id="drag"
+    bind:tap="itemClick"
+    bind:change="change"
+    bind:sortend="sortEnd"
+    bind:scroll="scroll"
+    item-wrap-class="drag-item-wrap"
+    extra-nodes="{{extraNodes}}"
+    list-data="{{listData}}"
+    columns="{{1}}"
+    scroll-top="{{scrollTop}}"
+    item-height="{{50}}"
+    top-size="110"
+    bottom-size="{{isIphoneX ? 380 : 300 }}"
+  >
+    <view slot="before" class="cell">
+      <view class="cell__bd" style="height: 160rpx">
+        <view class="extra"> 第0个元素之前插入该元素, 该元素不参与排序 </view>
       </view>
     </view>
-    <view slot="after"  class="cell">
-      <view class="cell__bd" style="height: 160rpx;">
-        <view class="extra">
-					第0个元素之后插入该元素, 该元素不参与排序
-				</view>
+    <view slot="after" class="cell">
+      <view class="cell__bd" style="height: 160rpx">
+        <view class="extra"> 第0个元素之后插入该元素, 该元素不参与排序 </view>
       </view>
     </view>
-    <view slot="plus"  class="cell">
-      <view class="cell__bd" style="height: 160rpx;">
-        <view  class="plus-wrap" bindtap="add">
+    <view slot="plus" class="cell">
+      <view class="cell__bd" style="height: 160rpx">
+        <view class="plus-wrap" bindtap="add">
           <view class="plus"></view>
         </view>
       </view>

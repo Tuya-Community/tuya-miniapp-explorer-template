@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">showLoading</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="showLoading">{{i18n.t('showLoading')}}: title</button>
+        <button type="primary" bind:tap="showLoading2">{{i18n.t('showLoading')}}: mask</button>
+        <button type="primary" bind:tap="hideLoading">{{i18n.t('hideLoading')}}</button>
+      </view>
+    </view>
+  </view>
+</view>

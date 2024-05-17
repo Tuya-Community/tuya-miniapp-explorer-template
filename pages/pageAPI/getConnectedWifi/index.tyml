@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">getConnectedWifi</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="getConnectedWifi">获取当前连接的 wifi 信息</button>
+      </view>
+      <rich-text nodes="{{json}}"> </rich-text>
+    </view>
+  </view>
+</view>

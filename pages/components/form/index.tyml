@@ -30,17 +30,17 @@
         <text class="page-section-title section-title">radio</text>
         <radio-group name="RadioGroup">
           <view class="radio">
-            <radio  value="radio1"></radio>
+            <radio value="radio1"></radio>
             <text class="text">{{i18n.t('form_option1')}}</text>
           </view>
           <view class="radio">
-            <radio  value="radio2"></radio>
+            <radio value="radio2"></radio>
             <text class="text">{{i18n.t('form_option2')}}</text>
           </view>
         </radio-group>
       </view>
       <view class="item-wrap">
-        <text class=" page-section-title section-title">input</text>
+        <text class="page-section-title section-title">input</text>
         <view class="page-cell">
           <input class="page-input" name="input" placeholder="enter..." />
         </view>
@@ -48,15 +48,30 @@
       <view class="item-wrap">
         <text class="page-section-title section-title">textarea</text>
         <view class="textarea-wrap">
-          <textarea name="textarea" placeholder="enter..." class="textarea-box" bindinput="handleTextareaInput"></textarea>
+          <textarea
+            name="textarea"
+            placeholder="enter..."
+            class="textarea-box"
+            bindinput="handleTextareaInput"
+          ></textarea>
         </view>
       </view>
       <view class="btns-wrap">
         <view class="btn-line">
-          <button form-type="submit" id="triggerBtn" data-info="提交的按钮" type="primary" class="submit-btn">submit</button>
+          <button
+            form-type="submit"
+            id="triggerBtn"
+            data-info="提交的按钮"
+            type="primary"
+            class="submit-btn"
+          >
+            submit
+          </button>
         </view>
         <view class="btn-line">
-          <button form-type="reset" id="resetBtn" data-info="reset的按钮" class="reset-btn">reset</button>
+          <button form-type="reset" id="resetBtn" data-info="reset的按钮" class="reset-btn">
+            reset
+          </button>
         </view>
       </view>
     </form>

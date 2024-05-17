@@ -1,11 +1,11 @@
-.page-body{
+.page-body {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 10px 20px 20px;
 }
 
-.btn-area{
+.btn-area {
   width: 100%;
   margin-top: 20px;
 }

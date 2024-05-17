@@ -8,7 +8,9 @@
       <view class="plus-loadmore__tips plus-loadmore__tips_in-line">Empty</view>
     </view>
     <view class="plus-loadmore plus-loadmore_line plus-loadmore_dot">
-      <view class="plus-loadmore__tips plus-loadmore__tips_in-line plus-loadmore__tips_in-dot"></view>
+      <view
+        class="plus-loadmore__tips plus-loadmore__tips_in-line plus-loadmore__tips_in-dot"
+      ></view>
     </view>
   </view>
 </view>

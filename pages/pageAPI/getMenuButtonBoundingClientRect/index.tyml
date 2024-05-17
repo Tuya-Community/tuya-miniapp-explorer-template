@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">getMenuButtonBoundingClientRect</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="getMenuButtonBoundingClientRect">获取菜单按钮的布局位置信息</button>
+        <button type="primary" bind:tap="getMenuButtonBoundingClientRectSync">同步获取菜单按钮的布局位置信息</button>
+      </view>
+      <rich-text nodes="{{json}}"> </rich-text>
+    </view>
+  </view>
+</view>

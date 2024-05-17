@@ -7,7 +7,6 @@
   <view class="page-body">
     <view class="page-section">
       <view class="page-body-info">
-
         <block ty:if="{{imageSrc}}">
           <image src="{{imageSrc}}"></image>
         </block>
@@ -19,9 +18,7 @@
           </view>
           <view class="image-plus-text">{{text}}</view>
         </block>
-
       </view>
     </view>
   </view>
-
 </view>

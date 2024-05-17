@@ -3,6 +3,10 @@
     <view class="page__title">SearchBar</view>
   </view>
   <view class="page__bd">
-    <mpsearchbar bindselectresult="selectResult" bindinput="handleInput" result="{{result}}"></mpsearchbar>
+    <mpsearchbar
+      bindselectresult="selectResult"
+      bindinput="handleInput"
+      result="{{result}}"
+    ></mpsearchbar>
   </view>
 </view>

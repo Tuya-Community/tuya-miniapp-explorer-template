@@ -9,18 +9,38 @@
     object-fit="{{objectFit}}"
     orientation="{{orientation}}"
     bindconnectChange="onConnectChange"
-    binderror="onError">
+    binderror="onError"
+  >
     <view class="btn-box">
-      <button bindtap="setMuted1" class="page-body-button" type="primary">{{i18n.t('ipc_mute')}}</button>
-      <button bindtap="setMuted2" class="page-body-button" type="primary">{{i18n.t('ipc_sound')}}</button>
-      <button bindtap="setSoundMode1" class="page-body-button" type="primary">{{i18n.t('ipc_speaker')}}</button>
-      <button bindtap="setSoundMode2" class="page-body-button" type="primary">{{i18n.t('ipc_earpiece')}}</button>
-      <button bindtap="setClarity1" class="page-body-button" type="primary">{{i18n.t('ipc_sd')}}</button>
-      <button bindtap="setClarity2" class="page-body-button" type="primary">{{i18n.t('ipc_hd')}}</button>
-      <button bindtap="orientationChange" class="page-body-button" type="primary">{{i18n.t('ipc_orientation')}}</button>
-      <button bindtap="objectFitChange" class="page-body-button" type="primary">{{i18n.t('ipc_objectFit')}}</button>
-      <button bindtap="snapshot" class="page-body-button" type="primary">{{i18n.t('ipc_cut')}}</button>
-      <view>{{i18n.t('ipc_cut_pic')}}
+      <button bindtap="setMuted1" class="page-body-button" type="primary">
+        {{i18n.t('ipc_mute')}}
+      </button>
+      <button bindtap="setMuted2" class="page-body-button" type="primary">
+        {{i18n.t('ipc_sound')}}
+      </button>
+      <button bindtap="setSoundMode1" class="page-body-button" type="primary">
+        {{i18n.t('ipc_speaker')}}
+      </button>
+      <button bindtap="setSoundMode2" class="page-body-button" type="primary">
+        {{i18n.t('ipc_earpiece')}}
+      </button>
+      <button bindtap="setClarity1" class="page-body-button" type="primary">
+        {{i18n.t('ipc_sd')}}
+      </button>
+      <button bindtap="setClarity2" class="page-body-button" type="primary">
+        {{i18n.t('ipc_hd')}}
+      </button>
+      <button bindtap="orientationChange" class="page-body-button" type="primary">
+        {{i18n.t('ipc_orientation')}}
+      </button>
+      <button bindtap="objectFitChange" class="page-body-button" type="primary">
+        {{i18n.t('ipc_objectFit')}}
+      </button>
+      <button bindtap="snapshot" class="page-body-button" type="primary">
+        {{i18n.t('ipc_cut')}}
+      </button>
+      <view
+        >{{i18n.t('ipc_cut_pic')}}
         <view>
           <image src="{{tempImagePath}}"></image>
         </view>

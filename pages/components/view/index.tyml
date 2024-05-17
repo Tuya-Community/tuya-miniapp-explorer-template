@@ -6,7 +6,7 @@
   <view class="page-section-title l-r-padding">
     <view>flex-direction: row</view>
   </view>
-  <view class='flex-wrp' style="justify-content: center; flex-direction:row; width:750rpx">
+  <view class="flex-wrp" style="justify-content: center; flex-direction: row; width: 750rpx">
     <view class="flex-item demo-text-1">A</view>
     <view class="flex-item demo-text-2">B</view>
     <view class="flex-item demo-text-3">C</view>
@@ -16,7 +16,7 @@
   <view class="page-section-title l-r-padding">
     <view>flex-direction: column</view>
   </view>
-  <view class="flex-wrp" style="flex-direction:column;">
+  <view class="flex-wrp" style="flex-direction: column">
     <view class="flex-item flex-item-V demo-text-1">A</view>
     <view class="flex-item flex-item-V demo-text-2">B</view>
     <view class="flex-item flex-item-V demo-text-3">C</view>

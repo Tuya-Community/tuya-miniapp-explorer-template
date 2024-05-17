@@ -1,14 +1,14 @@
 <mpvtabs
-    vtabs="{{vtabs}}"
-    activeTab="{{activeTab}}"
-    bindtabclick="onTabCLick"
-    bindchange="onChange"
-  >
-  <block ty:for="{{vtabs}}" ty:key="title" >
+  vtabs="{{vtabs}}"
+  activeTab="{{activeTab}}"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+>
+  <block ty:for="{{vtabs}}" ty:key="title">
     <mpvtabscontent tabIndex="{{index}}">
       <view class="vtabs-content-item">
         <text>{{index + 1}}： {{item.title}}</text>
-        <image class="vtab-image" src="/assets/images/godzilla.png" ></image>
+        <image class="vtab-image" src="/assets/images/godzilla.png"></image>
       </view>
     </mpvtabscontent>
   </block>

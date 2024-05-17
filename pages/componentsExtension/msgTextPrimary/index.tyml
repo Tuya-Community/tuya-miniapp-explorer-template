@@ -1,6 +1,7 @@
 <view class="page" data-plus-theme="{{theme}}">
   <mpmsg title="操作提示primary text">
-    <view slot="desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现
+    <view slot="desc"
+      >内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现
       <navigator url="" class="plus-msg__link">文字链接</navigator>
     </view>
     <view slot="extend">

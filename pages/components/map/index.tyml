@@ -28,7 +28,12 @@
     <button class="btn" bindtap="scaleIn" type="primary">{{i18n.t('map_enlarge')}}</button>
     <button class="btn" bindtap="scaleOut" type="primary">{{i18n.t('map_small')}}</button>
     <button class="btn" bindtap="openConfirm" type="primary">{{i18n.t('map_dialog')}}</button>
-    <mpdialog title="标题" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+    <mpdialog
+      title="标题"
+      show="{{dialogShow}}"
+      bindbuttontap="tapDialogButton"
+      buttons="{{buttons}}"
+    >
       <view>content content content content content content content content...</view>
     </mpdialog>
   </view>

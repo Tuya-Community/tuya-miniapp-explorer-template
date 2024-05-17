@@ -5,12 +5,25 @@
   <view class="page__bd">
     <mpcells title="radio list">
       <mpcheckboxgroup prop="radio" multi="{{false}}" bindchange="radioChange">
-        <mpcheckbox multi="{{false}}" ty:for="{{radioItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
+        <mpcheckbox
+          multi="{{false}}"
+          ty:for="{{radioItems}}"
+          ty:key="value"
+          label="{{item.name}}"
+          value="{{item.value}}"
+          checked="{{item.checked}}"
+        ></mpcheckbox>
       </mpcheckboxgroup>
     </mpcells>
     <mpcells title="checkbox list">
       <mpcheckboxgroup prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
-        <mpcheckbox ty:for="{{checkboxItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
+        <mpcheckbox
+          ty:for="{{checkboxItems}}"
+          ty:key="value"
+          label="{{item.name}}"
+          value="{{item.value}}"
+          checked="{{item.checked}}"
+        ></mpcheckbox>
       </mpcheckboxgroup>
     </mpcells>
   </view>

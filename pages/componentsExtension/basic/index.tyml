@@ -1,9 +1,8 @@
-
 <sjs module="anim" src="./anim.sjs"></sjs>
 
 <view>
-  <gesture 
-    bindrotate="{{anim.rotate}}" 
+  <gesture
+    bindrotate="{{anim.rotate}}"
     bindmultipointStart="{{anim.multitouchstart}}"
     bindpinch="{{anim.pinch}}"
     bindpressMove="{{anim.pressmove}}"

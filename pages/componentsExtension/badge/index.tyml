@@ -7,27 +7,32 @@
     <mpcells title="{{i18n.t('badge_1')}}">
       <mpcell title="{{i18n.t('badge_2')}}">
         <view slot="footer">
-          <view style="display: inline-block;vertical-align:middle; font-size: 17px;">{{i18n.t('badge_3')}}</view>
-          <mpbadge style="margin-left: 5px;margin-right: 5px;" ext-class="blue"/>
+          <view style="display: inline-block; vertical-align: middle; font-size: 17px"
+            >{{i18n.t('badge_3')}}</view
+          >
+          <mpbadge style="margin-left: 5px; margin-right: 5px" ext-class="blue" />
         </view>
       </mpcell>
     </mpcells>
     <mpcells title="{{i18n.t('badge_4')}}">
       <mpcell>
-        <view slot="title" style="position: relative;margin-right: 10px;">
-          <image src="/assets/images/panel/icon-fan.png" style="width: 50px; height: 50px; display: block"/>
-          <mpbadge content="99+" style="position: absolute;top: -.4em;right: -.4em;"/>
+        <view slot="title" style="position: relative; margin-right: 10px">
+          <image
+            src="/assets/images/panel/icon-fan.png"
+            style="width: 50px; height: 50px; display: block"
+          />
+          <mpbadge content="99+" style="position: absolute; top: -0.4em; right: -0.4em" />
         </view>
         <view>{{i18n.t('badge_5')}}</view>
-        <view style="font-size: 13px;color: #888888;">{{i18n.t('badge_6')}}</view>
+        <view style="font-size: 13px; color: #888888">{{i18n.t('badge_6')}}</view>
       </mpcell>
       <mpcell link="{{true}}">
         <view style="display: inline-block; vertical-align: middle">{{i18n.t('badge_2')}}</view>
-        <mpbadge content="8" style="margin-left: 5px;"/>
+        <mpbadge content="8" style="margin-left: 5px" />
       </mpcell>
       <mpcell link="{{true}}">
         <view style="display: inline-block; vertical-align: middle">{{i18n.t('badge_2')}}</view>
-        <mpbadge style="margin-left: 5px;" content="New"/>
+        <mpbadge style="margin-left: 5px" content="New" />
       </mpcell>
     </mpcells>
   </view>

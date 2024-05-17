@@ -7,11 +7,11 @@
     <text class="title">percent showInfo fontSize：</text>
     <progress percent="{{10}}" />
     <progress percent="{{40}}" showInfo="{{true}}" />
-    <progress percent="{{100}}" showInfo="{{true}}" fontSize="{{12}}"/>
+    <progress percent="{{100}}" showInfo="{{true}}" fontSize="{{12}}" />
   </view>
   <view class="section l-r-padding">
     <text class="title">border-radius stroke-width ：</text>
-    <progress borderRadius="{{3}}" percent="{{20}}"/>
+    <progress borderRadius="{{3}}" percent="{{20}}" />
     <progress borderRadius="{{'8'}}" strokeWidth="{{16}}" percent="{{20}}" />
   </view>
   <view class="section l-r-padding">
@@ -22,12 +22,34 @@
   </view>
   <view class="section l-r-padding">
     <text class="title">active duration：</text>
-    <progress active="{{true}}" percent="{{40}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
+    <progress
+      active="{{true}}"
+      percent="{{40}}"
+      showInfo="{{true}}"
+      data-info="info..."
+      bindactiveend="handleActiveEnd"
+    />
     <progress active="{{true}}" percent="{{40}}" duration="{{300}}" showInfo="{{true}}" />
   </view>
   <view class="section l-r-padding">
     <text class="title">active-mode ：</text>
-    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="forwards" duration="{{50}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
-    <progress percent="{{changeablePercent}}" active="{{true}}" activeMode="backwards" duration="{{50}}" showInfo="{{true}}" data-info="info..." bindactiveend="handleActiveEnd" />
+    <progress
+      percent="{{changeablePercent}}"
+      active="{{true}}"
+      activeMode="forwards"
+      duration="{{50}}"
+      showInfo="{{true}}"
+      data-info="info..."
+      bindactiveend="handleActiveEnd"
+    />
+    <progress
+      percent="{{changeablePercent}}"
+      active="{{true}}"
+      activeMode="backwards"
+      duration="{{50}}"
+      showInfo="{{true}}"
+      data-info="info..."
+      bindactiveend="handleActiveEnd"
+    />
   </view>
 </view>

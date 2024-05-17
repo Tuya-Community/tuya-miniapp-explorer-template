@@ -1,18 +1,17 @@
 Page({
   data: {
-    longitude: '未获取',
-    latitude: '未获取',
+    json: '',
   },
   getLocation() {
-    const that = this
-    ty.getLocation({
+    const self = this
+    ty.map.getLocation({
       type: 'wgs84',
       altitude: true,
-      complete: function (res) {
-        console.log(`getLocation ======== complete`, res)
-        that.setData({
+      success: function (res) {
+        self.setData({
           longitude: res.longitude,
           latitude: res.latitude,
+          json: '<pre style="overflow: auto">' + JSON.stringify(res, null, 4) + '</pre>',
         })
       },
     })

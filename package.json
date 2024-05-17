@@ -2,6 +2,12 @@
   "name": "@tuya-materials/tuya-miniapp-explorer-template",
   "version": "1.1.6",
   "description": "Smart miniprogram official sample application",
+  "scripts": {
+    "format": "prettier ./pages/**/**/*.{tyml,tyss,js,ts,rjs,json} --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
   "dependencies": {
     "@antv/f2": "^3.8.10-beta.1",
     "@tuya-miniapp/miniapp-canvas": "^2.0.0",

@@ -31,6 +31,26 @@ Page({
             zh: i18n.t('api_7'),
             url: 'toast/index',
           },
+          {
+            zh: i18n.t('apiShowStatusBar'),
+            url: 'showStatusBar/index',
+          },
+          {
+            zh: i18n.t('hideHomeButton'),
+            url: 'hideHomeButton/index',
+          },
+          {
+            zh: i18n.t('showLoading'),
+            url: 'showLoading/index',
+          },
+          {
+            zh: i18n.t('showMenuButton'),
+            url: 'showMenuButton/index',
+          },
+          {
+            zh: i18n.t('startPullDownRefresh'),
+            url: 'startPullDownRefresh/index',
+          },
         ],
       },
       {
@@ -38,93 +58,102 @@ Page({
         name: i18n.t('api_8'),
         open: false,
         pages: [
-          // {
-          //   zh: '获取手机网络状态',
-          //   url: 'getNetworkType/index',
-          // },
           {
             zh: i18n.t('api_9'),
             url: 'getSystemInfo/index',
           },
-          // {
-          //   zh: '获取手机设备电量',
-          //   url: 'getBatteryInfo/index',
-          // },
           {
             zh: i18n.t('api_10'),
             url: 'makePhoneCall/index',
           },
-          // {
-          //   zh: '扫码',
-          //   url: 'scanCode/index',
-          // },
+          {
+            zh: i18n.t('scanCode'),
+            url: 'scanCode/index',
+          },
           {
             zh: i18n.t('api_11'),
             url: 'clipboardData/index',
           },
-          // {
-          //   zh: '屏幕亮度',
-          //   url: 'screenBrightness/index',
-          // },
-          // {
-          //   zh: '振动',
-          //   url: 'vibrate/index',
-          // },
-          // {
-          //   zh: '手机联系人',
-          //   url: 'addContact/index',
-          // },
+          {
+            zh: i18n.t('screenBrightness'),
+            url: 'screenBrightness/index',
+          },
+          {
+            zh: i18n.t('updateVolume'),
+            url: 'updateVolume/index',
+          },
+          {
+            zh: i18n.t('vibrate'),
+            url: 'vibrate/index',
+          },
+          {
+            zh: i18n.t('getUserInfo'),
+            url: 'getUserInfo/index',
+          },
+          {
+            zh: i18n.t('getSystemSetting'),
+            url: 'getSystemSetting/index',
+          },
+          {
+            zh: i18n.t('getAccountInfo'),
+            url: 'getAccountInfo/index',
+          },
+          {
+            zh: i18n.t('getAppInfo'),
+            url: 'getAppInfo/index',
+          },
+          {
+            zh: i18n.t('getLangContent'),
+            url: 'getLangContent/index',
+          },
+          {
+            zh: i18n.t('getMenuButtonBoundingClientRect'),
+            url: 'getMenuButtonBoundingClientRect/index',
+          },
         ],
       },
-      // {
-      //   id: 'network',
-      //   name: '网络',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '发起一个请求',
-      //       url: 'networkRequest/index',
-      //     },
-      //     {
-      //       zh: '上传文件',
-      //       url: 'uploadFile/index',
-      //     },
-      //     {
-      //       zh: '下载文件',
-      //       url: 'downloadFile/index',
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 'media',
-      //   name: '媒体',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '图片',
-      //       url: 'images/index',
-      //     },
-      //     {
-      //       zh: '音频',
-      //       url: 'audio/index',
-      //     },
-      //     {
-      //       zh: '录音',
-      //       url: 'voice/index',
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 'location',
-      //   name: '位置',
-      //   open: false,
-      //   pages: [
-      //     {
-      //       zh: '获取当前位置',
-      //       url: 'getLocation/index',
-      //     },
-      //   ],
-      // },
+      {
+        id: i18n.t('network'),
+        name: '网络',
+        open: false,
+        pages: [
+          {
+            zh: i18n.t('networkRequest'),
+            url: 'networkRequest/index',
+          },
+          {
+            zh: i18n.t('uploadFile'),
+            url: 'uploadFile/index',
+          },
+          {
+            zh: i18n.t('downloadFile'),
+            url: 'downloadFile/index',
+          },
+          {
+            zh: i18n.t('getNetworkType'),
+            url: 'getNetworkType/index',
+          },
+          {
+            zh: i18n.t('getWifiList'),
+            url: 'getWifiList/index',
+          },
+          {
+            zh: i18n.t('getConnectedWifi'),
+            url: 'getConnectedWifi/index',
+          },
+        ],
+      },
+      {
+        id: 'location',
+        name: i18n.t('location'),
+        open: false,
+        pages: [
+          {
+            zh: i18n.t('getLocation'),
+            url: 'getLocation/index',
+          },
+        ],
+      },
       {
         id: i18n.t('api_12'),
         name: i18n.t('api_13'),

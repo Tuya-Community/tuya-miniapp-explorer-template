@@ -6,9 +6,9 @@
   <view class="page-body">
     <view class="btn-area">
       <button type="primary" bindtap="showNavigationBarLoading">{{i18n.t('api_nav_1')}}</button>
-      <button bindtap="hideNavigationBarLoading">{{i18n.t('api_nav_2')}}</button>
-      <button bindtap="setNavigationBarTitle">{{i18n.t('api_nav_3')}}</button>
-      <button bindtap="setNavigationBarColor">{{i18n.t('api_nav_4')}}</button>
+      <button type="primary" bindtap="hideNavigationBarLoading">{{i18n.t('api_nav_2')}}</button>
+      <button type="primary" bindtap="setNavigationBarTitle">{{i18n.t('api_nav_3')}}</button>
+      <button type="primary" bindtap="setNavigationBarColor">{{i18n.t('api_nav_4')}}</button>
     </view>
   </view>
 </view>

@@ -16,16 +16,16 @@
       <button slot="footer" type="primary" class="half-screen-content-btn">operation two</button>
     </mphalfScreenDialog>
     <mphalfScreenDialog
-          bindbuttontap="buttontap"
-          show="{{typeS}}"
-          maskClosable="{{false}}"
-          title="{{i18n.t('hsd_2')}}"
-          subTitle="{{i18n.t('hsd_4')}}"
-          desc="{{i18n.t('hsd_5')}}"
-          tips="{{i18n.t('hsd_6')}}"
-          buttons="{{buttons}}"
-          bindclose="onCloseTypeS"
-        ></mphalfScreenDialog>
+      bindbuttontap="buttontap"
+      show="{{typeS}}"
+      maskClosable="{{false}}"
+      title="{{i18n.t('hsd_2')}}"
+      subTitle="{{i18n.t('hsd_4')}}"
+      desc="{{i18n.t('hsd_5')}}"
+      tips="{{i18n.t('hsd_6')}}"
+      buttons="{{buttons}}"
+      bindclose="onCloseTypeS"
+    ></mphalfScreenDialog>
     <mphalfScreenDialog show="{{typeT}}" closabled="{{false}}" bindclose="onCloseTypeT">
       <view slot="title">{{i18n.t('hsd_2')}}</view>
       <view slot="desc">{{i18n.t('hsd_3')}}</view>

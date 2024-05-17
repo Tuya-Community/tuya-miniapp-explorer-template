@@ -11,7 +11,14 @@
             <view class="weui-label">key</view>
           </view>
           <view class="weui-cell__bd">
-            <input class="weui-input" type="text" placeholder="请输入key" name="key" value="{{key}}" bind:input="keyChange"></input>
+            <input
+              class="weui-input"
+              type="text"
+              placeholder="请输入key"
+              name="key"
+              value="{{key}}"
+              bind:input="keyChange"
+            />
           </view>
         </view>
         <view class="weui-cell weui-cell_input">
@@ -19,7 +26,14 @@
             <view class="weui-label">value</view>
           </view>
           <view class="weui-cell__bd">
-            <input class="weui-input" type="text" placeholder="请输入value" name="data" value="{{data}}" bind:input="dataChange"></input>
+            <input
+              class="weui-input"
+              type="text"
+              placeholder="请输入value"
+              name="data"
+              value="{{data}}"
+              bind:input="dataChange"
+            />
           </view>
         </view>
       </view>
@@ -27,6 +41,7 @@
         <button type="primary" bind:tap="setStorage">{{i18n.t('storage_1')}}</button>
         <button bind:tap="getStorage">{{i18n.t('storage_2')}}</button>
         <button bind:tap="clearStorage">{{i18n.t('storage_3')}}</button>
+        <button bind:tap="clearStorageSync">同步清理数据</button>
       </view>
     </view>
   </view>

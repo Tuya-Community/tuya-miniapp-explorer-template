@@ -4,38 +4,87 @@
     <mpform id="form" rules="{{rules}}" models="{{formData}}">
       <mpcells title="{{i18n.t('form_3')}}">
         <mpcheckboxgroup prop="radio" multi="{{false}}" bindchange="radioChange">
-          <mpcheckbox ty:for="{{radioItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
+          <mpcheckbox
+            ty:for="{{radioItems}}"
+            ty:key="value"
+            label="{{item.name}}"
+            value="{{item.value}}"
+            checked="{{item.checked}}"
+          ></mpcheckbox>
         </mpcheckboxgroup>
       </mpcells>
       <mpcells title="{{i18n.t('form_4')}}">
         <mpcheckboxgroup prop="checkbox" multi="{{true}}" bindchange="checkboxChange">
-          <mpcheckbox ty:for="{{checkboxItems}}" ty:key="value" label="{{item.name}}" value="{{item.value}}" checked="{{item.checked}}"></mpcheckbox>
+          <mpcheckbox
+            ty:for="{{checkboxItems}}"
+            ty:key="value"
+            label="{{item.name}}"
+            value="{{item.value}}"
+            checked="{{item.checked}}"
+          ></mpcheckbox>
         </mpcheckboxgroup>
       </mpcells>
       <mpcells title="{{i18n.t('form_5')}}" footer="{{i18n.t('form_6')}}">
         <mpcell prop="name" title="name" ext-class="">
-          <input bindinput="formInputChange" data-field="name" class="plus-input" placeholder="Please enter name..."/>
+          <input
+            bindinput="formInputChange"
+            data-field="name"
+            class="plus-input"
+            placeholder="Please enter name..."
+          />
         </mpcell>
         <mpcell prop="qq" title="qq" ext-class="">
-          <input bindinput="formInputChange" data-field="qq" class="plus-input" placeholder="Please enter qq..."/>
+          <input
+            bindinput="formInputChange"
+            data-field="qq"
+            class="plus-input"
+            placeholder="Please enter qq..."
+          />
         </mpcell>
         <mpcell prop="mobile" title="Phone number" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="mobile" class="plus-input" placeholder="Please enter phone number..."/>
+          <input
+            bindinput="formInputChange"
+            data-field="mobile"
+            class="plus-input"
+            placeholder="Please enter phone number..."
+          />
           <button slot="footer" type="default" class="plus-vcode-btn">verification code</button>
         </mpcell>
         <mpcell prop="date" title="Date" ext-class="">
-          <picker data-field="date" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <picker
+            data-field="date"
+            mode="date"
+            value="{{date}}"
+            start="2015-09-01"
+            end="2017-09-01"
+            bindchange="bindDateChange"
+          >
             <view class="plus-input">{{date}}</view>
           </picker>
         </mpcell>
         <mpcell prop="vcode" title="verification code" ext-class=" plus-cell_vcode">
-          <input bindinput="formInputChange" data-field="vcode" class="plus-input" placeholder="please enter verification code..."/>
-          <image slot="footer" class="plus-vcode-img" src="/assets/images/vcode.jpg" style="width: 108px; height: 30px"></image>
+          <input
+            bindinput="formInputChange"
+            data-field="vcode"
+            class="plus-input"
+            placeholder="please enter verification code..."
+          />
+          <image
+            slot="footer"
+            class="plus-vcode-img"
+            src="/assets/images/vcode.jpg"
+            style="width: 108px; height: 30px"
+          ></image>
         </mpcell>
       </mpcells>
       <mpcells title="Error reporting form item after submission">
         <mpcell show-error prop="idcard" title="card number" ext-class="">
-          <input bindinput="formInputChange" data-field="idcard" class="plus-input" placeholder="Please enter the card number..."/>
+          <input
+            bindinput="formInputChange"
+            data-field="idcard"
+            class="plus-input"
+            placeholder="Please enter the card number..."
+          />
         </mpcell>
       </mpcells>
       <mpcells title="switch">
@@ -57,7 +106,12 @@
       <mpcells title="select">
         <mpcell ext-class="plus-cell_select plus-cell_select-before">
           <view slot="title" style="width: 105px">
-            <picker aria-role="listbox"  bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
+            <picker
+              aria-role="listbox"
+              bindchange="bindCountryCodeChange"
+              value="{{countryCodeIndex}}"
+              range="{{countryCodes}}"
+            >
               <view>{{countryCodes[countryCodeIndex]}}</view>
             </picker>
           </view>
@@ -82,7 +136,8 @@
       <label class="plus-agree">
         <checkbox />
         <text class="plus-agree__checkbox"></text>
-        <view class="plus-agree__text">read and agree
+        <view class="plus-agree__text"
+          >read and agree
           <navigator>《Related Terms》</navigator>
         </view>
       </label>

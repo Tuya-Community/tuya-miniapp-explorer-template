@@ -26,8 +26,12 @@
   <view class="page__bd">
     <view class="section section_gap">
       <radio-group class="radio-group" bindchange="radioChange">
-        <label class="radio" ty:for="{{items}}" ty:key="name" >
-          <radio value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}"></radio>
+        <label class="radio" ty:for="{{items}}" ty:key="name">
+          <radio
+            value="{{item.name}}"
+            checked="{{item.checked}}"
+            disabled="{{item.disabled}}"
+          ></radio>
           <text class="text">{{item.value}}</text>
         </label>
       </radio-group>

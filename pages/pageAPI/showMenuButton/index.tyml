@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">showMenuButton</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="hideMenuButton">{{i18n.t('hideMenuButton')}}</button>
+        <button type="primary" bind:tap="showMenuButton">{{i18n.t('showMenuButton')}}</button>
+      </view>
+      <rich-text nodes="{{json}}"> </rich-text>
+    </view>
+  </view>
+</view>

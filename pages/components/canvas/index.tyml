@@ -3,11 +3,7 @@
   <view class="page-head-line"></view>
 </view>
 <view class="canvas-title">----------{{i18n.t('canvas_page_anim')}}----------</view>
-<canvas
-  type="2d"
-  canvas-id="pageCanvas"
-  style="width:300px;height:300px"
-></canvas>
+<canvas type="2d" canvas-id="pageCanvas" style="width: 300px; height: 300px"></canvas>
 <view class="canvas-title">----------{{i18n.t('canvas_com_anim')}}----------</view>
 <view class="page-section">
   <picture></picture>

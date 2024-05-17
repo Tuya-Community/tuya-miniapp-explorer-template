@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">showStatusBar</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="showStatusBar">{{i18n.t('showStatusBar')}}</button>
+        <button type="primary" bind:tap="hideStatusBar">{{i18n.t('hideStatusBar')}}</button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,16 +1,16 @@
- <view class="page-head">
-	<view class="page-head-title">navigation-bar</view>
-	<view class="page-head-line"></view>
+<view class="page-head">
+  <view class="page-head-title">navigation-bar</view>
+  <view class="page-head-line"></view>
 </view>
 
- <navigation-bar
-    title="{{nbTitle}}"
-    loading="{{nbLoading}}"
-    front-color="{{nbFrontColor}}"
-    background-color="{{nbBackgroundColor}}"
-  />
+<navigation-bar
+  title="{{nbTitle}}"
+  loading="{{nbLoading}}"
+  front-color="{{nbFrontColor}}"
+  background-color="{{nbBackgroundColor}}"
+/>
 
-  <button bindtap="setTitle">setTitle</button>
-  <button bindtap="showLoading">showLoading</button>
-  <button bindtap="setFontColor">setFontColor</button>
-  <button bindtap="setBackgroundColor">setBackgroundColor</button>
+<button bindtap="setTitle">setTitle</button>
+<button bindtap="showLoading">showLoading</button>
+<button bindtap="setFontColor">setFontColor</button>
+<button bindtap="setBackgroundColor">setBackgroundColor</button>

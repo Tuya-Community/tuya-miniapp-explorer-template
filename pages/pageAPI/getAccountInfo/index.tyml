@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">getAccountInfo</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section">
+      <view class="btn-area">
+        <button type="primary" bind:tap="getAccountInfo">获取小程序账号信息</button>
+        <button type="primary" bind:tap="getAccountInfoSync">获取小程序账号信息同步</button>
+      </view>
+      <rich-text nodes="{{json}}"> </rich-text>
+    </view>
+  </view>
+</view>
