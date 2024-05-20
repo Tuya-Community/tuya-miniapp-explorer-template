@@ -1,6 +1,6 @@
 {
   "name": "@tuya-materials/tuya-miniapp-explorer-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Smart miniprogram official sample application",
   "scripts": {
     "format": "prettier ./pages/**/**/*.{tyml,tyss,js,ts,rjs,json} --write"
