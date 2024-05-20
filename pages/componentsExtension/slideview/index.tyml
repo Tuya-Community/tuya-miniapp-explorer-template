@@ -5,13 +5,15 @@
   </view>
   <view class="page__bd">
     <view class="plus-cells">
-      <mpslideview show="{{true}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+      <mpslideview show="{{isShow}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
         <mpcell value="{{i18n.t('slideview_2')}}" footer="{{i18n.t('slideview_3')}}"></mpcell>
       </mpslideview>
       <view style="height: 16px; background: #f2f2f2"></view>
-      <mpslideview show="{{true}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
+      <mpslideview show="{{isShow}}" buttons="{{slideButtons}}" bindbuttontap="slideButtonTap">
         <mpcell value="{{i18n.t('slideview_2')}}" footer="{{i18n.t('slideview_3')}}"></mpcell>
       </mpslideview>
     </view>
   </view>
+
+  <button bindtap="toggle" type="primary">切换</button>
 </view>

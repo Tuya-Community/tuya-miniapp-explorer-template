@@ -11,7 +11,7 @@
   "dependencies": {
     "@antv/f2": "^3.8.10-beta.1",
     "@tuya-miniapp/miniapp-canvas": "^2.0.0",
-    "@tuya-miniapp/miniapp-components-plus": "2.10.1",
+    "@tuya-miniapp/miniapp-components-plus": "2.10.4",
     "@tuya-miniapp/miniapp-gesture": "^2.0.2",
     "@tuya-miniapp/rjs-adapter": "^1.0.3",
     "lottie-miniapp": "^1.9.1",

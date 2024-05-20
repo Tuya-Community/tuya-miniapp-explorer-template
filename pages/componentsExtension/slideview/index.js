@@ -18,8 +18,15 @@ Page({
         // src: global.isDemo ? '' : '', // icon的路径
       },
     ],
+    isShow: true,
   },
+
   slideButtonTap(e) {
     console.log('slide button tap', e.detail)
+  },
+  toggle() {
+    this.setData({
+      isShow: !this.data.isShow,
+    })
   },
 })
