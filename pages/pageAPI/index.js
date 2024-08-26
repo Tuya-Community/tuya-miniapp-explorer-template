@@ -141,6 +141,11 @@ Page({
             zh: i18n.t('getConnectedWifi'),
             url: 'getConnectedWifi/index',
           },
+          {
+            zh: i18n.t('networkStatusChange'),
+            url: 'networkStatusChange/index',
+          },
+          
         ],
       },
       {
