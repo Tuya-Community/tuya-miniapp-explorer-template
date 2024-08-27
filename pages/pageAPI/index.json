@@ -1,6 +1,6 @@
 {
   "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "小程序接口能力展示",
+  "navigationBarTitleText": "@I18n.t('pageApi')",
   "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "light"
 }

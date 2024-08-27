@@ -68,6 +68,7 @@
     "pages/pageAPI/showMenuButton/index",
     "pages/pageAPI/startPullDownRefresh/index",
     "pages/pageAPI/networkStatusChange/index",
+    "pages/pageAPI/systemVolumeChangeEvent/index",
     "pages/components/pickerview/index",
     "pages/components/picker/index",
     "pages/panelDemo/index",

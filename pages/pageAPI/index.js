@@ -110,6 +110,10 @@ Page({
             zh: i18n.t('getMenuButtonBoundingClientRect'),
             url: 'getMenuButtonBoundingClientRect/index',
           },
+          {
+            zh: i18n.t('systemVolumeChangeEvent'),
+            url: 'systemVolumeChangeEvent/index',
+          },
         ],
       },
       {
@@ -145,7 +149,6 @@ Page({
             zh: i18n.t('networkStatusChange'),
             url: 'networkStatusChange/index',
           },
-          
         ],
       },
       {
