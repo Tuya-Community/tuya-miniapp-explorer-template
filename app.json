@@ -70,6 +70,7 @@
     "pages/pageAPI/networkStatusChange/index",
     "pages/pageAPI/systemVolumeChangeEvent/index",
     "pages/pageAPI/accelerometerChange/index",
+    "pages/pageAPI/bluetoothAdapterStateChange/index",
     "pages/components/pickerview/index",
     "pages/components/picker/index",
     "pages/panelDemo/index",

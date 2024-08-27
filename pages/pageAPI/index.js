@@ -118,11 +118,15 @@ Page({
             zh: i18n.t('accelerometerChange'),
             url: 'accelerometerChange/index',
           },
+          {
+            zh: i18n.t('bluetoothAdapterStateChange'),
+            url: 'bluetoothAdapterStateChange/index',
+          },
         ],
       },
       {
-        id: i18n.t('network'),
-        name: '网络',
+        id: 'network',
+        name: i18n.t('network'),
         open: false,
         pages: [
           {
