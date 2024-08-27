@@ -114,6 +114,10 @@ Page({
             zh: i18n.t('systemVolumeChangeEvent'),
             url: 'systemVolumeChangeEvent/index',
           },
+          {
+            zh: i18n.t('accelerometerChange'),
+            url: 'accelerometerChange/index',
+          },
         ],
       },
       {
