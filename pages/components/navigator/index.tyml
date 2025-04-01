@@ -24,7 +24,7 @@
   </button>
   <button class="navigator-btn">
     <navigator
-      url="/pages/components/index"
+      url="/tab/components/index"
       class="link"
       open-type="switchTab"
       hover-class="other-navigator-hover"

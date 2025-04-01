@@ -1,0 +1,85 @@
+.list-wrap {
+  width: 100%;
+  padding: 0 16px 40px;
+  box-sizing: border-box;
+  &__drag {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: var(--opacity-3);
+  }
+  &__item {
+    border-top: 1px solid var(--opacity-1);
+  }
+  &__more {
+    height: 40px;
+    background: var(--opacity-bk);
+  }
+}
+ty-swiper-item {
+  overflow: auto;
+}
+
+.image-card {
+  width: 100%;
+  background-color: var(--plus-B1);
+  position: relative;
+  border-bottom: 1px solid #ececec;
+  &__like {
+    height: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+  }
+}
+.image-card__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+  &__img {
+    width: 100px;
+    height: 100px;
+    margin-right: 12px;
+    border-radius: 8px;
+  }
+  &__cont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__top {
+      display: flex;
+      flex-direction: column;
+    }
+    &__tit {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 600;
+      color: var(--opacity-9);
+      text-align: left;
+      margin-bottom: 3px;
+      word-break: break-all;
+    }
+    &__subtit {
+      font-size: 12px;
+      line-height: 17px;
+      font-weight: 400;
+      color: var(--opacity-5);
+      text-align: left;
+      word-break: break-all;
+    }
+    &__bot {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 17px;
+      line-height: 17px;
+      font-weight: 400;
+      color: var(--opacity-3);
+    }
+    &__time {
+      font-size: 12px;
+    }
+  }
+}

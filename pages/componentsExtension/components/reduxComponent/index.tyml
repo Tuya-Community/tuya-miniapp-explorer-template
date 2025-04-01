@@ -1,0 +1,1 @@
+<button bindtap="click" type="primary">我在组件中，点我也能触发加一action</button>

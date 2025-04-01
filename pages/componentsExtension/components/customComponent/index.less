@@ -1,0 +1,32 @@
+@text-color: red;
+@header-color: green;
+@common-font-size: 22px;
+
+.custom-container {
+  font-size: @common-font-size;
+  color: @header-color;
+}
+.slot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: @common-font-size;
+  color: @header-color;
+}
+
+.content {
+  color: @text-color;
+  text-align: center;
+}
+
+.footer {
+  color: #ffffff;
+  background-color: #ff4800;
+  text-align: center;
+  margin: 30px 0;
+  line-height: 50px;
+}

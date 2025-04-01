@@ -1,0 +1,7 @@
+<!--具体业务列表-->
+<view ty:for="{{list}}" ty:key="index">
+  <view style="height: {{item.height}}px; line-height: {{item.height}}px" class="card">
+    高度：{{item.height}}
+  </view>
+</view>
+<!--具体业务列表-->

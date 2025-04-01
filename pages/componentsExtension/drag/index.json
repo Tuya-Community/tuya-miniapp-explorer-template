@@ -5,6 +5,6 @@
   "backgroundColor": "#f2f4f6",
   "backgroundTextStyle": "light",
   "usingComponents": {
-    "drag": "/components/drag/index"
+    "drag": "../components/drag/index"
   }
 }

@@ -6,6 +6,6 @@
   "backgroundTextStyle": "light",
   "usingComponents": {
     "mptabs": "@tuya-miniapp/miniapp-components-plus/tabs/index",
-    "tyList": "/components/tyList/index"
+    "tyList": "../components/tyList/index"
   }
 }

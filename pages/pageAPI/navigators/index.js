@@ -12,10 +12,10 @@ Page({
   },
 
   switchTab() {
-    ty.switchTab({ url: '/pages/components/index' })
+    ty.switchTab({ url: '/tab/components/index' })
   },
 
   reLaunch() {
-    ty.tabBarTo({ url: '/pages/components/index' })
+    ty.tabBarTo({ url: '/tab/components/index' })
   },
 })
